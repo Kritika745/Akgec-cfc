@@ -50,6 +50,48 @@ const Carousel = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
+            <div className='slide1 flex w-full h-[90vh] justify-center items-center'>
+                 {/* <div className='bg-black bg-opacity-70 w-full bottom-0 absolute flex flex-col justify-center items-center '>
+                    <div className='flex flex-col justify-center items-center'>
+                    <h1 className='poppins text-white sm:text-5xl text-3xl text-center'>EMPIRE ENGINEERING SERVICES</h1>
+                    <h2 className='poppins mt-1 text-white font-semibold sm:text-3xl text-xl text-center '>Driven by excellence,built on culture</h2>
+                    </div>
+                    <div>
+                      <Link to='/#services'><button onClick={handleClick} className='bg-[#00cc99] hover:bg-emerald-600 mt-8 w-30 px-3 py-2 rounded-md font-bold flex text-[1.15rem]'> Learn More <ArrowRightCircle className='ml-2 mt-[1.5px]' size={25}/></button></Link>
+                    </div>
+                    
+                    </div> */}
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='slide1 flex w-full h-[90vh] justify-center items-center'>
+                 {/* <div className='bg-black bg-opacity-70 w-full bottom-0 absolute flex flex-col justify-center items-center '>
+                    <div className='flex flex-col justify-center items-center'>
+                    <h1 className='poppins text-white sm:text-5xl text-3xl text-center'>EMPIRE ENGINEERING SERVICES</h1>
+                    <h2 className='poppins mt-1 text-white font-semibold sm:text-3xl text-xl text-center '>Driven by excellence,built on culture</h2>
+                    </div>
+                    <div>
+                      <Link to='/#services'><button onClick={handleClick} className='bg-[#00cc99] hover:bg-emerald-600 mt-8 w-30 px-3 py-2 rounded-md font-bold flex text-[1.15rem]'> Learn More <ArrowRightCircle className='ml-2 mt-[1.5px]' size={25}/></button></Link>
+                    </div>
+                    
+                    </div> */}
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='slide1 flex w-full h-[90vh] justify-center items-center'>
+                 {/* <div className='bg-black bg-opacity-70 w-full bottom-0 absolute flex flex-col justify-center items-center '>
+                    <div className='flex flex-col justify-center items-center'>
+                    <h1 className='poppins text-white sm:text-5xl text-3xl text-center'>EMPIRE ENGINEERING SERVICES</h1>
+                    <h2 className='poppins mt-1 text-white font-semibold sm:text-3xl text-xl text-center '>Driven by excellence,built on culture</h2>
+                    </div>
+                    <div>
+                      <Link to='/#services'><button onClick={handleClick} className='bg-[#00cc99] hover:bg-emerald-600 mt-8 w-30 px-3 py-2 rounded-md font-bold flex text-[1.15rem]'> Learn More <ArrowRightCircle className='ml-2 mt-[1.5px]' size={25}/></button></Link>
+                    </div>
+                    
+                    </div> */}
+            </div>
+          </SwiperSlide>
+          {/* <SwiperSlide>
             <div className='slide2 flex w-full h-[60vh] md:h-[75vh] justify-center items-center'>
                  <div className='bg-black bg-opacity-40 w-full h-full flex flex-col justify-center items-center '>
                  <div className='flex flex-col items-center'>
@@ -149,7 +191,7 @@ const Carousel = () => {
                     
                     </div>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         
       </Swiper>
       </div>
