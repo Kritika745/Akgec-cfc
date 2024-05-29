@@ -31,7 +31,7 @@ const Navbar=()=> {
       <div className=" md:h-20 h-22 flex w-full items-center px-4 py-2 sm:px-6 lg:px-8 justify-between">
         
         <div className="">
-         <img className='w-20 ' src={logo} alt="" />
+         <img className='w-16 sm:w-20 ' src={logo} alt="" />
         </div>
         
         <div className='flex items-center'>
@@ -45,11 +45,11 @@ const Navbar=()=> {
         
 
         <div className="border-r-2 border-black px-2">
-         <img className='w-28' src={logo2} alt="" />
+         <img className='w-20 sm:w-28' src={logo2} alt="" />
         </div>
 
         <div className="px-2 ">
-         <img className='w-28' src={logo3} alt="" />
+         <img className='w-20 sm:w-28' src={logo3} alt="" />
         </div>
         </div>
 
