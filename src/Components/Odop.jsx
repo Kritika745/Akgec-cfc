@@ -12,7 +12,7 @@ const Odop = () => {
       <h1 className='md:text-3xl text-2xl  text-center font-bold text-[#E65290] '>PRODUCT</h1>
       </div>
       
-      <div className='flex w-full items-center justify-center mb-8'>
+      <div className='flex w-full items-center justify-center mb-10'>
         <hr className='w-[8%] border-t-2 border-gray-400' />
         <p className='px-4'>UTTAR PRADESH</p>
         <hr className='w-[8%] border-t-2 border-gray-400' />
