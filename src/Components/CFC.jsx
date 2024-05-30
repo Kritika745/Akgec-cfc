@@ -1,15 +1,15 @@
 import React from 'react'
-import cfc from '../assets/cfc.png';
-import odop from '../assets/image.png';
 
 const CFC = () => {
   return (
-    <div className="py-10 ">
-      <div className="flex gap-2 w-full justify-center ">
+    
+    <div className='bg-[url("/CFC3.png")] bg-no-repeat bg-contain '>
+    <div className="py-16 ">
+      <div className="flex gap-2 w-full justify-center mb-2 ">
         <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#2F80C2] ">
           COMMON
         </h1>
-        <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#e6e652] ">
+        <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#FBDD07] ">
           FACILITY
         </h1>
         <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#28277d] ">
@@ -18,26 +18,12 @@ const CFC = () => {
       </div>
 
       <div className="flex w-full items-center justify-center mb-8">
-        {/* <hr className='w-[9%] border-t-2 border-yellow-300' /> */}
-        {/* <p className='px-4'>UTTAR PRADESH</p> */}
-        <hr className="w-[12%] ml-6 border-t-2 border-yellow-200" />
+        <hr className="w-[10%] border-t-[3px] border-yellow-300" />
       </div>
 
       <div className="">
-        <div className="sm:hidden flex items-center justify-center mr-4 m-6">
-          <img
-            src={cfc}
-            alt="cfc"
-            className="md:h-36 md:w-full lg:w-[60%] xl:h-42 w-[70%] rounded-md "
-          />
-        </div>
-        <div style={{
-    backgroundImage: "url('/cfc.png')",
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: '17%',
-    backgroundPosition: 'center',
-  }} className=" bg-no-repeat bg-center text-gray-900  md:text-lg text-base leading-relaxed px-10 sm:px-16 md:px-24 text-justify">
-          <p className="mb-2 text-gray-900  ">
+        <div className="   md:text-lg text-base leading-relaxed px-10 sm:px-16 md:px-24 text-justify">
+          <p className="mb-2   ">
             Common Facility Centre (CFC) is established under “One District One
             Product (ODOP) CFC Scheme” of Government of Uttar Pradesh. One of
             the main objective of this initiative is to enhance synergy between
@@ -46,7 +32,9 @@ const CFC = () => {
             development and also to train their employees and young students to
             learn new and upcoming technologies for their career advancements.
           </p>
-          <p className="mb-4 text-black">
+          <p className='mb-2'>The foundation stone for the CFC was laid on 23rd June 2021 by Hon’ble Chief Minister Yogi Adityanath Ji in the presence of Hon’ble 
+            Minister Shri Atul Garg, Hon’ble District Magistrate Ghaziabad and other eminent officials of UP Government.</p>
+          <p className="mb-4 ">
             CFC has high end engineering product development facilities for
             Local Industries including Advance Tool Room with Industry 4.0
             interface, Material Testing Lab and Research & Development Lab to
@@ -56,6 +44,8 @@ const CFC = () => {
         </div>
       </div>
     </div>
+    </div>
+
   );
 }
 
