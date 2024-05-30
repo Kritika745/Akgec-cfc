@@ -32,7 +32,7 @@ function  Footer()  {
             <p className="mb-6 text-lg font-semibold text-gray-700 ">
               Quick Links
             </p>
-            <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
+            <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-700">
               <a
                 className="hover:cursor-pointer"
                 href="https://www.akgec.ac.in/aicte-approval-letters/"
@@ -69,7 +69,7 @@ function  Footer()  {
             <p className="mb-6 text-lg font-semibold text-gray-700 ">
               About AFIPD
             </p>
-            <ul className="flex flex-col text-justify space-y-3 text-[14px] font-medium text-gray-500">
+            <ul className="flex flex-col  text-justify space-y-3 text-[14px] font-medium text-gray-700">
               <li>
                 AKG Foundation for Innovation and Product Development”, (AFIPD)
                 a consortium of 22 stakeholders from the General Engineering
