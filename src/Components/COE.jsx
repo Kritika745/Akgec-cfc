@@ -26,7 +26,7 @@ const COE = () => {
             </div>
             <div className='flex '>
             <ChevronRight />
-            <Link to='/'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
+            <Link to='/centre/AdvToolRoom'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
             </div>
          </div>
 

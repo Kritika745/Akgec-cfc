@@ -38,8 +38,8 @@ const Navbar=()=> {
         <div className="hidden md:block pr-16">
           <ul className="flex gap-8">
             <Link to='/'><li className={`hover:text-black md:text-lg font-bold ${currentPathname === '/' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70] '}`}>Home</li></Link>           
-            <Link to='/#about'><li onClick={handleClick} className={`md:text-lg hover:text-black font-bold ${currentPathname === '/#about' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'} `}>About Us</li></Link>
-            <Link to='/Contact'><li className={`md:text-lg hover:text-black font-bold ${currentPathname === '/ContactUs' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Contact Us</li></Link>   
+            <Link to='/About'><li onClick={handleClick} className={`md:text-lg hover:text-black font-bold ${currentPathname === '/About' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'} `}>About Us</li></Link>
+            <Link to='/Contact'><li className={`md:text-lg hover:text-black font-bold ${currentPathname === '/Contact' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Contact Us</li></Link>   
           </ul>
         </div>
         
