@@ -3,7 +3,7 @@ import odop from '../assets/image.png';
 
 const Odop = () => {
   return (
-    <div className= 'py-10 '>
+    <div className= 'pt-10 '>
 
       <div className='flex gap-2 w-full justify-center '>
       <h1 className='md:text-3xl text-2xl  text-center font-bold text-[#99435A] '>ONE</h1>
