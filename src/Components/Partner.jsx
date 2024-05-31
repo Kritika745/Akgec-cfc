@@ -60,7 +60,7 @@ const Partner = () => {
       {item.map((item, index) => {
     return (
         <div key={index} className="w-[300px] py-4 px-3">
-            <div className='flex bg-yellow-400 text-center items-center justify-center flex h-40 items-center flex-col  mt-3'>
+            <div className=' bg-yellow-400 text-center justify-center flex h-40 items-center flex-col  mt-3'>
                 
                 <h1>{item.title}</h1>
             </div>
