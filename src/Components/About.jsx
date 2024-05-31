@@ -11,9 +11,9 @@ const About = () => {
           <div className="w-full flex items-center justify-center ">
             <hr className="w-[8%]" />
           </div>
-          <img src="./image-7.svg" alt="" className="m-auto w-[40vw] mt-12" />
-          <div className="flex items-center justify-center m-auto gap-24 text-[#CACBCB] ">
-             <h1 className="w-20">Design & Manufacturing</h1>
+          <img src="./image-7.svg" alt="" className="m-auto sm:w-[40vw] mt-12" />
+          <div className="flex items-center justify-center m-auto gap-2 sm:gap-24 text-[#CACBCB] ">
+             <h1 className="sm:w-20">Design & Manufacturing</h1>
              <h1>Skilling</h1>
              <h1>Testing</h1>
              <h1>Prototyping</h1>

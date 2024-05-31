@@ -27,7 +27,7 @@ const Navbar=()=> {
 
 
   return (
-    <div className="bg-white w-full border-b-2 border-gray-300 md:h-20 h-22 z-10 flex fixed">
+    <div className="bg-white z-30 w-full border-b-2 border-gray-300 md:h-20 h-22 z-99 flex fixed">
       <div className=" md:h-20 h-22 flex w-full items-center px-4 py-2 sm:px-6 lg:px-8 justify-between">
         
         <div className="">
@@ -38,8 +38,8 @@ const Navbar=()=> {
         <div className="hidden md:block pr-16">
           <ul className="flex gap-8">
             <Link to='/'><li className={`hover:text-black md:text-lg font-bold ${currentPathname === '/' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70] '}`}>Home</li></Link>           
-            <Link to='/#about'><li onClick={handleClick} className={`md:text-lg hover:text-black font-bold ${currentPathname === '/#about' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'} `}>About Us</li></Link>
-            <Link to='/Contact'><li className={`md:text-lg hover:text-black font-bold ${currentPathname === '/ContactUs' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Contact Us</li></Link>   
+            <Link to='/About'><li onClick={handleClick} className={`md:text-lg hover:text-black font-bold ${currentPathname === '/About' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'} `}>About Us</li></Link>
+            <Link to='/Contact'><li className={`md:text-lg hover:text-black font-bold ${currentPathname === '/Contact' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Contact Us</li></Link>   
           </ul>
         </div>
         

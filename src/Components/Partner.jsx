@@ -5,6 +5,17 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Partner = () => {
 
+   const item = [
+      { title: 'Title 1', imgSrc: '/amdocs.png' },
+      { title: 'Title 2', imgSrc: '/amdocs.png' },
+      { title: 'Title 3', imgSrc: '/amdocs.png' },
+      { title: 'Title 4', imgSrc: '/amdocs.png' },
+      { title: 'Title 1', imgSrc: '/amdocs.png' },
+      { title: 'Title 2', imgSrc: '/amdocs.png' },
+      { title: 'Title 1', imgSrc: '/amdocs.png' },
+      { title: 'Title 2', imgSrc: '/amdocs.png' },
+  ];
+
     const settings={
         dots:false,
         infinite:true,
@@ -43,117 +54,19 @@ const Partner = () => {
         <h1 className='text-3xl font-semibold border-r-[3px] border-yellow-400 p-2'>Industry Partners</h1>
       </div>
 
-   <div className='w-3/4 flex w-full'>
+   <div className='w-3/4 flex flex-row '>
       <Slider {...settings} className='w-full'>
          
-     <div className=" py-4 px-3">
-           <div className='flex items-center flex-col  mt-3'>
-            <img src='/amdocs.png' className='w-40 h-40 rounded-2' alt="" />
-            
-            
-           </div>
+      {item.map((item, index) => {
+    return (
+        <div key={index} className="w-[300px] py-4 px-3">
+            <div className='flex bg-yellow-400 text-center items-center justify-center flex h-40 items-center flex-col  mt-3'>
+                
+                <h1>{item.title}</h1>
+            </div>
         </div>
-
-        <div className=" py-4 px-3">
-           <div className='flex items-center flex-col  mt-3'>
-            <img src='/ascendtek.png' className='w-40 h-40 rounded-2' alt="" />
-            
-            
-           </div>
-        </div>
-
-         <div className=" py-4 px-3">
-           <div className='flex flex-col items-center  mt-3'>
-            <img src='/dish.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-
-       <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='/ericsson.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='/ironbo.png' className='w-40 h-40 rounded-2' alt="" />
-            
-           </div>
-        </div>
-
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='kgpco.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='mastec.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-        
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='nokia.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-           
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='qualtek.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-        
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='samsung.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-      
-
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='sba.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='techdash.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='tilson.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='tsc.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-        
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src='wca.png' className='w-40 h-40 rounded-2' alt="" />
-           
-           </div>
-        </div>
-
+    );
+})}
      </Slider>
      
      
