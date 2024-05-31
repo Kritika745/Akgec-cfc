@@ -42,7 +42,7 @@ const COE = () => {
             </div>
             <div className='flex '>
             <ChevronRight />
-            <Link to='/'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
+            <Link to='/centre/R&DLab'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
             </div>
          </div>
 
@@ -58,7 +58,7 @@ const COE = () => {
             </div>
             <div className='flex '>
             <ChevronRight />
-            <Link to='/'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
+            <Link to='/centre/Material'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
             </div>
          </div>
 
@@ -74,7 +74,7 @@ const COE = () => {
             </div>
             <div className='flex '>
             <ChevronRight />
-            <Link to='/'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
+            <Link to='/centre/iiot'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
             </div>
          </div>
     </div>

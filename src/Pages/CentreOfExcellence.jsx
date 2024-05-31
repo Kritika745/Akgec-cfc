@@ -7,6 +7,39 @@ const CentreOfExcellence = () => {
 
   const { id } = useParams();
   console.log(id);
+  const getBgImage = (id) => {
+    if (id === 'AdvToolRoom') {
+      return {
+        bgImage: '/public/adv/IMG_1607.JPG',
+        title: 'Advanced Tool Room',
+        desc: 'Description for Advanced Tool Room',
+        desc2: 'Description for Advanced Tool Room'
+      };
+    } else if (id === 'R&DLab') {
+      return {
+        bgImage: '/public/material/IMG_1730.JPG',
+        title: 'R&D Lab',
+        desc: 'Description for R&D Lab',
+        desc2: 'Description for R&D Lab'
+      };
+    } else if (id === 'Material') {
+      return {
+        bgImage: '/public/rnd/IMG_1607.JPG',
+        title: 'Material',
+        desc: 'Description for Material',
+        desc2: 'Description for Material'
+      };
+    }  else {
+      return {
+        bgImage: '/public/IMG_1616.JPG',
+        title: 'Default Title',
+        desc: 'Default Description',
+        desc2: 'Default Description'
+      };
+    }
+  }
+
+  const bgImage = getBgImage(id);
 
   const advtoolroom = [
     {
@@ -40,7 +73,7 @@ const CentreOfExcellence = () => {
     <>
       <div
         className="bg-fixed bg-center bg-cover h-screen"
-        style={{ backgroundImage: "url('/IMG_1607.JPG')" }}
+        style={{ backgroundImage: `url('${bgImage.bgImage}')` }}
       >
         <div className="flex items-center justify-center h-full">
           <div className="bg-black bg-opacity-65 text-white p-10 h-[100%] w-[100%] rounded-lg shadow-md text-center">
@@ -48,11 +81,11 @@ const CentreOfExcellence = () => {
               <div className="absolute bg-yellow-300 bg-opacity-35 h-32 bottom-44 w-[30%] left-0">
                 <hr className="border-1" />
                 <div className="flex flex-col items-center justify-center h-[100%] w-[100%] ">
-                  <h1 className="text-4xl font-medium">Adv Tool Room</h1>
+                  <h1 className="text-4xl font-medium">{bgImage.title}</h1>
                   <div className="flex items-center justify-center gap-1">
-                    <h2 className="text-md">Manufacturing</h2>
+                    <h2 className="text-md">{bgImage.desc}</h2>
                     <hr className="transform rotate-90 border-yellow-300 w-4" />
-                    <h2 className="text-md">Material Testing</h2>
+                    <h2 className="text-md">{bgImage.desc2}</h2>
                   </div>
                 </div>
               </div>
