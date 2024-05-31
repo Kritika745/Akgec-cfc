@@ -1,0 +1,37 @@
+.slick-slider,.slick-list,.slick-track {
+    display: flex !important;
+    align-items: center;
+    
+}
+
+.slick-slide {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe7a9; /* amber-300 */
+    border-radius: 0.375rem; 
+    margin: 0.5rem;
+    position: relative;
+    color: white;
+    z-index: -10;
+}
+
+.slick-slide::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; 
+    height: 80%; 
+    background: url('../assets/factory.png') no-repeat center center;
+    background-size: contain;
+    opacity: 0.4; /* Adjust opacity as needed */
+    z-index: -1;
+}
+
+.Slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
