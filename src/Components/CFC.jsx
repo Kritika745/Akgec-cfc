@@ -3,7 +3,7 @@ import React from 'react'
 const CFC = () => {
   return (
     
-    <div className='bg-[url("/CFC3.png")] bg-no-repeat bg-contain '>
+    <div className=''>
     <div className="py-16 ">
       <div className="flex gap-2 w-full justify-center mb-2 ">
         <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#2F80C2] ">
@@ -22,7 +22,10 @@ const CFC = () => {
       </div>
 
       <div className="">
-        <div className="   md:text-lg text-base leading-relaxed px-10 sm:px-16 md:px-24 text-justify">
+        <div style={{
+          backgroundPosition: 'center',
+        }}
+        className='bg-[url("/cfc.png")] bg-no-repeat bg-contain   md:text-lg text-base leading-relaxed px-10 sm:px-16 md:px-24 text-justify'>
           <p className="mb-2   ">
             Common Facility Centre (CFC) is established under “One District One
             Product (ODOP) CFC Scheme” of Government of Uttar Pradesh. One of

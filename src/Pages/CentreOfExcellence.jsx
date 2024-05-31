@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { data } from '../constants';
+import Infra from '../Components/infrastructure';
 
 const CentreOfExcellence = () => {
 
@@ -31,6 +32,7 @@ const CentreOfExcellence = () => {
           </div>
         </div>
       </div>
+      <Infra/>
       <div className="flex flex-col items-center justify-center h-screen">
         <h1 className="text-2xl font-bold mb-4">Our Center</h1>
         <ul className="list-disc text-left text-black h-96 w-full">
