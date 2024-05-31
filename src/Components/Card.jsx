@@ -2,7 +2,7 @@ import React from 'react'
 
 export function CardTwo(props) {
   return (
-    <div className="mx-[1rem] h-[25rem] z-10 bg-white rounded-md ">
+    <div className="mx-[1rem] z-10 bg-white rounded-md ">
       <img
         src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
         alt="Laptop"
