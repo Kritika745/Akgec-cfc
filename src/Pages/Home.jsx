@@ -6,6 +6,7 @@ import CFC from '../Components/CFC.jsx'
 import About from '../Components/About.jsx'
 import Partner from '../Components/Partner.jsx'
 import COE from '../Components/COE.jsx'
+import Services from '../Components/Services.jsx'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
     <Carousel/>
      <Odop/>
       <CFC/>
+      <Services/>
       <COE/>
       <About />
       <Partner/>
