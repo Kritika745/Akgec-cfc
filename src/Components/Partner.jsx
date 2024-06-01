@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './Partner.css'
+import '../Css/Partner.css'
 
 const Partner = () => {
 
@@ -74,18 +74,18 @@ const Partner = () => {
     }
 
   return (
-    <div className='w-full flex overflow-x-hidden'>
+    <div className='w-full flex items-center justify-center overflow-x-hidden mt-10'>
       <div className='w-1/5 flex items-center justify-center '>
         <h1 className='text-3xl text-center font-semibold border-r-[3px] border-yellow-400 p-2'>Industry Partners</h1>
       </div>
 
-   <div className='w-4/5 flex mt-10 '>
-      <Slider {...settings} className='w-full'>
+   <div className='w-4/5 flex  '>
+      <Slider {...settings} className='w-full '>
          
       {item.map((item, index) => {
     return (
-        <div key={index} className=" py-4 px-3">
-            <div className='flex  text-center font-bold text-black justify-center flex h-32 items-center flex-col  rounded-lg'>
+        <div key={index} className="flex items-center justify-center ">
+            <div className='Partner py-4 px-3 flex  text-center font-bold text-black justify-center flex h-32 items-center flex-col  rounded-lg'>
                 
                 <h1>{item.title}</h1>
             </div>
