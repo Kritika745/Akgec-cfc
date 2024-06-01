@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { data } from '../constants';
+import  {advtoolroom,rnd,material,iiot} from '../constants/index'
 import Infra from '../Components/infrastructure';
 
 const CentreOfExcellence = () => {
@@ -10,64 +10,42 @@ const CentreOfExcellence = () => {
   const getBgImage = (id) => {
     if (id === 'AdvToolRoom') {
       return {
-        bgImage: '/public/adv/IMG_1607.JPG',
+        bgImage: '/adv/IMG_1607.JPG',
         title: 'Advanced Tool Room',
         desc: 'Description for Advanced Tool Room',
-        desc2: 'Description for Advanced Tool Room'
+        desc2: 'Description for Advanced Tool Room',
+        data:advtoolroom
       };
     } else if (id === 'R&DLab') {
       return {
-        bgImage: '/public/material/IMG_1730.JPG',
+        bgImage: '/material/IMG_1730.JPG',
         title: 'R&D Lab',
         desc: 'Description for R&D Lab',
-        desc2: 'Description for R&D Lab'
+        desc2: 'Description for R&D Lab',
+        data:rnd
       };
     } else if (id === 'Material') {
       return {
-        bgImage: '/public/rnd/IMG_1607.JPG',
+        bgImage: '/rnd/IMG_1607.JPG',
         title: 'Material',
         desc: 'Description for Material',
-        desc2: 'Description for Material'
+        desc2: 'Description for Material',
+        data:material
       };
     }  else {
       return {
-        bgImage: '/public/IMG_1616.JPG',
+        bgImage: '/IMG_1616.JPG',
         title: 'Default Title',
         desc: 'Default Description',
-        desc2: 'Default Description'
+        desc2: 'Default Description',
+        data:iiot
       };
     }
   }
 
   const bgImage = getBgImage(id);
 
-  const advtoolroom = [
-    {
-      name: "CNC Wire Cut EDM (E Merge S64)",
-      brief:"cutting of solid rod,  hollow pipe, in round and square cross section. ",
-      description:
-        "Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials",
-    },
-    {
-      name: "CNC Wire drill",
-      brief:"Cutting of any type of profile on any metal and alloys. Manufacturing of Die, Fixtures, and gauges, Cutting tools with high precision.",
-      description:
-        "Wire electrical discharge machining is a non-contact subtractive manufacturing process that uses an electrically charged thin wire with a dielectric fluid to cut a metal part into different shapes. The process produces small chips and precise cut lines by melting or vaporizing the material rather than cutting it.",
-    
-    },
-    {
-      name: "CNC VMC",
-      brief:"All types of Die and mould machining, Drilling, Shaping, Cutting, Tapping, Boring on any component",
-      description:
-        "VMC(vertical machining center)with the spindle axis perpendicular to the worktable. It can complete the processes of milling, boring, drilling, tapping and cutting threads. The VMC is having three-axis and two-linkage",
-    },
-    {
-      name: "CNC HMC",
-      brief:"Engine block, Cylinder, and housing of different component machining.",
-      description:
-        "HMC( horizontal machining center )with a horizontal spindle. It has an automatic indexing rotary and 3 to 5 motion coordinates. The machine is having three linear motion coordinates plus one rotary motion coordinate.",
-    },
-];
+
   
   return (
     <>
@@ -93,18 +71,17 @@ const CentreOfExcellence = () => {
           </div>
         </div>
       </div>
-      <Infra  advtoolroom={advtoolroom}/>
+      <Infra  data={bgImage.data}/>
       <div className="flex flex-col items-center justify-center h-screen">
         <h1 className="text-2xl font-bold mb-4">Our Center</h1>
-        <ul className="list-disc text-left text-black h-96 w-full">
+        {/* <ul className="list-disc text-left text-black h-96 w-full">
           {data['Advance Tool Room'].map((item) =>{
               <div className='text-black h-96 w-full' key={item.name}>
-                harsh
                 <h2>{item.name}</h2>
                 <p>{item.description}</p>
               </div>;
           })}
-        </ul>
+        </ul> */}
       </div>
     </>
   );
