@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { CardTwo } from './Card';
 
-const Infra = ({ advtoolroom }) => {
+const Infra = ({ data }) => {
 
     const settings={
         dots:false,
@@ -46,8 +46,8 @@ const Infra = ({ advtoolroom }) => {
 
    <div className='w-[78%] mx-9 py-3 flex flex-row '>
       <Slider {...settings} className='w-full'>
-      {advtoolroom.map((item, index) => (
-            <CardTwo key={index} title={item.name} brief={item.brief} description={item.description} />
+      {data.map((item, index) => (
+            <CardTwo key={index} image={item.image} title={item.name} brief={item.brief} description={item.description} />
           ))}
      </Slider>
      

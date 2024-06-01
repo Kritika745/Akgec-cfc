@@ -1,124 +1,161 @@
-export const data = {
-  "Advance Tool Room": [
-    {
-      name: "CNC Wire Cut EDM (E Merge S64)",
-      description:
-        "The Wire-Cut EDM eMerge S64 is a cutting-edge precision machining solution, designed for unmatched accuracy and exceptional surface finishes. Key parameters include a workpiece capacity of 800 x 600 x 300 mm, maximum cutting speed of 300 mm²/min, wire diameter range of 0.1 to 0.3 mm, and positioning accuracy of ± 0.002 mm. With capabilities such as high precision cutting, excellent repeatability, and fine surface finishing, the eMerge S64 is perfect for complex geometries and detailed work. It is ideal for applications in aerospace, medical devices, tool and die making, electronic parts, and prototype development, ensuring efficient and reliable performance.",
-    },
-    {
-      name: "EDM Drilling Machine (Smart Drill)",
-      description: "",
-    },
-    {
-      name: "CNC - Horizontal Machining Center (HMC400XL)",
-      description:
-        "The Ace Micromatic HMC 400 XL is a high-performance horizontal machining center designed for precision and efficiency. Key parameters include a work envelope of 600 x 600 x 600 mm, spindle speed up to 12,000 RPM, and rapid traverse rates of 36 m/min. This machine offers robust capabilities such as high-speed machining, excellent rigidity, and advanced tool management, ensuring superior accuracy and productivity. Ideal for applications in automotive, aerospace, and general engineering, the HMC 400 XL excels in the production of complex components, large-scale manufacturing, and precision parts, delivering consistent, high-quality results.",
-    },
-    {
-      name: "CNC - Vertical Machining Center (MCV700)",
-      description:
-        "The Ace Micromatic MCV 700 is a versatile vertical machining center engineered for precision and efficiency. Key parameters include a work envelope of 700 x 500 x 500 mm, spindle speed up to 8,000 RPM, and rapid traverse rates of 30 m/min. This machine excels in high-speed machining, robust performance, and advanced tool management, offering superior accuracy and productivity. Ideal for applications in automotive, aerospace, and general engineering sectors, the MCV 700 is perfect for producing intricate components, large-scale manufacturing, and precision parts, ensuring consistent and high-quality results in various industrial tasks.",
-    },
-    {
-      name: "Double Column Band Saw Machine (DCA260F)",
-      description:
-        "The Preci-cut Double Column Band Saw 260 DFA is a high-precision cutting machine designed for durability and efficiency. Key parameters include a cutting capacity of 260 mm, blade speed ranging from 20 to 80 m/min, and a robust double-column structure for enhanced stability. This machine can cut materials up to 260 mm in diameter with exceptional accuracy and smooth finishes. Ideal for applications in metal fabrication, automotive, and construction industries, the 260 DFA excels in cutting a wide range of metals, providing reliable performance for both high-volume production and intricate custom projects.",
-    },
-    {
-      name: "CNC Laser Cutting (Fiber Light 3015)",
-      description:
-        "The Messer Fibrelight 3015, equipped with a powerful 4kW laser, is designed for high-speed, precision cutting. Key parameters include a cutting area of 3000 x 1500 mm, maximum cutting speed of 100 m/min, and positional accuracy of ± 0.05 mm. This machine can cut sheet materials up to 25 mm in thickness, offering exceptional capabilities in processing a variety of metals with clean, precise edges. Ideal for applications in automotive, aerospace, and metal fabrication industries, the Fibrelight 3015 excels in producing intricate parts, large-scale production, and customized components, ensuring superior quality and efficiency in every cut.",
-    },
-    {
-      name: "CNC Abrasive Water Jet Cutting (JET CUT 30B-15-5X)",
-      description:
-        "Introducing the An Innovative 3015 B Water Jet Cutting machine, a cutting-edge solution for precision cutting with versatility and efficiency. Key parameters include a cutting area of 3000 x 1500 mm, maximum cutting speed of 15 m/min, and a powerful 60 HP pump for high-pressure water delivery. This machine can cut a variety of materials including metals, ceramics, glass, and composites, with thicknesses ranging up to 200 mm. Ideal for applications in aerospace, automotive, and architectural industries, the 3015 B excels in producing intricate shapes, precise cuts, and smooth finishes, offering unparalleled flexibility for diverse cutting needs.",
-    },
-    {
-      name: "CNC Turn Mill (QTE300 MY SG)",
-      description:
-        "Introducing the Mazak CNC Turnmill QTE 300 MY SG, a cutting-edge solution for precision machining with unparalleled versatility. Key parameters include a maximum turning diameter of 420 mm and a maximum spindle speed of 5000 RPM, combined with a milling spindle speed of 12000 RPM. This machine can handle a wide range of materials such as steel, aluminum, and titanium, delivering exceptional accuracy and surface finishes. Ideal for applications in aerospace, automotive, and medical industries, the QTE 300 MY SG excels in producing complex components, intricate parts, and precise features, offering unmatched efficiency and reliability for diverse machining requirements.",
-    },
-    {
-      name: "CNC 5-Axis Machining center (VARIAXIS C 600)",
-      description:
-        "Mazak CNC 5-Axis C600, a state-of-the-art machining center engineered for intricate and precise manufacturing. With simultaneous five-axis machining, it enables complex part production in a single setup. Key features include a spindle speed of up to 12,000 RPM, a 600 mm table diameter, and advanced CNC controls for unparalleled precision. The C600 handles a wide range of materials, including metals and composites, making it ideal for aerospace, automotive, and medical industries. Its robust construction, high accuracy, and versatility boost productivity, ensuring exceptional performance for the most detailed and complex machining tasks.",
-    },
-    {
-      name: "CNC Bending (Swift 100-31)",
-      description:
-        "The Hindustan Hydraulic CNC Bending Swift 100-31 is a high-precision bending machine engineered for efficiency and versatility. Key parameters include a bending length of 3200 mm, maximum pressing force of 100 tons, and a bending speed of 10 mm/s. This machine can handle sheet materials up to 10 mm in thickness, offering robust capabilities in precision bending, consistent repeatability, and advanced CNC control for complex bends. Ideal for applications in automotive, aerospace, and metal fabrication industries, the Swift 100 excels in producing accurate, high-quality bends for components, enabling large-scale production and intricate custom work with superior reliability.",
-    },
-  ],
-  "R & D Lab": [
-    {
-      name: "Metal 3d printer (SLM 280)",
-      description:
-        "The SLM 280 Single Laser Machine is an advanced selective laser melting (SLM) system perfect for additive manufacturing. With a build envelope of 280 x 280 x 365 mm and a powerful 400W fiber laser, it ensures precise melting of metal powders. Its key process parameters—laser power, scan speed, layer thickness, and hatch spacing—are finely tunable for optimal results. The SLM 280 processes various materials, including aluminum, titanium, stainless steel, and cobalt-chromium alloys. Ideal for aerospace, automotive, medical implants, and tooling applications, it excels in creating complex geometries with high-performance materials.",
-    },
-    {
-      name: "Post-processing",
-      description:
-        "Sand blasting machine, post-processing method in additive manufacturing can be used for enhancing surface roughness. Achieve precise finishes on 3D-printed parts, ideal for aerospace, automotive, and medical industries. The hot air oven offers precise temperature control up to 200 degrees Celsius, making it ideal for drying of metal powder. Meanwhile, the Inert Gas Muffle Furnace boasts a maximum temperature of 1200 degrees Celsius, providing an inert atmosphere for controlled heating, sintering, and heat treatment of materials. With robust construction and advanced features, these machines ensure uniform heating, efficient operation, and reliable performance, catering to the diverse needs of research, quality control, and production processes across various sectors.",
-    },
-  ],
-  iiot: [
-    {
-      name: "Industrial Internet of Things",
-      description:
-        "The Industrial Internet of Things (IIoT) is implemented in the tool room for remote monitoring and control capabilities to manage tool room operations from remote location and to increase operational flexibility and responsiveness. It boosts productivity, reduces costs, and drives smarter, more efficient manufacturing operations.\n\nIIoT has revolutionized tool room by enabling enhanced connectivity, data analytics, and automation. IIoT devices collect detailed, real-time data from manufacturing machines, monitoring parameters such as temperature, vibration, and operational status. This data allows for predictive maintenance, reducing unexpected downtime by identifying issues before they escalate and optimizing maintenance schedules.\n\nIt has enhanced machine-to-machine (M2M) communication, facilitating seamless integration and coordination of manufacturing processes. This leads to improved workflow efficiency, reduced waste, and consistent product quality. Advanced data analytics provided by IIoT systems offer deep insights into machine performance, enabling continuous process improvements and better resource management.",
-    },
-  ],
-  "Material Testing Lab": [
-    {
-      name: "Spectrometer (SPECTROMAXx LMA10)",
-      description:
-        "SPECTROMAXxLMX10 is capable of accurate elemental analysis of metals including Iron & Steel, Aluminium, Copper and Nickel based alloys. Featuring advanced optics, robust construction, wide spectral range, high-resolution detectors, and user-friendly software, it ensures accurate and reliable results. Ideal for quality control in foundries and metal processing, it offers rapid, precise multi-element analysis, making it essential for stringent quality standards. Its outstanding repeatability, reproducibility, and reliability makes it one of the best optical emission spectrometry (OES) analyzer.",
-    },
-    {
-      name: "Metallurgical Microscope (Stand Axio Observer 7)",
-      description:
-        "Axio Observer 7 combines the proven quality of ZEISS optics with automated components to give reliable and reproducible results. It is a fully motorized inverted microscope for metals and alloys. It is having choice of five different objectives of varying magnifications ranging from 50X-1000X. Extended depth of field (EDF) and Stitching features makes it an advanced microscope. Dedicated software modules helps in analysing non-metallic inclusions, grain sizes, phases and coating thickness in metallic materials.",
-    },
-    {
-      name: "Digital Microscope (Smart zoom 5)",
-      description:
-        "ZEISS Smartzoom 5 is a smart digital microscope - ideal for quality control and quality assurance applications in virtually every field of industry. It is having choices of varying magnification ranging from 34X-335X. It is fully automated and equipped with dedicated quality assurance (QA) and quality control (QC) components in electronics, materials science, and automotive industries. Smartzoom 5 provides fast, reproducible, high quality and reliable QA/QC measurements for routine as well as failure analyses. It also supports advanced types of microscopic images with extended depth of field (EDF), stitching and 3D imaging.",
-    },
-    {
-      name: "Hardness Testing Machines",
-      description:
-        "Introducing FIE's comprehensive range of hardness testing machines, including the Brinell Hardness Testing Machine B3000 TSFA, Rockwell Hardness Testing Machine RASN TSFA, and Micro-Vickers MV1TS. The B3000 TSFA offers a test force range of 62.5 kgf to 3000 kgf, with a maximum test height of 415 mm, making it suitable for testing large and heavy components across various industries such as automotive, aerospace, and manufacturing. Meanwhile, the RASN TSFA boasts a test force range of 60 kgf to 150 kgf, providing accurate Rockwell hardness measurements on a wide range of materials, including metals, plastics, and ceramics. Additionally, the MV1TS Micro-Vickers tester delivers precise micro-indentation testing with a load range of 10 gf to 1 kgf, ideal for assessing the hardness of thin films, coatings, and small components in research and development, quality control, and material science applications. With advanced features, robust construction, and user-friendly interfaces, FIE's hardness testing machines ensure reliable and accurate results, contributing to improved quality assurance and product performance across diverse industries.",
-    },
-    {
-      name: "Fatigue Testing Machine (Fatigue Pro-200)",
-      description:
-        "The FIE Pro-200 Fatigue Testing Machine is a high-performance solution designed for durability testing with a maximum load capacity of 200 kN. It offers versatility in cyclic testing, with adjustable frequency and amplitude, making it suitable for evaluating material fatigue in automotive, aerospace, and structural engineering applications.",
-    },
-    {
-      name: "Universal Testing Machine (UTES HGFL TS)",
-      description:
-        "Introducing the FIE UTM UTES HGFL TS, a robust Universal Testing Machine (UTM) with a capacity of 1000 kN, coupled with digital extensometers for precise measurements. Key parameters include a maximum load capacity of 1000 kN and a testing space of 1200 mm, ensuring versatility for a wide range of materials and applications. With advanced digital extensometers, this machine offers accurate strain measurement, making it ideal for tensile, compression, and flexural testing across industries such as construction, manufacturing, and research. Whether assessing material properties, conducting quality control tests, or validating product performance, the FIE UTM UTES HGFL TS delivers reliable results for comprehensive material characterization and analysis.",
-    },
-    {
-      name: "Impact Testing Machine (IT 30 AUTO)",
-      description:
-        "The FIE Auto Impact 30 Impact Testing Machine is a robust solution for assessing material toughness with a capacity of 300 Joules. Its key parameters include a pendulum capacity of 300 Joules and a test height of 0-500 mm, making it suitable for testing metals, plastics, and composites in various industries.",
-    },
-    {
-      name: "Thermal Imager (KT -400)",
-      description:
-        "The Sonel KT400 is a versatile thermal imaging camera with a temperature range from -20°C to 400°C. Its key parameters include a 384 x 288-pixel resolution and a thermal sensitivity of 0.08°C. Ideal for electrical, mechanical, and building inspections, it detects anomalies for predictive maintenance, troubleshooting, and quality control.",
-    },
-    {
-      name: "Sample Preparation Machine",
-      description:
-        "Introducing Metatech's cutting-edge sample preparation equipment for material analysis. The Autopol Dual II Surface Grinding & Polishing machine offers precise grinding and polishing with dual workstations, ideal for achieving mirror-like finishes on a variety of materials. The Automount Hot Mounting Press provides efficient hot mounting of samples for metallographic analysis, ensuring uniform encapsulation without distortion. The Oscicut Sample Cutting machine delivers accurate sectioning of specimens with programmable cutting parameters, catering to diverse sample sizes and shapes. These machines are essential for metallography, material science, and quality control applications, providing reliable and efficient sample preparation solutions for industries including aerospace, automotive, and manufacturing.",
-    },
-    {
-      name: "Salt Spray Testing Chamber (SST/HMI-480)",
-      description:
-        "The SRI Equipment Salt Spray Corrosion Testing Machine SRI-1000 offers a capacity of 1000 liters, providing ample space for corrosion testing. Its key parameters include precise temperature and humidity control, ensuring accurate simulation of harsh environmental conditions. Ideal for evaluating the corrosion resistance of materials in automotive, aerospace, and marine industries.",
-    },
-  ],
-};
+const advtoolroom = [
+  { 
+    name: "Double Column Band Saw",
+    brief:"cutting of solid rod,  hollow pipe, in round and square cross section. ",
+    description:
+      "Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials",
+     image:"/IMG_1695.JPG"
+  },
+  {
+    name: "CNC EDM Wirecut & Wire drill",
+    brief:"Cutting of any type of profile on any metal and alloys. Manufacturing of Die, Fixtures, and gauges, Cutting tools with high precision.",
+    description:
+      "Wire electrical discharge machining is a non-contact subtractive manufacturing process that uses an electrically charged thin wire with a dielectric fluid to cut a metal part into different shapes. The process produces small chips and precise cut lines by melting or vaporizing the material rather than cutting it.",
+    img:'/adv/IMG_1585.JPG'
+  
+  },
+  {
+    name: "CNC VMC",
+    brief:"All types of Die and mould machining, Drilling, Shaping, Cutting, Tapping, Boring on any component",
+    description:
+      "VMC(vertical machining center)with the spindle axis perpendicular to the worktable. It can complete the processes of milling, boring, drilling, tapping and cutting threads. The VMC is having three-axis and two-linkage",
+    image:"/adv/IMG_1777.JPG"
+  },
+  {
+    name: "CNC HMC",
+    brief:"Engine block, Cylinder, and housing of different component machining.",
+    description:
+      "HMC( horizontal machining center )with a horizontal spindle. It has an automatic indexing rotary and 3 to 5 motion coordinates. The machine is having three linear motion coordinates plus one rotary motion coordinate.",
+      image:"/IMG_1695.JPG"
+  },
+  {
+    name:"CNC Laser Cutting",
+     brief:"Focused high-power laser beam is used to cut, inscribe, or engrave a metal surface to get the desired shapes.",
+     description:"They are specially used to cut intricate shapes and minute holes with a high level of accuracy."
+  },
+  {
+    name:"CNC Turn Mill ",
+    brief:" Milling, Drilling, Tapping, and ofcourse, Turning",
+    description:"CNC turning centres are advanced computer numerically controlled machines. Which have 3, 4, or even 5 axes, along with a multitude of cutting capabilities, including milling, drilling, tapping, and ofcourse, turning.",
+    image:"/IMG_1695.JPG"
+  },
+  {
+    name:"CNC Abrasive Water Jet Cutting",
+    brief:"The An Innovative 3015 B Water Jet Cutting machine offers precise, versatile cutting for materials up to 200 mm thick, with a 3000 x 1500 mm area and 15 m/min speed.",
+    description:"A CNC waterjet cutting machine swiftly and accurately cuts through metal, plastic, and other materials using high-pressure water. Abrasive material can be added to enhance speed while maintaining precision in the cutting process.",
+    image:"/adv/IMG_1786.JPG"
+  },
+  {
+    name:"CNC Bending Swift",
+    brief:"The Hindustan Hydraulic CNC Bending Swift 100-31 is a high-precision machine with a 3200 mm length, 100-ton force, and 10 mm/s speed for versatile bending in various industries.",
+    description:"The Hindustan Hydraulic CNC Bending Swift 100-31 offers efficient, precise bending with a 3200 mm length, 100-ton force, and 10 mm/s speed. It handles up to 10 mm thick sheets, ensuring accuracy and repeatability for automotive, aerospace, and metal fabrication applications.",
+    image:"/IMG_1695.JPG"
+  },
+  {
+    name:"CNC 5-Axis Machining center ",
+    brief:"The CNC 5-Axis C600 is a high-precision machining center with a 600 mm table, 12,000 RPM spindle, and advanced CNC controls for complex manufacturing in aerospace, automotive, and medical industries.",
+    description:"The Mazak CNC 5-Axis C600 features simultaneous five-axis machining, a 12,000 RPM spindle, and a 600 mm table. Ideal for aerospace, automotive, and medical industries, it offers high precision, versatility, and productivity for complex tasks.",
+    image:"/adv/IMG_1806.JPG"
+  },
+  {
+    name:"EDM Drilling Machine(Smart Drill)",
+    brief:"",
+    description:"",
+    image:"/adv/IMG_1610.JPG"
+  },
+];
+
+
+const rnd =[
+  {
+   name:"Metal 3d printer (SLM 280)",
+   brief:"The SLM 280 Single Laser Machine is an advanced additive manufacturing system with a 280 x 280 x 365 mm build envelope and 400W fiber laser, ideal for precise metal powder melting in various industries.",
+   description:"The SLM 280 Single Laser Machine features a 280 x 280 x 365 mm build envelope and 400W fiber laser for precise additive manufacturing. It processes aluminum, titanium, stainless steel, and cobalt-chromium alloys, perfect for aerospace, automotive, medical, and tooling applications.",
+   image:"/rnd/IMG_1669.JPG"
+  },
+  {
+    name:"Post-processing",
+    brief:"Sand blasting, hot air ovens, and inert gas muffle furnaces enhance post-processing in additive manufacturing, offering precise finishes and controlled heating for diverse industries.",
+    description:"Sand blasting enhances surface roughness, while the hot air oven dries metal powder with precise temperature control up to 200°C. The Inert Gas Muffle Furnace provides controlled heating up to 1200°C in an inert atmosphere, ideal for sintering and heat treatment. These machines cater to diverse industry needs with their reliability and efficiency in post-processing for additive manufacturing.",
+    image:"/rnd/IMG_1650.JPG"
+  },
+  
+];
+
+
+const material=[
+  {
+    name:"Spectrometer (SPECTROMAXx LMA10)",
+    brief:"Precision-engineered OES analyzer delivering rapid, reliable multi-element analysis for stringent quality standards in metal processing.",
+    description:"The SPECTROMAXxLMX10 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
+    image:"/material/IMG_1738.JPG"
+
+  },
+  {
+    name:"Metallurgical Microscope (Stand Axio Observer 7)",
+    brief:"Advanced inverted microscope with ZEISS optics, motorized components, and dedicated software for precise metal analysis and material characterization.",
+    description:"The Axio Observer 7 by ZEISS is a fully motorized inverted microscope for metals, offering reliable results with five objective options (50X-1000X), advanced features like Extended Depth of Field (EDF), and dedicated software modules for precise analysis of metallic materials.",
+    image:"/material/IMG_1730.JPG"
+  },
+ {
+    name:"Digital Microscope (Smart zoom 5)",
+    brief:"Fully automated digital microscope offering high-quality, reproducible QA/QC measurements across industries with versatile magnification options and advanced imaging capabilities.",
+    description:"The ZEISS Smartzoom 5: a smart digital microscope for versatile quality control across industries. Automated with magnifications from 34X to 335X, it offers fast, reliable measurements and advanced imaging capabilities like extended depth of field and 3D imaging.",
+    image:"/IMG_1695.JPG"
+  },
+  {
+    name:"Hardness Testing Machines",
+    brief:"It provides a comprehensive range of hardness testing machines for accurate and reliable results across various industries.",
+    description:"Introducing FIE's range of hardness testing machines: B3000 TSFA for large components, RASN TSFA for diverse materials, and MV1TS for micro-indentation testing. With advanced features and user-friendly interfaces, they ensure precise results for automotive, aerospace, manufacturing, and research applications.",
+    image:"/material/IMG_1693.JPG"
+  },
+  {
+    name:"Fatigue Testing Machine (Fatigue Pro-200)",
+    brief:"The FIE Pro-200 Fatigue Testing Machine offers high-performance durability testing up to 200 kN capacity, ideal for assessing material fatigue in automotive, aerospace, and structural engineering.",
+    description:"The FIE Pro-200 Fatigue Testing Machine offers a high-performance solution with a maximum load capacity of 200 kN. Its versatility in cyclic testing, including adjustable frequency and amplitude, makes it ideal for evaluating material fatigue in automotive, aerospace, and structural engineering applications.",
+    image:"/IMG_1695.JPG"
+  },
+  {
+    name:"Universal Testing Machine (UTES HGFL TS)",
+    brief:"The FIE UTES HGFL TS Universal Testing Machine offers a robust 1000 kN capacity with digital extensometers for precise material testing in various industries.",
+    description:"Introducing the FIE UTM UTES HGFL TS: a robust 1000 kN Universal Testing Machine with digital extensometers for precise measurements. Ideal for tensile, compression, and flexural testing in construction, manufacturing, and research, delivering reliable results for material characterization.",
+    image:"/IMG_1695.JPG"
+  },
+  {
+    name:"Impact Testing Machine (IT 30 AUTO)",
+    brief:"The Impact Testing Machine offers robust material toughness assessment with a 300 Joules capacity, suitable for testing metals, plastics, and composites across industries.",
+    description:"The FIE Auto Impact 30 Impact Testing Machine is a robust solution for assessing material toughness with a capacity of 300 Joules. Its key parameters include a pendulum capacity of 300 Joules and a test height of 0-500 mm",
+    image:"/material/IMG_1614.JPG",
+  },
+  {
+    name:"Thermal Imager (KT -400)",
+    brief:"The Sonel KT400 Thermal Imager is a versatile tool with a temperature range from -20°C to 400°C, offering high-resolution thermal imaging for predictive maintenance and quality control across various industries.",
+    description:"The Sonel KT400 is a versatile thermal imaging camera, featuring a temperature range of -20°C to 400°C, with a resolution of 384 x 288 pixels and a thermal sensitivity of 0.08°C. It's perfect for detecting anomalies in electrical, mechanical, and building inspections, aiding in predictive maintenance and quality control.",
+    image:"/IMG_1695.JPG"
+  },
+  {
+    name:"Sample Preparation Machine",
+    brief:"Metatech's sample prep equipment: Autopol Dual II for grinding & polishing, Automount Hot Mounting Press for uniform encapsulation, and Oscicut Sample Cutting for accurate sectioning, offering efficient solutions for metallography and material analysis in diverse industries.",
+    description:"Introducing Metatech's cutting-edge sample preparation equipment: the Autopol Dual II for precise grinding and polishing, the Automount Hot Mounting Press for efficient sample mounting, and the Oscicut Sample Cutting machine for accurate sectioning. Essential for metallography and quality control in industries like aerospace and automotive.",
+    image:"/material/IMG_1631.JPG"
+  },
+  {
+    name:"Salt Spray Testing Chamber (SST/HMI-480)",
+    brief:"Salt Spray Corrosion Testing Machine: 1000-liter capacity for precise corrosion resistance evaluation in automotive, aerospace, and marine industries.",
+    description:"Introducing the SRI-1000 Salt Spray Corrosion Testing Machine by SRI Equipment: with a 1000-liter capacity and precise temperature/humidity control, ideal for corrosion resistance evaluation in automotive, aerospace, and marine industries. ",
+    image:"/IMG_1695.JPG"
+  },
+];
+
+
+const iiot= [
+  {
+    name: "Industrial Internet of Things",
+    brief:"IIoT in tool rooms enables remote monitoring, boosts productivity, and drives efficient manufacturing.",
+    description:
+      "IIoT in tool rooms enables remote monitoring and predictive maintenance, optimizing workflows for efficient manufacturing operations. Real-time data collection and connectivity drive reduced downtime and enhanced productivity, facilitating smarter manufacturing processes. ",
+    image:"/IMG_1695.JPG"
+  },
+];
+
+export { advtoolroom, rnd, material, iiot };
