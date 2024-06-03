@@ -17,7 +17,7 @@ const Home = () => {
      <Odop/>
       <Services/>
       <COE/>
-      <About />
+      {/* <About /> */}
       <Partner/>
     </>
   )
