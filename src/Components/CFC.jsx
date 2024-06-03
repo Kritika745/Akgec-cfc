@@ -15,10 +15,13 @@ const CFC = () => {
         <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#28277d] ">
           CENTRE
         </h1>
+        <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#2F80C2] ">
+          -AFIPD
+        </h1>
       </div>
 
       <div className="flex w-full items-center justify-center mb-8">
-        <hr className="w-[10%] border-t-[3px] border-yellow-300" />
+        <hr className="w-[20%] border-t-[3px] border-yellow-300" />
       </div>
 
       <div className="">
@@ -43,6 +46,14 @@ const CFC = () => {
             interface, Material Testing Lab and Research & Development Lab to
             motivate the existing industries and new entrants to come forward
             and upgrade their technological skills.
+          </p>
+          <p className="mb-4">
+          AKG Foundation for Innovation and Product Development”, (AFIPD)
+                a consortium of 22 stakeholders from the General Engineering
+                Industries, has been incorporated as a Company Limited by Shares
+                to establish the Common Facility Centre (CFC) under “One
+                District One Product (ODOP) CFC Scheme” of Government of Uttar
+                Pradesh
           </p>
         </div>
       </div>

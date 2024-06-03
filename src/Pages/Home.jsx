@@ -12,8 +12,8 @@ const Home = () => {
     <>
     <Navbar/>
     <Carousel/>
-     <Odop/>
       <CFC/>
+     <Odop/>
       <COE/>
       <About />
       <Partner/>
