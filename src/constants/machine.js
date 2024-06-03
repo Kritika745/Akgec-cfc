@@ -330,3 +330,39 @@ export const advancetoolroom = [
         }
     }
 ]
+
+
+export const rndlab = [
+    {
+        "Metal 3D Printer (SLM 280)": {
+            "title": "SLM 280 Single Laser Machine",
+            "image1": "",
+            "image2": "",
+            "description1": "The SLM 280 Single Laser Machine is an advanced selective laser melting (SLM) system perfect for additive manufacturing. It features a build envelope of 280 x 280 x 365 mm and a powerful 400W fiber laser. Key process parameters such as laser power, scan speed, layer thickness, and hatch spacing are finely tunable for optimal results. The SLM 280 processes various materials including aluminum, titanium, stainless steel, and cobalt-chromium alloys. It excels in creating complex geometries for aerospace, automotive, medical implants, and tooling applications.",
+            "description2": "",
+            "specifications": {
+                "Make": "SLM",
+                "Model": "SLM 280",
+                "Build Envelope": "280 x 280 x 365 mm",
+                "Laser Power": "400W fiber laser",
+                "Materials": "Aluminum, Titanium, Stainless Steel, Cobalt-Chromium Alloys",
+                "Applications": "Aerospace, Automotive, Medical Implants, Tooling",
+                "Key Features": "Precise melting of metal powders, adjustable process parameters for optimal results"
+            }
+        },
+        "Post-processing": {
+            "title": "Post-processing Machines",
+            "image1": "",
+            "image2": "",
+            "description1": "Post-processing methods in additive manufacturing are crucial for enhancing surface roughness and achieving precise finishes on 3D-printed parts. The lab utilizes a Sand Blasting Machine, Hot Air Oven with precise temperature control up to 200°C for drying metal powder, and an Inert Gas Muffle Furnace with a maximum temperature of 1200°C for controlled heating, sintering, and heat treatment of materials.",
+            "description2": "",
+            "specifications": {
+                "Sand Blasting Machine": "Enhances surface roughness of 3D-printed parts",
+                "Hot Air Oven": "Precise temperature control up to 200°C for drying metal powder",
+                "Inert Gas Muffle Furnace": "Maximum temperature of 1200°C, provides inert atmosphere for controlled heating, sintering, and heat treatment",
+                "Applications": "Aerospace, Automotive, Medical Industries",
+                "Key Features": "Robust construction, advanced features for uniform heating and efficient operation"
+            }
+        }
+    }
+]
