@@ -50,7 +50,7 @@ const Machine = () => {
               <p className='border-[#FBDD07] border-[3px] inline-block rounded-lg px-4 py-2 text-lg font-bold'>SPECIFICATIONS</p>
               <hr className="w-[80%] border-t-[3px] border-yellow-300 " />
             </div>
-            <div className='text-lg pl-8 pt-8'>
+            <div className='text-lgtext-base sm:text-md lg:text-lg sm:pl-8 pt-8 text-justify'>
                 {Object.entries(jsonData).map(([key, value], index) => (
                     <p key={index}>
                         <strong style={{ color: '#fff5a6' }}>{key}:</strong> {value}
@@ -59,7 +59,7 @@ const Machine = () => {
             </div>
         </div>
 
-      <div className='sm:w-[40%] w-full order-1 sm:order-2'>
+      <div className='sm:w-[40%] w-full order-1  sm:order-2'>
       <div className=' items-center pt-6 flex sm:hidden'>
               <p className='border-[#FBDD07] border-[3px] inline-block rounded-lg px-4 py-2 text-lg font-bold'>SPECIFICATIONS</p>
               <hr className="w-[80%] border-t-[3px] border-yellow-300 " />

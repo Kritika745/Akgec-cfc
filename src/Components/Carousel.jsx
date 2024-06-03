@@ -36,23 +36,23 @@ const Carousel = () => {
       >
         <SwiperSlide>
             <div className=' flex w-full h-[45vh] sm:h-[60vh] md:h-[90vh] justify-center items-center'>
-            <img src="/Desktop.png" className='w-full h-full' alt="" />
+            <img src="/pic1.png" className='w-full h-full' alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className=' flex w-full h-[45vh] sm:h-[60vh] md:h-[90vh] justify-center items-center'>
-              <img src="/Desktop.png" className='w-full h-full' alt="" />
+              <img src="/pic1.png" className='w-full h-full' alt="" />
                 
             </div>
           </SwiperSlide> 
           <SwiperSlide>
             <div className=' flex w-full  h-[45vh] sm:h-[60vh] md:h-[90vh] justify-center items-center'>
-            <img src="/Desktop2.png" className='w-full h-full' alt="" />
+            <img src="/pic1.png" className='w-full h-full' alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className='slide3 flex w-full  h-[45vh] sm:h-[60vh] md:h-[90vh] justify-center items-center'>
-            <img src="/Desktop.png" className='w-full h-full' alt="" />
+            <img src="/Desktop2.png" className='w-full h-full' alt="" />
                     
             </div>
           </SwiperSlide>
