@@ -4,7 +4,7 @@ const advtoolroom = [
     brief:"cutting of solid rod,  hollow pipe, in round and square cross section. ",
     description:
       "Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials",
-     image:"/public/IMG_1695.JPG"
+     image:"https://ucarecdn.com/2f6f908d-89f3-465b-bc8d-35e5d99babf2/-/preview/1000x666/"
   },
   {
     name: "CNC EDM Wirecut & Wire drill",
@@ -31,7 +31,8 @@ const advtoolroom = [
   {
     name:"CNC Laser Cutting",
      brief:"Focused high-power laser beam is used to cut, inscribe, or engrave a metal surface to get the desired shapes.",
-     description:"They are specially used to cut intricate shapes and minute holes with a high level of accuracy."
+     description:"They are specially used to cut intricate shapes and minute holes with a high level of accuracy.",
+     image:"https://ucarecdn.com/b8dc0d38-867f-4d05-853e-57aea0e50eab/-/preview/1000x666/"
   },
   {
     name:"CNC Turn Mill ",
@@ -49,13 +50,13 @@ const advtoolroom = [
     name:"CNC Bending Swift",
     brief:"The Hindustan Hydraulic CNC Bending Swift 100-31 is a high-precision machine with a 3200 mm length, 100-ton force, and 10 mm/s speed for versatile bending in various industries.",
     description:"The Hindustan Hydraulic CNC Bending Swift 100-31 offers efficient, precise bending with a 3200 mm length, 100-ton force, and 10 mm/s speed. It handles up to 10 mm thick sheets, ensuring accuracy and repeatability for automotive, aerospace, and metal fabrication applications.",
-    image:"/public/IMG_1695.JPG"
+    image:"https://ucarecdn.com/ba2c2ef9-730a-4236-86c9-50e9841124c2/-/preview/1000x666/"
   },
   {
     name:"CNC 5-Axis Machining center ",
     brief:"The CNC 5-Axis C600 is a high-precision machining center with a 600 mm table, 12,000 RPM spindle, and advanced CNC controls for complex manufacturing in aerospace, automotive, and medical industries.",
     description:"The Mazak CNC 5-Axis C600 features simultaneous five-axis machining, a 12,000 RPM spindle, and a 600 mm table. Ideal for aerospace, automotive, and medical industries, it offers high precision, versatility, and productivity for complex tasks.",
-    image:"/public/adv/IMG_1806.JPG"
+    image:"https://ucarecdn.com/fd9a0a03-1110-412a-b7cc-d52149c9311f/-/preview/432x369/"
   },
   // {
   //   name:"EDM Drilling Machine(Smart Drill)",
