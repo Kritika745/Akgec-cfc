@@ -86,7 +86,7 @@ export const materialtesting = [
     },
   },
   {
-    id:4,
+    id:8,
     title: "Micro-Vickers Hardness",
     image1: "https://ucarecdn.com/82ef49a7-592a-4f82-8def-95bf3531d5f0/-/preview/1000x772/",
     image2: "https://ucarecdn.com/1c6f2447-7d03-4e5f-bae7-506b017d8722/",
@@ -113,7 +113,7 @@ export const materialtesting = [
     },
   },
   {
-    id:5,
+    id:9,
     title: "Brinell Hardness",
     image1: "https://ucarecdn.com/a9d896fe-d760-48d3-8c5b-af54d9a6feed/",
     image2: "",
@@ -136,7 +136,7 @@ export const materialtesting = [
     },
   },
   {
-    id:6,
+    id:10,
     title: "Rockwell Hardness",
     image1: "",
     image2: "",
@@ -158,7 +158,7 @@ export const materialtesting = [
     },
   },
   {
-    id:7,
+    id:11,
     title: "Optical Emission Spectrometer (OES)",
     image1: "https://ucarecdn.com/5283a899-c554-4355-9024-268bcc12ed6b/-/preview/1000x772/",
     image2: "https://ucarecdn.com/b9e65653-ae3d-49e5-8393-4cd08f3664b5/-/preview/1000x772/",
@@ -181,7 +181,7 @@ export const materialtesting = [
     },
   },
   {
-    id:8,
+    id:4,
     title: "Digital Microscope",
     image1: "https://ucarecdn.com/b6414ade-eb88-4e24-9ac7-853d75a7ee89/",
     image2: "https://ucarecdn.com/7e632ec6-d37b-430d-8e5a-a18b00bbe09b/",
@@ -201,7 +201,7 @@ export const materialtesting = [
     },
   },
   {
-    id:9,
+    id:5,
     title: "Salt Spray Testing Chamber",
     image1: "https://ucarecdn.com/a969847c-7516-4617-ac98-a8f130216edf/-/preview/1000x772/",
     image2: "https://ucarecdn.com/f5b7f2e7-a225-4e1a-8d22-21403faad8f4/-/preview/1000x772/",
@@ -221,7 +221,7 @@ export const materialtesting = [
     },
   },
   {
-    id:10,
+    id:6,
     title: "Sample Preparation",
     image1: "https://ucarecdn.com/051b79fa-f4ed-49ba-a7b4-7689e3825412/",
     image2: "https://ucarecdn.com/3ba7a5c3-df98-42d4-ba1b-8308b752faf5/-/preview/1000x772/",
@@ -241,7 +241,7 @@ export const materialtesting = [
     },
   },
   {
-    id:11,
+    id:7,
     title: "Thermal Imaging Camera",
     image1: "https://ucarecdn.com/b7ce0b63-b018-4bbf-8526-5228d78718c5/",
     image2: "",

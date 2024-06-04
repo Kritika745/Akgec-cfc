@@ -86,29 +86,10 @@ const rnd =[
 
 const material=[
   {
-    name:"Spectrometer (SPECTROMAXx LMA10)",
-    brief:"Precision-engineered OES analyzer delivering rapid, reliable multi-element analysis for stringent quality standards in metal processing.",
-    description:"The SPECTROMAXxLMX10 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
-    image:"https://ucarecdn.com/934c0ff8-33a3-4ca3-8637-4fbad2c5ff1e/-/preview/1000x666/"
-
-  },
-  {
-    name:"Metallurgical Microscope (Stand Axio Observer 7)",
-    brief:"Advanced inverted microscope with ZEISS optics, motorized components, and dedicated software for precise metal analysis and material characterization.",
-    description:"The Axio Observer 7 by ZEISS is a fully motorized inverted microscope for metals, offering reliable results with five objective options (50X-1000X), advanced features like Extended Depth of Field (EDF), and dedicated software modules for precise analysis of metallic materials.",
-    image:"https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
-  },
- {
-    name:"Digital Microscope (Smart zoom 5)",
-    brief:"Fully automated digital microscope offering high-quality, reproducible QA/QC measurements across industries with versatile magnification options and advanced imaging capabilities.",
-    description:"The ZEISS Smartzoom 5: a smart digital microscope for versatile quality control across industries. Automated with magnifications from 34X to 335X, it offers fast, reliable measurements and advanced imaging capabilities like extended depth of field and 3D imaging.",
-    image:"https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
-  },
-  {
-    name:"Hardness Testing Machines",
-    brief:"It provides a comprehensive range of hardness testing machines for accurate and reliable results across various industries.",
-    description:"Introducing FIE's range of hardness testing machines: B3000 TSFA for large components, RASN TSFA for diverse materials, and MV1TS for micro-indentation testing. With advanced features and user-friendly interfaces, they ensure precise results for automotive, aerospace, manufacturing, and research applications.",
-    image:"https://ucarecdn.com/8a888da9-7d15-4cc8-978d-53671d6d0dd9/-/preview/666x1000/"
+    name:"Universal Testing Machine (UTES HGFL TS)",
+    brief:"The FIE UTES HGFL TS Universal Testing Machine offers a robust 1000 kN capacity with digital extensometers for precise material testing in various industries.",
+    description:"Introducing the FIE UTM UTES HGFL TS: a robust 1000 kN Universal Testing Machine with digital extensometers for precise measurements. Ideal for tensile, compression, and flexural testing in construction, manufacturing, and research, delivering reliable results for material characterization.",
+    image:"https://ucarecdn.com/648ebbc0-629a-4549-b581-c0a54a9857f0/-/preview/306x400/"
   },
   {
     name:"Fatigue Testing Machine (Fatigue Pro-200)",
@@ -117,22 +98,22 @@ const material=[
     image:"https://ucarecdn.com/4188117c-6edd-4971-8b43-5135befca028/-/preview/979x1000/"
   },
   {
-    name:"Universal Testing Machine (UTES HGFL TS)",
-    brief:"The FIE UTES HGFL TS Universal Testing Machine offers a robust 1000 kN capacity with digital extensometers for precise material testing in various industries.",
-    description:"Introducing the FIE UTM UTES HGFL TS: a robust 1000 kN Universal Testing Machine with digital extensometers for precise measurements. Ideal for tensile, compression, and flexural testing in construction, manufacturing, and research, delivering reliable results for material characterization.",
-    image:"https://ucarecdn.com/648ebbc0-629a-4549-b581-c0a54a9857f0/-/preview/306x400/"
-  },
-  {
     name:"Impact Testing Machine (IT 30 AUTO)",
     brief:"The Impact Testing Machine offers robust material toughness assessment with a 300 Joules capacity, suitable for testing metals, plastics, and composites across industries.",
     description:"The FIE Auto Impact 30 Impact Testing Machine is a robust solution for assessing material toughness with a capacity of 300 Joules. Its key parameters include a pendulum capacity of 300 Joules and a test height of 0-500 mm",
     image:"https://ucarecdn.com/5a16d0b4-d73c-46f0-ab94-0cb6ae7200b4/-/preview/1000x666/",
   },
   {
-    name:"Thermal Imager (KT -400)",
-    brief:"The Sonel KT400 Thermal Imager is a versatile tool with a temperature range from -20°C to 400°C, offering high-resolution thermal imaging for predictive maintenance and quality control across various industries.",
-    description:"The Sonel KT400 is a versatile thermal imaging camera, featuring a temperature range of -20°C to 400°C, with a resolution of 384 x 288 pixels and a thermal sensitivity of 0.08°C. It's perfect for detecting anomalies in electrical, mechanical, and building inspections, aiding in predictive maintenance and quality control.",
-    image:"https://ucarecdn.com/ec0fd5cb-376f-4b3d-8a32-fe25c104c2a7/-/preview/207x264/"
+     name:"Digital Microscope (Smart zoom 5)",
+     brief:"Fully automated digital microscope offering high-quality, reproducible QA/QC measurements across industries with versatile magnification options and advanced imaging capabilities.",
+     description:"The ZEISS Smartzoom 5: a smart digital microscope for versatile quality control across industries. Automated with magnifications from 34X to 335X, it offers fast, reliable measurements and advanced imaging capabilities like extended depth of field and 3D imaging.",
+     image:"https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
+   },
+  {
+    name:"Salt Spray Testing Chamber (SST/HMI-480)",
+    brief:"Salt Spray Corrosion Testing Machine: 1000-liter capacity for precise corrosion resistance evaluation in automotive, aerospace, and marine industries.",
+    description:"Introducing the SRI-1000 Salt Spray Corrosion Testing Machine by SRI Equipment: with a 1000-liter capacity and precise temperature/humidity control, ideal for corrosion resistance evaluation in automotive, aerospace, and marine industries. ",
+    image:"https://ucarecdn.com/69f6705f-5323-4865-aed3-f49ae19d92e9/-/preview/476x300/"
   },
   {
     name:"Sample Preparation Machine",
@@ -141,10 +122,29 @@ const material=[
     image:"https://ucarecdn.com/5744a99b-bb39-4e0e-89ce-500d8b740f5e/-/preview/1000x666/"
   },
   {
-    name:"Salt Spray Testing Chamber (SST/HMI-480)",
-    brief:"Salt Spray Corrosion Testing Machine: 1000-liter capacity for precise corrosion resistance evaluation in automotive, aerospace, and marine industries.",
-    description:"Introducing the SRI-1000 Salt Spray Corrosion Testing Machine by SRI Equipment: with a 1000-liter capacity and precise temperature/humidity control, ideal for corrosion resistance evaluation in automotive, aerospace, and marine industries. ",
-    image:"https://ucarecdn.com/69f6705f-5323-4865-aed3-f49ae19d92e9/-/preview/476x300/"
+    name:"Thermal Imager (KT -400)",
+    brief:"The Sonel KT400 Thermal Imager is a versatile tool with a temperature range from -20°C to 400°C, offering high-resolution thermal imaging for predictive maintenance and quality control across various industries.",
+    description:"The Sonel KT400 is a versatile thermal imaging camera, featuring a temperature range of -20°C to 400°C, with a resolution of 384 x 288 pixels and a thermal sensitivity of 0.08°C. It's perfect for detecting anomalies in electrical, mechanical, and building inspections, aiding in predictive maintenance and quality control.",
+    image:"https://ucarecdn.com/ec0fd5cb-376f-4b3d-8a32-fe25c104c2a7/-/preview/207x264/"
+  },
+  {
+    name:"Hardness Testing Machines",
+    brief:"It provides a comprehensive range of hardness testing machines for accurate and reliable results across various industries.",
+    description:"Introducing FIE's range of hardness testing machines: B3000 TSFA for large components, RASN TSFA for diverse materials, and MV1TS for micro-indentation testing. With advanced features and user-friendly interfaces, they ensure precise results for automotive, aerospace, manufacturing, and research applications.",
+    image:"https://ucarecdn.com/8a888da9-7d15-4cc8-978d-53671d6d0dd9/-/preview/666x1000/"
+  },
+  {
+    name:"Spectrometer (SPECTROMAXx LMA10)",
+    brief:"Precision-engineered OES analyzer delivering rapid, reliable multi-element analysis for stringent quality standards in metal processing.",
+    description:"The SPECTROMAXxLMX10 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
+    image:"https://ucarecdn.com/934c0ff8-33a3-4ca3-8637-4fbad2c5ff1e/-/preview/1000x666/"
+    
+  },
+  {
+    name:"Metallurgical Microscope (Stand Axio Observer 7)",
+    brief:"Advanced inverted microscope with ZEISS optics, motorized components, and dedicated software for precise metal analysis and material characterization.",
+    description:"The Axio Observer 7 by ZEISS is a fully motorized inverted microscope for metals, offering reliable results with five objective options (50X-1000X), advanced features like Extended Depth of Field (EDF), and dedicated software modules for precise analysis of metallic materials.",
+    image:"https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
   },
 ];
 
