@@ -265,7 +265,7 @@ export const materialtesting = [
 
 export const advancetoolroom = [
   {
-    id:12,
+    id:1,
     title: "Double Column Band Saw",
     image1: "https://ucarecdn.com/ecc40d2a-4e96-4602-8d39-677963c1a109/-/preview/1000x772/",
     image2: "",
@@ -281,7 +281,7 @@ export const advancetoolroom = [
     },
   },
   {
-    id:13,
+    id:2,
     title: "CNC EDM Wirecut & Wire drill",
     image1: "",
     image2: "",
@@ -301,7 +301,7 @@ export const advancetoolroom = [
     },
   },
   {
-    id:14,
+    id:3,
     title: "CNC VMC",
     image1: "https://ucarecdn.com/00a4447a-8915-4ac4-9a3c-aea55a097341/-/preview/1000x772/",
     image2: "https://ucarecdn.com/df925017-5587-40a8-88d5-cb3ff07a551e/-/preview/1000x772/",
@@ -320,7 +320,7 @@ export const advancetoolroom = [
     },
   },
   {
-    id:15,
+    id:4,
     title: "CNC HMC",
     image1: "",
     image2: "",
@@ -340,7 +340,7 @@ export const advancetoolroom = [
     },
   },
   {
-    id:16,
+    id:5,
     title: "CNC Laser Cutting",
     image1: "",
     image2: "https://ucarecdn.com/cbce252a-c967-47c2-815e-c48fe4fd0aea/-/preview/1000x772/",
@@ -364,7 +364,7 @@ export const advancetoolroom = [
     },
   },
   {
-    id:17,
+    id:6,
     title: "CNC Turn Mill",
     image1: "https://ucarecdn.com/5b47eb98-1f2f-4d25-976e-19298ae64b2f/",
     image2: "https://ucarecdn.com/61b11c0c-cd49-40a0-8a2f-7ae69b9c2942/",
@@ -389,7 +389,7 @@ export const advancetoolroom = [
     },
   },
   {
-    id:18,
+    id:7,
     title: "CNC Abrasive Water Jet Cutting",
     image1: "https://ucarecdn.com/1c00298b-15b7-43f7-a020-76de23cc932e/-/preview/1000x772/",
     image2: "https://ucarecdn.com/66c300d5-8f43-4210-96ac-9c29b5c17650/",
@@ -408,7 +408,7 @@ export const advancetoolroom = [
     },
   },
   {
-    id:19,
+    id:8,
     maintitle : "Metal 3D Printer (SLM 280)",
     title: "CNC 5-Axis Machining Center",
     image1: "https://ucarecdn.com/af25162d-7a2b-4d09-927d-00b61b14c030/",
@@ -430,7 +430,7 @@ export const advancetoolroom = [
 export const rndlab = [
      {
       
-      id:20,
+      id:1,
       title: "SLM 280 Single Laser Machine",
       image1: "https://ucarecdn.com/6c3febda-6e38-48db-8e69-de68ec0ccdf8/",
       image2: "https://ucarecdn.com/449024d1-e7cd-4742-ab08-b8840a198e89/",
@@ -453,7 +453,7 @@ export const rndlab = [
       },
     },
     {
-      id:21,
+      id:2,
       title: "Post-processing Machines",
       image1: "https://ucarecdn.com/a88ba382-7d52-4b84-9404-bcbc8a35905f/-/preview/1000x772/",
       image2: "https://ucarecdn.com/c24632c9-fae6-4fe6-9a04-435015008334/",

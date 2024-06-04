@@ -18,12 +18,14 @@ export function CardTwo(props) {
         <p className=" text-sm text-gray-600">
           {props.description}
         </p>
+        <a href={`http://localhost:5173/machine/${props.id}/${props.subId}`}>
         <button
           type="button"
           className="mt-4 rounded-2xl bg-yellow-300 px-2.5 py-1 text-[10px] font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
         >
           Read More
         </button>
+        </a>
       </div>
     </div>
   )
