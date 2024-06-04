@@ -242,193 +242,160 @@ export const materialtesting = [
 ];
 
 export const advancetoolroom = [
-  {
-    title: "Double Column Band Saw",
-    image1: "",
-    image2: "",
-    description1:
-      "Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials",
-    description2:
-      "Service Provide: Cutting of solid rod, hollow pipe, in round and square cross section.",
-    specifications: {
-      "Model Name": "DCA260F",
-      "Cutting capacity Round": "200-250mm dia",
-      "Cutting capacity Square": "200*200-250*250mm",
+    {
+        "title": "Double Column Band Saw",
+        "image1": "",
+        "image2": "",
+        "description1": "Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials",
+        "description2": "Service Provide: Cutting of solid rod, hollow pipe, in round and square cross section.",
+        "specifications": {
+            "Cutting capacity Round": "200-250mm dia",
+            "Cutting capacity Square": "200*200-250*250mm"
+        }
     },
-  },
-  {
-    title: "CNC EDM Wirecut & Wire drill",
-    image1: "",
-    image2: "",
-    description1:
-      "Wire electrical discharge machining is a non-contact subtractive manufacturing process that uses an electrically charged thin wire with a dielectric fluid to cut a metal part into different shapes. The process produces small chips and precise cut lines by melting or vaporizing the material rather than cutting it.",
-    description2:
-      "Service provides: Cutting of any type of profile on any metal and alloys. Manufacturing of Die, Fixtures, and gauges, Cutting tools with high precision.",
-    specifications: {
-      "Model Name": "E Merge S64",
-      "Stroke X": "600mm",
-      "Stroke Y": "400mm",
-      "Stroke Z": "350mm",
-      "Table size": "870*590mm",
-      "Table Load": "1000kg",
-      "Maximum speed": "1000mm/min",
+    {
+        "title": "CNC EDM Wirecut & Wire drill",
+        "image1": "",
+        "image2": "",
+        "description1": "Wire electrical discharge machining is a non-contact subtractive manufacturing process that uses an electrically charged thin wire with a dielectric fluid to cut a metal part into different shapes. The process produces small chips and precise cut lines by melting or vaporizing the material rather than cutting it.",
+        "description2": "Service provides: Cutting of any type of profile on any metal and alloys. Manufacturing of Die, Fixtures, and gauges, Cutting tools with high precision.",
+        "specifications": {
+            "Stroke X": "600mm",
+            "Stroke Y": "400mm",
+            "Stroke Z": "350mm",
+            "Table size": "870*590mm",
+            "Table Load": "1000kg",
+            "Maximum speed": "1000mm/min"
+        }
     },
-  },
-  {
-    title: "CNC VMC",
-    image1: "",
-    image2: "",
-    description1:
-      "VMC(vertical machining center)with the spindle axis perpendicular to the worktable. It can complete the processes of milling, boring, drilling, tapping and cutting threads. The VMC is having three-axis and two-linkage",
-    description2:
-      "Service Provide: All types of Die and mould machining, Drilling, Shaping, Cutting, Tapping, Boring on any component",
-    specifications: {
-      "Model Name": "MCV700",
-      "Stroke X-axis travel": "1600mm",
-      "Stroke Y-axis travel": "800mm",
-      "Stroke Z-axis travel": "700mm",
-      "Table Size": "700*1700mm",
-      "Max Spindle speed": "8000-10000 rpm",
+    {
+        "title": "CNC VMC",
+        "image1": "",
+        "image2": "",
+        "description1": "VMC(vertical machining center)with the spindle axis perpendicular to the worktable. It can complete the processes of milling, boring, drilling, tapping and cutting threads. The VMC is having three-axis and two-linkage",
+        "description2": "Service Provide: All types of Die and mould machining, Drilling, Shaping, Cutting, Tapping, Boring on any component",
+        "specifications": {
+            "Stroke X-axis travel": "1600mm",
+            "Stroke Y-axis travel": "800mm",
+            "Stroke Z-axis travel": "700mm",
+            "Table Size": "700*1700mm",
+            "Max Spindle speed": "8000-10000 rpm"
+        }
     },
-  },
-  {
-    title: "CNC HMC",
-    image1: "",
-    image2: "",
-    description1:
-      "HMC( horizontal machining center )with a horizontal spindle. It has an automatic indexing rotary and 3 to 5 motion coordinates. The machine is having three linear motion coordinates plus one rotary motion coordinate.",
-    description2:
-      "Service Provide: Engine block, Cylinder, and housing of different component machining.",
-    specifications: {
-      "Model Name": "HMC400XL",
-      "Stroke X-axis travel": "600mm",
-      "Stroke Y-axis travel": "600mm",
-      "Stroke Z-axis travel": "600mm",
-      "B-axis (Table tilt)": "Work piece Height 900mm",
-      "Table Size": "400mm",
-      "Max Spindle speed": "10000-12000 rpm",
+    {
+        "title": "CNC HMC",
+        "image1": "",
+        "image2": "",
+        "description1": "HMC( horizontal machining center )with a horizontal spindle. It has an automatic indexing rotary and 3 to 5 motion coordinates. The machine is having three linear motion coordinates plus one rotary motion coordinate.",
+        "description2": "Service Provide: Engine block, Cylinder, and housing of different component machining.",
+        "specifications": {
+            "Stroke X-axis travel": "600mm",
+            "Stroke Y-axis travel": "600mm",
+            "Stroke Z-axis travel": "600mm",
+            "B-axis (Table tilt)": "Work piece Height 900mm",
+            "Table Size": "400mm",
+            "Max Spindle speed": "10000-12000 rpm"
+        }
     },
-  },
-  {
-    title: "CNC Laser Cutting",
-    image1: "",
-    image2: "",
-    description1:
-      "Computer Numeric Controlled (CNC) Laser cutting machines work on the principle that a focused high-power laser beam is used to cut, inscribe, or engrave a metal surface to get the desired shapes. They are specially used to cut intricate shapes and minute holes with a high level of accuracy.",
-    description2:
-      "Service Provides: Cutting of various materials with high precision.",
-    specifications: {
-      "Model Name": "Fiber Light 3015",
-      "Stroke X-axis": "1500mm",
-      "Stroke Y-axis": "3000mm",
-      "Stroke Z-axis": "100mm",
-      "Laser Source": "4 kW IPG",
-      "Power Consumption": "32kW (Approx)",
-      "Processed Material thickness MS": "0.5mm-20mm or more",
-      "Processed Material thickness SS(O2)": "0.5mm-10mm or more",
-      "Processed Material thickness AL": "0.5mm-5mm or more",
-      "Processed Material thickness Brass": "0.5mm-5mm or more",
-      "Max workpiece Weight": "1000kg or more",
+    {
+        "title": "CNC Laser Cutting",
+        "image1": "",
+        "image2": "",
+        "description1": "Computer Numeric Controlled (CNC) Laser cutting machines work on the principle that a focused high-power laser beam is used to cut, inscribe, or engrave a metal surface to get the desired shapes. They are specially used to cut intricate shapes and minute holes with a high level of accuracy.",
+        "description2": "Service Provides: Cutting of various materials with high precision.",
+        "specifications": {
+            "Stroke X-axis": "1500mm",
+            "Stroke Y-axis": "3000mm",
+            "Stroke Z-axis": "100mm",
+            "Laser Source": "4 kW IPG",
+            "Power Consumption": "32kW (Approx)",
+            "Processed Material thickness MS": "0.5mm-20mm or more",
+            "Processed Material thickness SS(O2)": "0.5mm-10mm or more",
+            "Processed Material thickness AL": "0.5mm-5mm or more",
+            "Processed Material thickness Brass": "0.5mm-5mm or more",
+            "Max workpiece Weight": "1000kg or more"
+        }
     },
-  },
-  {
-    title: "CNC Turn Mill",
-    image1: "",
-    image2: "",
-    description1:
-      "CNC turning centres are advanced computer numerically controlled machines. Which have 3, 4, or even 5 axes, along with a multitude of cutting capabilities, including milling, drilling, tapping, and of course, turning.",
-    description2:
-      "Service provides: Various machining operations with high precision.",
-    specifications: {
-      "Model Name": "QTE300 MY SG",
-      "Feed Axes Travel (X Axis)": "215mm",
-      "Feed Axes Travel (Y Axis)": "100mm",
-      "Feed Axes Travel (Z Axis)": "605mm",
-      "Bed Length": "500U",
-      "Maximum Swing": "695mm",
-      "Max Machining Diameter": "340mm",
-      "Max Bar Work Capacity": "80mm",
-      "Main Spindle Chuck Size": "10 in",
-      "Maximum Speed": "4000 rpm",
-      "Turret (Upper) Number of Tools": "12",
-      "Turret (Upper) Maximum Speed": "4500 rpm",
+    {
+        "title": "CNC Turn Mill",
+        "image1": "",
+        "image2": "",
+        "description1": "CNC turning centres are advanced computer numerically controlled machines. Which have 3, 4, or even 5 axes, along with a multitude of cutting capabilities, including milling, drilling, tapping, and of course, turning.",
+        "description2": "Service provides: Various machining operations with high precision.",
+        "specifications": {
+            "Feed Axes Travel (X Axis)": "215mm",
+            "Feed Axes Travel (Y Axis)": "100mm",
+            "Feed Axes Travel (Z Axis)": "605mm",
+            "Bed Length": "500U",
+            "Maximum Swing": "695mm",
+            "Max Machining Diameter": "340mm",
+            "Max Bar Work Capacity": "80mm",
+            "Main Spindle Chuck Size": "10 in",
+            "Maximum Speed": "4000 rpm",
+            "Turret (Upper) Number of Tools": "12",
+            "Turret (Upper) Maximum Speed": "4500 rpm"
+        }
     },
-  },
-  {
-    title: "CNC Abrasive Water Jet Cutting",
-    image1: "",
-    image2: "",
-    description1:
-      "A CNC waterjet cutting machine is an industrial tool that uses a high-pressure stream of water to cut through metal, plastic, and other materials. This process can be done with or without abrasive material in the stream depending on the type of material and project design. The abrasive material, which is added to the stream during cutting operations, makes it possible for these machines to work faster than ever before while still maintaining a high degree of accuracy.",
-    description2:
-      "Service provide: High precision cutting of various materials.",
-    specifications: {
-      "Model Name": "JetCut",
-      "X-Axis Travel": "3000mm",
-      "Y-Axis Travel": "1500mm",
-      "Z-Axis Travel": "N/A",
-      "Pump HP": "50HP",
-      "Pump type": "Direct drive",
+    {
+        "title": "CNC Abrasive Water Jet Cutting",
+        "image1": "",
+        "image2": "",
+        "description1": "A CNC waterjet cutting machine is an industrial tool that uses a high-pressure stream of water to cut through metal, plastic, and other materials. This process can be done with or without abrasive material in the stream depending on the type of material and project design. The abrasive material, which is added to the stream during cutting operations, makes it possible for these machines to work faster than ever before while still maintaining a high degree of accuracy.",
+        "description2": "Service provide: High precision cutting of various materials.",
+        "specifications": {
+            "X-Axis Travel": "3000mm",
+            "Y-Axis Travel": "1500mm",
+            "Z-Axis Travel": "N/A",
+            "Pump HP": "50HP",
+            "Pump type": "Direct drive"
+        }
     },
-  },
-  {
-    title: "CNC 5-Axis Machining Center",
-    image1: "",
-    image2: "",
-    description1:
-      "5-axis machining provides infinite possibilities as to the part sizes and shapes you can effectively process. The term “5-axis” refers to the number of directions in which the cutting tool can move. On a 5-axis machining center, the cutting tool moves across the X, Y and Z linear axes as well as rotates on the A and B axes to approach the workpiece from any direction. In other words, you can process five sides of a part in a single setup.",
-    description2:
-      "Mazak CNC 5-Axis C600, a state-of-the-art machining center engineered for intricate and precise manufacturing. With simultaneous five-axis machining, it enables complex part production in a single setup. Key features include a spindle speed of up to 12,000 RPM, a 600 mm table diameter, and advanced CNC controls for unparalleled precision. The C600 handles a wide range of materials, including metals and composites, making it ideal for aerospace, automotive, and medical industries. Its robust construction, high accuracy, and versatility boost productivity, ensuring exceptional performance for the most detailed and complex machining tasks.",
-    specifications: {
-      "Model Name": "C600",
-      "Spindle Speed": "Up to 12,000 RPM",
-      "Table Diameter": "600 mm",
-      "Material Handling": "Metals and composites",
-    },
-  },
-];
+    {
+        "title": "CNC 5-Axis Machining Center",
+        "image1": "",
+        "image2": "",
+        "description1": "5-axis machining provides infinite possibilities as to the part sizes and shapes you can effectively process. The term “5-axis” refers to the number of directions in which the cutting tool can move. On a 5-axis machining center, the cutting tool moves across the X, Y and Z linear axes as well as rotates on the A and B axes to approach the workpiece from any direction. In other words, you can process five sides of a part in a single setup.",
+        "description2": "Mazak CNC 5-Axis C600, a state-of-the-art machining center engineered for intricate and precise manufacturing. With simultaneous five-axis machining, it enables complex part production in a single setup. Key features include a spindle speed of up to 12,000 RPM, a 600 mm table diameter, and advanced CNC controls for unparalleled precision. The C600 handles a wide range of materials, including metals and composites, making it ideal for aerospace, automotive, and medical industries. Its robust construction, high accuracy, and versatility boost productivity, ensuring exceptional performance for the most detailed and complex machining tasks.",
+        "specifications": {
+            "Spindle Speed": "Up to 12,000 RPM",
+            "Table Diameter": "600 mm",
+            "Material Handling": "Metals and composites"
+        }
+    }
+]
+
 
 export const rndlab = [
-  {
-    "Metal 3D Printer (SLM 280)": {
-      title: "SLM 280 Single Laser Machine",
-      image1: "",
-      image2: "",
-      description1:
-        "The SLM 280 Single Laser Machine is an advanced selective laser melting (SLM) system perfect for additive manufacturing. With a build envelope of 280 x 280 x 365 mm and a powerful 400W fiber laser, it ensures precise melting of metal powders. Its key process parameters—laser power, scan speed, layer thickness, and hatch spacing—are finely tunable for optimal results. The SLM 280 processes various materials, including aluminum, titanium, stainless steel, and cobalt-chromium alloys. Ideal for aerospace, automotive, medical implants, and tooling applications, it excels in creating complex geometries with high-performance materials.",
-      description2:
-        "The Selective Laser Melting System SLM®280HL provides a 280 x 280 x 365 mm³ build envelope and a patented single-beam technology. The (laser) beam profile has been further improved. The constructive solution of the recoater lip (available in polymer materials, as well as a ceramic blade) allows fine structures and achieves a significantly higher component quality. The field-proven, latest software supports a production-oriented data preparation for specific applications and highly optimized building processes. The whole process is carried out under an inert gas atmosphere. The reliable process gas filtration, and its double valve system, enable the highest degree of security. The efficient inert gas circulation during the safe and efficient operation leads to less gas consumption.The SLM® 280 has a winning patented bi-directional powder coating in permanent production with optimal processing conditions for the highest and most constant construction qualities. The open system provides a lot of opportunities to operate the machine in-house with specific parameters depending on current needs.",
-      specifications: {
-        Make: "SLM",
-        Model: "SLM 280",
-        "Build Envelope": "280 x 280 x 365 mm",
-        "Laser Power": "400W fiber laser",
-        Materials:
-          "Aluminum, Titanium, Stainless Steel, Cobalt-Chromium Alloys",
-        Applications: "Aerospace, Automotive, Medical Implants, Tooling",
-        "Key Features":
-          "Precise melting of metal powders, adjustable process parameters for optimal results",
-      },
-    },
-    "Post-processing": {
-      title: "Post-processing Machines",
-      image1: "",
-      image2: "",
-      description1:
-        "Post-processing methods in additive manufacturing are crucial for enhancing surface roughness and achieving precise finishes on 3D-printed parts. The lab utilizes a Sand Blasting Machine, Hot Air Oven with precise temperature control up to 200°C for drying metal powder, and an Inert Gas Muffle Furnace with a maximum temperature of 1200°C for controlled heating, sintering, and heat treatment of materials.",
-      description2:
-      "Sand blasting machine, post-processing method in additive manufacturing can be used for enhancing surface roughness. Achieve precise finishes on 3D-printed parts, ideal for aerospace, automotive, and medical industries. The hot air oven offers precise temperature control up to 200 degrees Celsius, making it ideal for drying of metal powder. Meanwhile, the Inert Gas Muffle Furnace boasts a maximum temperature of 1200 degrees Celsius, providing an inert atmosphere for controlled heating, sintering, and heat treatment of materials. With robust construction and advanced features, these machines ensure uniform heating, efficient operation, and reliable performance, catering to the diverse needs of research, quality control, and production processes across various sectors.",
-      specifications: {
-        "Sand Blasting Machine":
-          "Enhances surface roughness of 3D-printed parts",
-        "Hot Air Oven":
-          "Precise temperature control up to 200°C for drying metal powder",
-        "Inert Gas Muffle Furnace":
-          "Maximum temperature of 1200°C, provides inert atmosphere for controlled heating, sintering, and heat treatment",
-        Applications: "Aerospace, Automotive, Medical Industries",
-        "Key Features":
-          "Robust construction, advanced features for uniform heating and efficient operation",
-      },
-    },
-  },
-];
+    {
+        "Metal 3D Printer (SLM 280)": {
+            "title": "SLM 280 Single Laser Machine",
+            "image1": "",
+            "image2": "",
+            "description1": "The SLM 280 Single Laser Machine is an advanced selective laser melting (SLM) system perfect for additive manufacturing. It features a build envelope of 280 x 280 x 365 mm and a powerful 400W fiber laser. Key process parameters such as laser power, scan speed, layer thickness, and hatch spacing are finely tunable for optimal results. The SLM 280 processes various materials including aluminum, titanium, stainless steel, and cobalt-chromium alloys. It excels in creating complex geometries for aerospace, automotive, medical implants, and tooling applications.",
+            "description2": "",
+            "specifications": {
+                "Make": "SLM",
+                "Model": "SLM 280",
+                "Build Envelope": "280 x 280 x 365 mm",
+                "Laser Power": "400W fiber laser",
+                "Materials": "Aluminum, Titanium, Stainless Steel, Cobalt-Chromium Alloys",
+                "Applications": "Aerospace, Automotive, Medical Implants, Tooling",
+                "Key Features": "Precise melting of metal powders, adjustable process parameters for optimal results"
+            }
+        },
+        "Post-processing": {
+            "title": "Post-processing Machines",
+            "image1": "",
+            "image2": "",
+            "description1": "Post-processing methods in additive manufacturing are crucial for enhancing surface roughness and achieving precise finishes on 3D-printed parts. The lab utilizes a Sand Blasting Machine, Hot Air Oven with precise temperature control up to 200°C for drying metal powder, and an Inert Gas Muffle Furnace with a maximum temperature of 1200°C for controlled heating, sintering, and heat treatment of materials.",
+            "description2": "",
+            "specifications": {
+                "Sand Blasting Machine": "Enhances surface roughness of 3D-printed parts",
+                "Hot Air Oven": "Precise temperature control up to 200°C for drying metal powder",
+                "Inert Gas Muffle Furnace": "Maximum temperature of 1200°C, provides inert atmosphere for controlled heating, sintering, and heat treatment",
+                "Applications": "Aerospace, Automotive, Medical Industries",
+                "Key Features": "Robust construction, advanced features for uniform heating and efficient operation"
+            }
+        }
+    }
+]
