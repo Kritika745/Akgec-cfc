@@ -434,7 +434,6 @@ export const rndlab = [
         title: "SLM 280 Single Laser Machine",
       image1: "https://ucarecdn.com/6c3febda-6e38-48db-8e69-de68ec0ccdf8/",
       image2: "https://ucarecdn.com/449024d1-e7cd-4742-ab08-b8840a198e89/",
-      image3: "https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/",
       image:"https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/",
       description1:
         "The SLM 280 Single Laser Machine is an advanced selective laser melting (SLM) system perfect for additive manufacturing. With a build envelope of 280 x 280 x 365 mm and a powerful 400W fiber laser, it ensures precise melting of metal powders. Its key process parameters—laser power, scan speed, layer thickness, and hatch spacing—are finely tunable for optimal results. The SLM 280 processes various materials, including aluminum, titanium, stainless steel, and cobalt-chromium alloys. Ideal for aerospace, automotive, medical implants, and tooling applications, it excels in creating complex geometries with high-performance materials.",
@@ -452,9 +451,6 @@ export const rndlab = [
           "Precise melting of metal powders, adjustable process parameters for optimal results",
       },
     },
-    {
-      id:21,
-        title: "Post-processing Machines",
       image1: "https://ucarecdn.com/a88ba382-7d52-4b84-9404-bcbc8a35905f/-/preview/1000x772/",
       image2: "https://ucarecdn.com/c24632c9-fae6-4fe6-9a04-435015008334/",
       image:"https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/",
