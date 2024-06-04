@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import  {advtoolroom,rnd,material,iiot} from '../constants/index'
+import RDlab from '../Components/R&Dlab';
 import Infra from '../Components/infrastructure';
 
 const CentreOfExcellence = () => {
@@ -69,7 +70,7 @@ const CentreOfExcellence = () => {
       </div>
      
       <div className="flex flex-col items-center justify-center ">
-        <h1 className="text-2xl font-bold mb-4">Our Center</h1>
+        <h1 className="text-5xl mt-7 font-bold mb-4 ">About Our Center</h1>
         {/* <ul className="list-disc text-left text-black h-96 w-full">
           {data['Advance Tool Room'].map((item) =>{
               <div className='text-black h-96 w-full' key={item.name}>
@@ -79,7 +80,11 @@ const CentreOfExcellence = () => {
           })}
         </ul> */}
       </div>
-      <Infra  data={bgImage.data}/>
+      {/* <Infra  data={bgImage.data}/> */}
+
+      {
+         id === 'R&DLab' && <RDlab />
+      }
     </>
   );
 }
