@@ -305,7 +305,7 @@ export const advancetoolroom = [
     },
     {
         "title": "CNC Abrasive Water Jet Cutting",
-        "image1": "",
+        "image1": "https://ucarecdn.com/66c300d5-8f43-4210-96ac-9c29b5c17650/",
         "image2": "",
         "description1": "A CNC waterjet cutting machine is an industrial tool that uses a high-pressure stream of water to cut through metal, plastic, and other materials. This process can be done with or without abrasive material in the stream depending on the type of material and project design. The abrasive material, which is added to the stream during cutting operations, makes it possible for these machines to work faster than ever before while still maintaining a high degree of accuracy.",
         "description2": "Service provide: High precision cutting of various materials.",
@@ -336,8 +336,8 @@ export const rndlab = [
     {
         "Metal 3D Printer (SLM 280)": {
             "title": "SLM 280 Single Laser Machine",
-            "image1": "",
-            "image2": "",
+            "image1": "https://ucarecdn.com/6c3febda-6e38-48db-8e69-de68ec0ccdf8/",
+            "image2": "https://ucarecdn.com/449024d1-e7cd-4742-ab08-b8840a198e89/",
             "description1": "The SLM 280 Single Laser Machine is an advanced selective laser melting (SLM) system perfect for additive manufacturing. It features a build envelope of 280 x 280 x 365 mm and a powerful 400W fiber laser. Key process parameters such as laser power, scan speed, layer thickness, and hatch spacing are finely tunable for optimal results. The SLM 280 processes various materials including aluminum, titanium, stainless steel, and cobalt-chromium alloys. It excels in creating complex geometries for aerospace, automotive, medical implants, and tooling applications.",
             "description2": "",
             "specifications": {
@@ -353,7 +353,7 @@ export const rndlab = [
         "Post-processing": {
             "title": "Post-processing Machines",
             "image1": "",
-            "image2": "",
+            "image2": "https://ucarecdn.com/c24632c9-fae6-4fe6-9a04-435015008334/",
             "description1": "Post-processing methods in additive manufacturing are crucial for enhancing surface roughness and achieving precise finishes on 3D-printed parts. The lab utilizes a Sand Blasting Machine, Hot Air Oven with precise temperature control up to 200°C for drying metal powder, and an Inert Gas Muffle Furnace with a maximum temperature of 1200°C for controlled heating, sintering, and heat treatment of materials.",
             "description2": "",
             "specifications": {
