@@ -1,5 +1,6 @@
 export const materialtesting = [
   {
+    id:1 ,
     title: "Universal Testing Machine",
     image1: "https://ucarecdn.com/95f04a79-ae04-4912-a8f0-b21467b04b87/-/preview/1000x772/",
     image2: "",
@@ -38,6 +39,7 @@ export const materialtesting = [
     },
   },
   {
+    id:2,
     title: "Fatigue Testing Machine",
     image1: "https://ucarecdn.com/67b18b90-9ff9-4d3a-9992-091072ccf2a2/-/preview/1000x772/",
     image2: "https://ucarecdn.com/fbba54cc-d649-4b8e-83d9-d912d476da65/-/preview/1000x772/",
@@ -62,6 +64,7 @@ export const materialtesting = [
     },
   },
   {
+    id:3,
     title: "Impact Testing Machines",
     image1: "https://ucarecdn.com/d96415fb-ef1c-476c-b2a1-cb02668cd380/-/preview/1000x772/",
     image2: "https://ucarecdn.com/2f33efc0-383e-491f-8ed0-281671bb6a05/-/preview/1000x772/",
@@ -83,6 +86,7 @@ export const materialtesting = [
     },
   },
   {
+    id:4,
     title: "Micro-Vickers Hardness",
     image1: "https://ucarecdn.com/82ef49a7-592a-4f82-8def-95bf3531d5f0/-/preview/1000x772/",
     image2: "https://ucarecdn.com/1c6f2447-7d03-4e5f-bae7-506b017d8722/",
@@ -109,6 +113,7 @@ export const materialtesting = [
     },
   },
   {
+    id:5,
     title: "Brinell Hardness",
     image1: "https://ucarecdn.com/a9d896fe-d760-48d3-8c5b-af54d9a6feed/",
     image2: "",
@@ -131,6 +136,7 @@ export const materialtesting = [
     },
   },
   {
+    id:6,
     title: "Rockwell Hardness",
     image1: "",
     image2: "",
@@ -152,6 +158,7 @@ export const materialtesting = [
     },
   },
   {
+    id:7,
     title: "Optical Emission Spectrometer (OES)",
     image1: "https://ucarecdn.com/5283a899-c554-4355-9024-268bcc12ed6b/-/preview/1000x772/",
     image2: "https://ucarecdn.com/b9e65653-ae3d-49e5-8393-4cd08f3664b5/-/preview/1000x772/",
@@ -174,6 +181,7 @@ export const materialtesting = [
     },
   },
   {
+    id:8,
     title: "Digital Microscope",
     image1: "https://ucarecdn.com/b6414ade-eb88-4e24-9ac7-853d75a7ee89/",
     image2: "https://ucarecdn.com/7e632ec6-d37b-430d-8e5a-a18b00bbe09b/",
@@ -193,6 +201,7 @@ export const materialtesting = [
     },
   },
   {
+    id:9,
     title: "Salt Spray Testing Chamber",
     image1: "https://ucarecdn.com/a969847c-7516-4617-ac98-a8f130216edf/-/preview/1000x772/",
     image2: "https://ucarecdn.com/f5b7f2e7-a225-4e1a-8d22-21403faad8f4/-/preview/1000x772/",
@@ -212,6 +221,7 @@ export const materialtesting = [
     },
   },
   {
+    id:10,
     title: "Sample Preparation",
     image1: "https://ucarecdn.com/051b79fa-f4ed-49ba-a7b4-7689e3825412/",
     image2: "https://ucarecdn.com/3ba7a5c3-df98-42d4-ba1b-8308b752faf5/-/preview/1000x772/",
@@ -231,6 +241,7 @@ export const materialtesting = [
     },
   },
   {
+    id:11,
     title: "Thermal Imaging Camera",
     image1: "https://ucarecdn.com/b7ce0b63-b018-4bbf-8526-5228d78718c5/",
     image2: "",
@@ -254,6 +265,7 @@ export const materialtesting = [
 
 export const advancetoolroom = [
   {
+    id:12,
     title: "Double Column Band Saw",
     image1: "https://ucarecdn.com/ecc40d2a-4e96-4602-8d39-677963c1a109/-/preview/1000x772/",
     image2: "",
@@ -269,6 +281,7 @@ export const advancetoolroom = [
     },
   },
   {
+    id:13,
     title: "CNC EDM Wirecut & Wire drill",
     image1: "",
     image2: "",
@@ -288,6 +301,7 @@ export const advancetoolroom = [
     },
   },
   {
+    id:14,
     title: "CNC VMC",
     image1: "https://ucarecdn.com/00a4447a-8915-4ac4-9a3c-aea55a097341/-/preview/1000x772/",
     image2: "https://ucarecdn.com/df925017-5587-40a8-88d5-cb3ff07a551e/-/preview/1000x772/",
@@ -306,6 +320,7 @@ export const advancetoolroom = [
     },
   },
   {
+    id:15,
     title: "CNC HMC",
     image1: "",
     image2: "",
@@ -325,6 +340,7 @@ export const advancetoolroom = [
     },
   },
   {
+    id:16,
     title: "CNC Laser Cutting",
     image1: "",
     image2: "https://ucarecdn.com/cbce252a-c967-47c2-815e-c48fe4fd0aea/-/preview/1000x772/",
@@ -348,6 +364,7 @@ export const advancetoolroom = [
     },
   },
   {
+    id:17,
     title: "CNC Turn Mill",
     image1: "https://ucarecdn.com/5b47eb98-1f2f-4d25-976e-19298ae64b2f/",
     image2: "https://ucarecdn.com/61b11c0c-cd49-40a0-8a2f-7ae69b9c2942/",
@@ -372,6 +389,7 @@ export const advancetoolroom = [
     },
   },
   {
+    id:18,
     title: "CNC Abrasive Water Jet Cutting",
     image1: "https://ucarecdn.com/1c00298b-15b7-43f7-a020-76de23cc932e/-/preview/1000x772/",
     image2: "https://ucarecdn.com/66c300d5-8f43-4210-96ac-9c29b5c17650/",
@@ -390,6 +408,8 @@ export const advancetoolroom = [
     },
   },
   {
+    id:19,
+    maintitle : "Metal 3D Printer (SLM 280)",
     title: "CNC 5-Axis Machining Center",
     image1: "https://ucarecdn.com/af25162d-7a2b-4d09-927d-00b61b14c030/",
     image2: "https://ucarecdn.com/30ef5514-0165-493a-93d5-0c4f01bda275/",
@@ -408,16 +428,17 @@ export const advancetoolroom = [
 ];
 
 export const rndlab = [
-  {
-    "Metal 3D Printer (SLM 280)": {
-      title: "SLM 280 Single Laser Machine",
+     {
+      
+      id:20,
+        title: "SLM 280 Single Laser Machine",
       image1: "https://ucarecdn.com/6c3febda-6e38-48db-8e69-de68ec0ccdf8/",
       image2: "https://ucarecdn.com/449024d1-e7cd-4742-ab08-b8840a198e89/",
       image:"https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/",
       description1:
         "The SLM 280 Single Laser Machine is an advanced selective laser melting (SLM) system perfect for additive manufacturing. With a build envelope of 280 x 280 x 365 mm and a powerful 400W fiber laser, it ensures precise melting of metal powders. Its key process parameters—laser power, scan speed, layer thickness, and hatch spacing—are finely tunable for optimal results. The SLM 280 processes various materials, including aluminum, titanium, stainless steel, and cobalt-chromium alloys. Ideal for aerospace, automotive, medical implants, and tooling applications, it excels in creating complex geometries with high-performance materials.",
-      description2:
-        "The Selective Laser Melting System SLM®280HL provides a 280 x 280 x 365 mm³ build envelope and a patented single-beam technology. The (laser) beam profile has been further improved. The constructive solution of the recoater lip (available in polymer materials, as well as a ceramic blade) allows fine structures and achieves a significantly higher component quality. The field-proven, latest software supports a production-oriented data preparation for specific applications and highly optimized building processes. The whole process is carried out under an inert gas atmosphere. The reliable process gas filtration, and its double valve system, enable the highest degree of security. The efficient inert gas circulation during the safe and efficient operation leads to less gas consumption.The SLM® 280 has a winning patented bi-directional powder coating in permanent production with optimal processing conditions for the highest and most constant construction qualities. The open system provides a lot of opportunities to operate the machine in-house with specific parameters depending on current needs.",
+    //   description2:
+    //     "The Selective Laser Melting System SLM®280HL provides a 280 x 280 x 365 mm³ build envelope and a patented single-beam technology. The (laser) beam profile has been further improved. The constructive solution of the recoater lip (available in polymer materials, as well as a ceramic blade) allows fine structures and achieves a significantly higher component quality. The field-proven, latest software supports a production-oriented data preparation for specific applications and highly optimized building processes. The whole process is carried out under an inert gas atmosphere. The reliable process gas filtration, and its double valve system, enable the highest degree of security. The efficient inert gas circulation during the safe and efficient operation leads to less gas consumption.The SLM® 280 has a winning patented bi-directional powder coating in permanent production with optimal processing conditions for the highest and most constant construction qualities. The open system provides a lot of opportunities to operate the machine in-house with specific parameters depending on current needs.",
       specifications: {
         Make: "SLM",
         Model: "SLM 280",
@@ -430,15 +451,13 @@ export const rndlab = [
           "Precise melting of metal powders, adjustable process parameters for optimal results",
       },
     },
-    "Post-processing": {
-      title: "Post-processing Machines",
       image1: "https://ucarecdn.com/a88ba382-7d52-4b84-9404-bcbc8a35905f/-/preview/1000x772/",
       image2: "https://ucarecdn.com/c24632c9-fae6-4fe6-9a04-435015008334/",
       image:"https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/",
       description1:
         "Post-processing methods in additive manufacturing are crucial for enhancing surface roughness and achieving precise finishes on 3D-printed parts. The lab utilizes a Sand Blasting Machine, Hot Air Oven with precise temperature control up to 200°C for drying metal powder, and an Inert Gas Muffle Furnace with a maximum temperature of 1200°C for controlled heating, sintering, and heat treatment of materials.",
-      description2:
-      "Sand blasting machine, post-processing method in additive manufacturing can be used for enhancing surface roughness. Achieve precise finishes on 3D-printed parts, ideal for aerospace, automotive, and medical industries. The hot air oven offers precise temperature control up to 200 degrees Celsius, making it ideal for drying of metal powder. Meanwhile, the Inert Gas Muffle Furnace boasts a maximum temperature of 1200 degrees Celsius, providing an inert atmosphere for controlled heating, sintering, and heat treatment of materials. With robust construction and advanced features, these machines ensure uniform heating, efficient operation, and reliable performance, catering to the diverse needs of research, quality control, and production processes across various sectors.",
+    //   description2:
+    //   "Sand blasting machine, post-processing method in additive manufacturing can be used for enhancing surface roughness. Achieve precise finishes on 3D-printed parts, ideal for aerospace, automotive, and medical industries. The hot air oven offers precise temperature control up to 200 degrees Celsius, making it ideal for drying of metal powder. Meanwhile, the Inert Gas Muffle Furnace boasts a maximum temperature of 1200 degrees Celsius, providing an inert atmosphere for controlled heating, sintering, and heat treatment of materials. With robust construction and advanced features, these machines ensure uniform heating, efficient operation, and reliable performance, catering to the diverse needs of research, quality control, and production processes across various sectors.",
       specifications: {
         "Sand Blasting Machine":
           "Enhances surface roughness of 3D-printed parts",
@@ -451,5 +470,4 @@ export const rndlab = [
           "Robust construction, advanced features for uniform heating and efficient operation",
       },
     },
-  },
 ];
