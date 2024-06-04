@@ -1,4 +1,4 @@
-import { rndlab } from "../constants/machine"
+import { rndlab1 } from "../constants/machine"
 
 const RDlab = () => {
   return (
@@ -35,7 +35,7 @@ const RDlab = () => {
         </div>
       </section>
 
-      {rndlab.map((item) => (
+      {rndlab1.map((item) => (
         <section key={item["Metal 3D Printer (SLM 280)"].title}>
           <div className="px-2 lg:flex lg:flex-row lg:items-center">
             <div className="w-full lg:w-1/2">
@@ -90,7 +90,7 @@ const RDlab = () => {
                     </thead>
                     <tbody className="divide-y divide-gray-200 bg-white">
                       {Object.entries(
-                        rndlab[0]["Metal 3D Printer (SLM 280)"].specifications
+                        rndlab1[0]["Metal 3D Printer (SLM 280)"].specifications
                       ).map(([key, value]) => (
                         <tr key={key} className="divide-x divide-gray-200">
                           <td className="whitespace-nowrap px-4 py-4">
@@ -120,7 +120,7 @@ const RDlab = () => {
                   {item["Post-processing"].title}
             </h1>
           <div className="mx-auto grid w-full max-w-7xl items-center space-y-4 px-2 py-10 md:grid-cols-2 md:space-y-0 lg:grid-cols-3">
-            {rndlab.map((i) => (
+            {rndlab1.map((i) => (
               <div
                 key={i}
                 className="relative aspect-[16/9] flex gap-6 w-auto rounded-md md:aspect-auto md:h-[400px]"
@@ -183,7 +183,7 @@ const RDlab = () => {
                     </thead>
                     <tbody className="divide-y divide-gray-200 bg-white">
                       {Object.entries(
-                        rndlab[0]["Post-processing"].specifications
+                        rndlab1[0]["Post-processing"].specifications
                       ).map(([key, value]) => (
                         <tr key={key} className="divide-x divide-gray-200">
                           <td className="whitespace-nowrap px-4 py-4">
