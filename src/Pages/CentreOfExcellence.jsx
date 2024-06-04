@@ -80,11 +80,11 @@ const CentreOfExcellence = () => {
           })}
         </ul> */}
       </div>
-      <Infra  data={bgImage.data} id={id}/>
 
       {
-         id === 'R&DLab' && <RDlab />
+        id === 'R&DLab' && <RDlab />
       }
+      <Infra  data={bgImage.data} id={id}/>
     </>
   );
 }
