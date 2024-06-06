@@ -5,10 +5,18 @@ export const materialtesting = [
     image1: "https://ucarecdn.com/95f04a79-ae04-4912-a8f0-b21467b04b87/-/preview/1000x772/",
     image2: "",
     image:"https://ucarecdn.com/648ebbc0-629a-4549-b581-c0a54a9857f0/-/preview/306x400/",
-    description1:
-      "Introducing the FIE UTM UTES HGFL TS, a robust Universal Testing Machine (UTM) with a capacity of 1000 kN, coupled with digital extensometers for precise measurements. Key parameters include a maximum load capacity of 1000 kN and a testing space of 1200 mm, ensuring versatility for a wide range of materials and applications. With advanced digital extensometers, this machine offers accurate strain measurement, making it ideal for tensile, compression, and flexural testing across industries such as construction, manufacturing, and research. Whether assessing material properties, conducting quality control tests, or validating product performance, the FIE UTM UTES HGFL TS delivers reliable results for comprehensive material characterization and analysis.",
+    description1:{
+      "Ultimate Tensile Strength":"The ultimate tensile strength is a measure of the maximum stress a material can withstand without breaking or falling under load. It is indicated a material’s maximum ability to withstand stress before weakening.",
+     "Yield Stress (0.2% & 0.5% PS)": "The yield stress is often used to determine the maximum allowable load in a mechanical component, since it represents the upper limit to forces that can be applied without producing permanent deformation.",
+      "Elongation %":"Elongation is the measurable tendency of a material to stretch when under strain. It is a numerical measure of the ductility of the material — how easily it deforms under strain. It is measured according to very specific controlled conditions so that the values of elongation can be quantitatively compared between materials.",
+       "Reduction of Area":"Reduction of area is another measure of ductility and is obtained from the tensile test by measuring the original cross-sectional area of the specimen and relating it to the cross-sectional area after failure.",
+      "Bend Strength Test":"The bending strength of a material is defined as its ability to resist deformation under load. It is the maximum stress a material can withstand while being bent before it breaks","Flattening Test":"Flattening tests are commonly made on specimens cut from tubular products and is conducted by subjecting rings from the tube or pipe to a prescribed degree of flattening between two parallel platens. A Pass/Fail test, tube flattening is used to determine whether or not the tube will fracture upon flattening.",
+      "Flaring Test":"A tapered mandrel is inserted into the sample to expand by an angle the mouth of the flare in which the adjacent length of the angle shall follow specification. The expansion of the inside and outside diameter is also dependent on standard specifications. After the test, the samples must not have any visible cracks.",
+      "Compression Test":"Compression testing is a widely used mechanical test that provides valuable insights into the behaviour of materials when subjected to compressive loads. A sample of the material is placed between two plates or jaws of a testing machine. A compressive force is applied to the sample until it reaches a specific deformation or until it fractures.",
+      "Shear Test": "A shear test is designed to apply stress to a test sample so that it experiences a sliding failure along a plane that is parallel to the forces applied. Shear tests differ from tension and compression tests in that the forces applied are parallel to the two contact surface, whereas, in tension and compression they are perpendicular to the contact surfaces.",
+    },
     description2:
-      "Yield Stress (0.2% & 0.5% PS) - The yield stress is often used to determine the maximum allowable load in a mechanical component, since it represents the upper limit to forces that can be applied without producing permanent deformation.",
+      "",
     specifications: {
       "Ultimate Tensile Strength":
         "Maximum stress a material can withstand without breaking.",
@@ -44,8 +52,8 @@ export const materialtesting = [
     image1: "https://ucarecdn.com/67b18b90-9ff9-4d3a-9992-091072ccf2a2/-/preview/1000x772/",
     image2: "https://ucarecdn.com/fbba54cc-d649-4b8e-83d9-d912d476da65/-/preview/1000x772/",
     image:"https://ucarecdn.com/4188117c-6edd-4971-8b43-5135befca028/-/preview/979x1000/",
-    description1:
-      "The FIE Pro-200 Fatigue Testing Machine is a high-performance solution designed for durability testing with a maximum load capacity of 200 kN. It offers versatility in cyclic testing, with adjustable frequency and amplitude, making it suitable for evaluating material fatigue in automotive, aerospace, and structural engineering applications.",
+    description1:{
+      "The FIE Pro-200 Fatigue Testing Machine ": "It is a high-performance solution designed for durability testing with a maximum load capacity of 200 kN. It offers versatility in cyclic testing, with adjustable frequency and amplitude, making it suitable for evaluating material fatigue in automotive, aerospace, and structural engineering applications."},
     description2: "",
     specifications: {
       Model: "Fatigue Pro-200",
@@ -70,9 +78,9 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/2f33efc0-383e-491f-8ed0-281671bb6a05/-/preview/1000x772/",
     image:"https://ucarecdn.com/5a16d0b4-d73c-46f0-ab94-0cb6ae7200b4/-/preview/1000x666/",
     description1:
-      "The FIE Auto Impact 30 Impact Testing Machine is a robust solution for assessing material toughness with a capacity of 300 Joules. Its key parameters include a pendulum capacity of 300 Joules and a test height of 0-500 mm",
+      {"The FIE Auto Impact 30 Impact Testing Machine " : "It is a robust solution for assessing material toughness with a capacity of 300 Joules. Its key parameters include a pendulum capacity of 300 Joules and a test height of 0-500 mm, making it suitable for testing metals, plastics, and composites in various industries. The impact strength of a metal is determined by measuring the energy absorbed in the fracture."},
     description2:
-      "The impact strength of a metal is determined by measuring the energy absorbed in the fracture.",
+      "",
     specifications: {
       Model: "IT 30 AUTO",
       Make: "FIE (Fuel Instruments & Engineers Pvt. Ltd.)",
@@ -92,7 +100,7 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/1c6f2447-7d03-4e5f-bae7-506b017d8722/",
     image:"https://ucarecdn.com/4a1209c2-8082-407d-8c4c-2f9f76725daa/-/preview/666x1000/",
     description1:
-      "Micro Vickers (HV 0.1,0.2,0.3,0.5,1) – Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Vickers method is based on an optical measurement system. it specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value. Case Depth Hardness - Case depth is the thickness of the hardened layer on a specimen. Effective case depth is the depth up to a further point for which a specified level of hardness is maintained.",
+      {"Micro Vickers (HV 0.1,0.2,0.3,0.5,1) ": " Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Vickers method is based on an optical measurement system. it specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value. Case Depth Hardness - Case depth is the thickness of the hardened layer on a specimen. Effective case depth is the depth up to a further point for which a specified level of hardness is maintained. The Vickers method is based on an optical measurement system. It specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value."},
     description2:
       "The Vickers method is based on an optical measurement system. It specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value.",
     specifications: {
@@ -119,7 +127,7 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/4e79d96d-dbb5-4e90-8a81-9e009a4af756/-/preview/910x1000/",
     image: "https://ucarecdn.com/05f1c968-ed32-4979-b874-fa571d9fa24d/-/preview/910x1000/",
     description1:
-      "Brinell Hardness - Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Brinell method applies a predetermined test load to a carbide ball of fixed diameter which is held for a predetermined time period and then removed. The resulting impression is measured with a specially designed Brinell microscope or optical system across at least two diameters. Brinell hardness is measured by 2.5, 5 or 10mm diameter indentor with measuring force ranges from 62.5kg to 3000kg",
+      {"Brinell Hardness ":" Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Brinell method applies a predetermined test load to a carbide ball of fixed diameter which is held for a predetermined time period and then removed. The resulting impression is measured with a specially designed Brinell microscope or optical system across at least two diameters. Brinell hardness is measured by 2.5, 5 or 10mm diameter indentor with measuring force ranges from 62.5kg to 3000kg"},
     description2:
       "Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation.",
     specifications: {
@@ -141,10 +149,10 @@ export const materialtesting = [
     image1: "https://ucarecdn.com/82ef49a7-592a-4f82-8def-95bf3531d5f0/-/preview/1000x772/",
     image2: "https://ucarecdn.com/a513cc73-8754-4ca7-b07e-0554a15b74ab/-/preview/753x1000/",
     image:"https://ucarecdn.com/c0b09aab-7c40-4443-8162-7fa246eff319/-/preview/666x1000/",
-    description1:
-      "The Rockwell method measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter.",
+    description1:{
+      "The Rockwell method ": " It measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter. This preload breaks through the surface to reduce the effects of surface finish. After holding the preliminary test force for a specified dwell time, the baseline depth of indentation is measured."},
     description2:
-      "This preload breaks through the surface to reduce the effects of surface finish. After holding the preliminary test force for a specified dwell time, the baseline depth of indentation is measured.",
+      "",
     specifications: {
       Model: "RASN-TSFA",
       Make: "FIE (Fuel Instruments & Engineers Pvt. Ltd.)",
@@ -164,7 +172,7 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/7ba8efc1-b8de-4339-92fe-8e18e80f272d/Untitleddesign141.png",
     image:"https://ucarecdn.com/934c0ff8-33a3-4ca3-8637-4fbad2c5ff1e/-/preview/1000x666/",
     description1:
-      "SPECTROMAXxLMX10 is capable of accurate elemental analysis of metals including Iron & Steel, Aluminium, Copper and Nickel based alloys. Featuring advanced optics, robust construction, wide spectral range, high-resolution detectors, and user-friendly software, it ensures accurate and reliable results. Ideal for quality control in foundries and metal processing, it offers rapid, precise multi-element analysis, making it essential for stringent quality standards. Its outstanding repeatability, reproducibility, and reliability makes it one of the best optical emission spectrometry (OES) analyzer.",
+      {"SPECTROMAXxLMX10 ":" It is capable of accurate elemental analysis of metals including Iron & Steel, Aluminium, Copper and Nickel based alloys. Featuring advanced optics, robust construction, wide spectral range, high-resolution detectors, and user-friendly software, it ensures accurate and reliable results. Ideal for quality control in foundries and metal processing, it offers rapid, precise multi-element analysis, making it essential for stringent quality standards. Its outstanding repeatability, reproducibility, and reliability makes it one of the best optical emission spectrometry (OES) analyzer."},
     description2:
       "",
     specifications: {
@@ -187,7 +195,7 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/7e632ec6-d37b-430d-8e5a-a18b00bbe09b/",
     image:"https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/",
     description1:
-      "The ZEISS Smartzoom 5: a smart digital microscope for versatile quality control across industries. Automated with magnifications from 34X to 335X, it offers fast, reliable measurements and advanced imaging capabilities like extended depth of field and 3D imaging.",
+      {"ZEISS Smartzoom 5 ": "It is a smart digital microscope - ideal for quality control and quality assurance applications in virtually every field of industry. It is having choices of varying magnification ranging from 34X-335X. It is fully automated and equipped with dedicated quality assurance (QA) and quality control (QC) components in electronics, materials science, and automotive industries. Smartzoom 5 provides fast, reproducible, high quality and reliable QA/QC measurements for routine as well as failure analyses. It also supports advanced types of microscopic images with extended depth of field (EDF), stitching and 3D imaging."},
     description2: "",
     specifications: {
       Model: "LV150N",
@@ -207,7 +215,7 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/3455cfeb-02f5-44ea-9813-3b1f5a9faa1f/",
     image:"https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/",
     description1:
-      "Axio Observer 7 combines the proven quality of ZEISS optics with automated components to give reliable and reproducible results. It is a fully motorized inverted microscope for metals and alloys. It is having choice of five different objectives of varying magnifications ranging from 50X-1000X. Extended depth of field (EDF) and Stitching features makes it an advanced microscope.  Dedicated software modules helps in analysing non-metallic inclusions, grain sizes, phases and coating thickness in metallic materials",
+      {"Axio Observer 7 ":" It combines the proven quality of ZEISS optics with automated components to give reliable and reproducible results. It is a fully motorized inverted microscope for metals and alloys. It is having choice of five different objectives of varying magnifications ranging from 50X-1000X. Extended depth of field (EDF) and Stitching features makes it an advanced microscope.  Dedicated software modules helps in analysing non-metallic inclusions, grain sizes, phases and coating thickness in metallic materials. "},
     description2: "",
     specifications: {
       Model: "LV150N",
@@ -227,7 +235,7 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/f5b7f2e7-a225-4e1a-8d22-21403faad8f4/-/preview/1000x772/",
     image:"https://ucarecdn.com/69f6705f-5323-4865-aed3-f49ae19d92e9/-/preview/476x300/",
     description1:
-      "Introducing the SRI-1000 Salt Spray Corrosion Testing Machine by SRI Equipment: with a 1000-liter capacity and precise temperature/humidity control, ideal for corrosion resistance evaluation in automotive, aerospace, and marine industries. ",
+      {"The SRI Equipment Salt Spray Corrosion Testing Machine SRI-1000 ":" It offers a capacity of 1000 liters, providing ample space for corrosion testing. Its key parameters include precise temperature and humidity control, ensuring accurate simulation of harsh environmental conditions. Ideal for evaluating the corrosion resistance of materials in automotive, aerospace, and marine industries."},
     description2: "",
     specifications: {
       Model: "CCT-1",
@@ -247,7 +255,7 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/3ba7a5c3-df98-42d4-ba1b-8308b752faf5/-/preview/1000x772/",
     image:"https://ucarecdn.com/5744a99b-bb39-4e0e-89ce-500d8b740f5e/-/preview/1000x666/",
     description1:
-      "Introducing Metatech's cutting-edge sample preparation equipment for material analysis. The Autopol Dual II Surface Grinding & Polishing machine offers precise grinding and polishing with dual workstations, ideal for achieving mirror-like finishes on a variety of materials. The Automount Hot Mounting Press provides efficient hot mounting of samples for metallographic analysis, ensuring uniform encapsulation without distortion. The Oscicut Sample Cutting machine delivers accurate sectioning of specimens with programmable cutting parameters, catering to diverse sample sizes and shapes. These machines are essential for metallography, material science, and quality control applications, providing reliable and efficient sample preparation solutions for industries including aerospace, automotive, and manufacturing.",
+      {"Sample Preparation ":" Introducing Metatech's cutting-edge sample preparation equipment for material analysis. The Autopol Dual II Surface Grinding & Polishing machine offers precise grinding and polishing with dual workstations, ideal for achieving mirror-like finishes on a variety of materials. The Automount Hot Mounting Press provides efficient hot mounting of samples for metallographic analysis, ensuring uniform encapsulation without distortion. The Oscicut Sample Cutting machine delivers accurate sectioning of specimens with programmable cutting parameters, catering to diverse sample sizes and shapes. These machines are essential for metallography, material science, and quality control applications, providing reliable and efficient sample preparation solutions for industries including aerospace, automotive, and manufacturing."},
     description2: "",
     specifications: {
       "Abrasive Cutting":
@@ -267,7 +275,7 @@ export const materialtesting = [
     image2: "",
     image:"https://ucarecdn.com/ec0fd5cb-376f-4b3d-8a32-fe25c104c2a7/-/preview/207x264/",
     description1:
-      "Introducing Metatech's cutting-edge sample preparation equipment for material analysis. The Autopol Dual II Surface Grinding & Polishing machine offers precise grinding and polishing with dual workstations, ideal for achieving mirror-like finishes on a variety of materials. The Automount Hot Mounting Press provides efficient hot mounting of samples for metallographic analysis, ensuring uniform encapsulation without distortion. The Oscicut Sample Cutting machine delivers accurate sectioning of specimens with programmable cutting parameters, catering to diverse sample sizes and shapes. These machines are essential for metallography, material science, and quality control applications, providing reliable and efficient sample preparation solutions for industries including aerospace, automotive, and manufacturing.",
+      {"Thermal Imaging Camera ":" Introducing Metatech's cutting-edge sample preparation equipment for material analysis. The Autopol Dual II Surface Grinding & Polishing machine offers precise grinding and polishing with dual workstations, ideal for achieving mirror-like finishes on a variety of materials. The Automount Hot Mounting Press provides efficient hot mounting of samples for metallographic analysis, ensuring uniform encapsulation without distortion. The Oscicut Sample Cutting machine delivers accurate sectioning of specimens with programmable cutting parameters, catering to diverse sample sizes and shapes. These machines are essential for metallography, material science, and quality control applications, providing reliable and efficient sample preparation solutions for industries including aerospace, automotive, and manufacturing."},
     description2: "",
     specifications: {
       Model: "TiX1000",
@@ -290,7 +298,7 @@ export const advancetoolroom = [
       image2: "https://ucarecdn.com/37b7e414-d288-47c8-baeb-8c1279e0b013/-/preview/1000x772/",
       image: "https://ucarecdn.com/96824a7e-4f71-404b-acf9-6c46d7243eb1/-/preview/1000x666/",
       description1:
-          "HMC( horizontal machining center )with a horizontal spindle. It has an automatic indexing rotary and 3 to 5 motion coordinates. The machine is having three linear motion coordinates plus one rotary motion coordinate.",
+          "The Ace Micromatic HMC 400 XL is a high-performance horizontal machining center designed for precision and efficiency. Key parameters include a work envelope of 600 x 600 x 600 mm, spindle speed up to 12,000 RPM, and rapid traverse rates of 36 m/min. This machine offers robust capabilities such as high-speed machining, excellent rigidity, and advanced tool management, ensuring superior accuracy and productivity. Ideal for applications in automotive, aerospace, and general engineering, the HMC 400 XL excels in the production of complex components, large-scale manufacturing, and precision parts, delivering consistent, high-quality results.",
       description2:
           "Service Provide: Engine block, Cylinder, and housing of different component machining.",
       specifications: {

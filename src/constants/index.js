@@ -105,13 +105,13 @@ const material=[
   {
     name:"Brinell Hardness",
     brief:"It provides a comprehensive range of hardness testing machines for accurate and reliable results across various industries.",
-    description:"Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Vickers method is based on an optical measurement system. it specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value",
+    description:"Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Brinell method applies a predetermined test load to a carbide ball of fixed diameter which is held for a predetermined time period and then removed. The resulting impression is measured with a specially designed Brinell microscope or optical system across at least two diameters. Brinell hardness is measured by 2.5, 5 or 10mm diameter indentor with measuring force ranges from 62.5kg to 3000kg.",
     image:"https://ucarecdn.com/8a888da9-7d15-4cc8-978d-53671d6d0dd9/-/preview/666x1000/"
   },
   {
     name:"Rockwell Hardness",
     brief:"Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation.",
-    description:"- The Rockwell method measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter. After holding the preliminary test force for a specified dwell time, the baseline depth of indentation is measured. After the preload, an additional load, call the major load, is added to reach the total required test load. The Rockwell hardness value",
+    description:"The Rockwell method measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter. After holding the preliminary test force for a specified dwell time, the baseline depth of indentation is measured. After the preload, an additional load, call the major load, is added to reach the total required test load. The Rockwell hardness value",
     image:"https://ucarecdn.com/c0b09aab-7c40-4443-8162-7fa246eff319/-/preview/666x1000/"
   },
   {

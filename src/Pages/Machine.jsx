@@ -37,8 +37,12 @@ const Machine = () => {
             <h1 className='text-xl mt-4 md:text-3xl lg:text-4xl font-bold mb-2'>{machine.title}</h1>
             <hr className="w-[40%] border-t-[3px] border-yellow-300 mb-10" />
             </div>
-                  <p className='text-base sm:text-md lg:text-lg text-justify'>
-                    {machine.description1}</p>  
+            {Object.entries(machine.description1).map(([key, value], index) => (
+                    <p key={index}>
+                      {}
+                        <strong style={{ color: '#fff5a6' }}>{key}:</strong> {value}
+                    </p>
+                ))} 
                    {machine.description2 && <p className='text-base sm:text-md lg:text-lg text-justify'>
                     {machine.description2}</p> }  
         </div>
