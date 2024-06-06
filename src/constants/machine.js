@@ -286,9 +286,9 @@ export const advancetoolroom = [
   {
       id: 1,
       title: "CNC HMC",
-      image1: "",
-      image2: "",
-      image: "https://ucarecdn.com/ca9da199-d492-4bfb-91b1-9de92213e55e/-/preview/1000x666/",
+      image1: "https://ucarecdn.com/5923572c-d0c5-4601-802c-0e6daa28b503/-/preview/1000x772/",
+      image2: "https://ucarecdn.com/37b7e414-d288-47c8-baeb-8c1279e0b013/-/preview/1000x772/",
+      image: "https://ucarecdn.com/96824a7e-4f71-404b-acf9-6c46d7243eb1/-/preview/1000x666/",
       description1:
           "HMC( horizontal machining center )with a horizontal spindle. It has an automatic indexing rotary and 3 to 5 motion coordinates. The machine is having three linear motion coordinates plus one rotary motion coordinate.",
       description2:
@@ -325,9 +325,9 @@ export const advancetoolroom = [
   {
       id: 3,
       title: "CNC Turn Mill",
-      image1: "https://ucarecdn.com/5b47eb98-1f2f-4d25-976e-19298ae64b2f/",
-      image2: "https://ucarecdn.com/61b11c0c-cd49-40a0-8a2f-7ae69b9c2942/",
-      image: "https://ucarecdn.com/42287580-35c6-460a-a72b-57141a2025db/-/preview/1000x666/",
+      image1: "https://ucarecdn.com/5b47eb98-1f2f-4d25-976e-19298ae64b2f/-/preview/1000x825/",
+      image2: "https://ucarecdn.com/61b11c0c-cd49-40a0-8a2f-7ae69b9c2942/-/preview/1000x825/",
+      image: "https://ucarecdn.com/d737ed26-5903-46ae-af09-989d345ed63e/-/preview/1000x825/",
       description1:
           "CNC turning centres are advanced computer numerically controlled machines. Which have 3, 4, or even 5 axes, along with a multitude of cutting capabilities, including milling, drilling, tapping, and of course, turning.",
       description2:
