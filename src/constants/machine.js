@@ -115,9 +115,9 @@ export const materialtesting = [
   {
     id:5,
     title: "Brinell Hardness",
-    image1: "https://ucarecdn.com/a9d896fe-d760-48d3-8c5b-af54d9a6feed/",
+    image1: "https://ucarecdn.com/a9d896fe-d760-48d3-8c5b-af54d9a6feed/-/preview/910x1000/",
     image2: "https://ucarecdn.com/4e79d96d-dbb5-4e90-8a81-9e009a4af756/-/preview/910x1000/",
-    image:"https://ucarecdn.com/05f1c968-ed32-4979-b874-fa571d9fa24d/IMG_1684.JPG",
+    image: "https://ucarecdn.com/05f1c968-ed32-4979-b874-fa571d9fa24d/-/preview/910x1000/",
     description1:
       "Brinell Hardness - Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Brinell method applies a predetermined test load to a carbide ball of fixed diameter which is held for a predetermined time period and then removed. The resulting impression is measured with a specially designed Brinell microscope or optical system across at least two diameters. Brinell hardness is measured by 2.5, 5 or 10mm diameter indentor with measuring force ranges from 62.5kg to 3000kg",
     description2:
@@ -138,9 +138,9 @@ export const materialtesting = [
   {
     id:6,
     title: "Rockwell Hardness",
-    image1: "https://ucarecdn.com/82ef49a7-592a-4f82-8def-95bf3531d5f0/pixelcutexport8.png",
-    image2: "https://ucarecdn.com/a513cc73-8754-4ca7-b07e-0554a15b74ab/Vector10.png",
-    image:"https://ucarecdn.com/c0b09aab-7c40-4443-8162-7fa246eff319/IMG_1705.JPG",
+    image1: "https://ucarecdn.com/82ef49a7-592a-4f82-8def-95bf3531d5f0/-/preview/1000x772/",
+    image2: "https://ucarecdn.com/a513cc73-8754-4ca7-b07e-0554a15b74ab/-/preview/753x1000/",
+    image:"https://ucarecdn.com/c0b09aab-7c40-4443-8162-7fa246eff319/-/preview/666x1000/",
     description1:
       "The Rockwell method measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter.",
     description2:

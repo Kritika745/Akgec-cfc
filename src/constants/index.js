@@ -4,7 +4,7 @@ const advtoolroom = [
     brief:"Engine block, Cylinder, and housing of different component machining.",
     description:
     "HMC( horizontal machining center )with a horizontal spindle. It has an automatic indexing rotary and 3 to 5 motion coordinates. The machine is having three linear motion coordinates plus one rotary motion coordinate.",
-    image:"https://ucarecdn.com/ca9da199-d492-4bfb-91b1-9de92213e55e/-/preview/1000x666/"
+    image:""
   },
   {
     name: "CNC VMC",
@@ -85,7 +85,8 @@ const material=[
     image:"https://ucarecdn.com/648ebbc0-629a-4549-b581-c0a54a9857f0/-/preview/306x400/"
   },
   {
-    name:"Fatigue tests are performed to measure the reduction in stiffness and strength of materials under repeated loading and to determine the total number of load cycles to failure.",
+    name:"Fatigue Testing.",
+    brief:"Fatigue tests are performed to measure the reduction in stiffness and strength of materials under repeated loading and to determine the total number of load cycles to failure. ",
     description:"The FIE Pro-200 Fatigue Testing Machine offers a high-performance solution with a maximum load capacity of 200 kN. Its versatility in cyclic testing, including adjustable frequency and amplitude, makes it ideal for evaluating material fatigue in automotive, aerospace, and structural engineering applications.",
     image:"https://ucarecdn.com/4188117c-6edd-4971-8b43-5135befca028/-/preview/979x1000/"
   },
@@ -111,7 +112,7 @@ const material=[
     name:"Rockwell Hardness",
     brief:"Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation.",
     description:"- The Rockwell method measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter. After holding the preliminary test force for a specified dwell time, the baseline depth of indentation is measured. After the preload, an additional load, call the major load, is added to reach the total required test load. The Rockwell hardness value",
-    image:"https://ucarecdn.com/8a888da9-7d15-4cc8-978d-53671d6d0dd9/-/preview/666x1000/"
+    image:"https://ucarecdn.com/c0b09aab-7c40-4443-8162-7fa246eff319/-/preview/666x1000/"
   },
   {
     name:"Optical Emission Spectrometer (OES)",
