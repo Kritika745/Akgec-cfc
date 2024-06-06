@@ -118,7 +118,7 @@ const Footer2= ()=> {
         <hr className=" bg-black w-[80%] ml-28 h-0 absolute top-32 text-black" />
         <div className="absolute top-36 w-full flex items-center justify-center">
           <h1 className="uppercase text-lg font-sans font-semibold">
-            Design & Developed By :{" "}
+            Designed & Developed By :{" "}
           </h1>
           <img
             className="w-[3vw] h-[6vh] pb-2"
