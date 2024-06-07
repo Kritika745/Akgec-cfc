@@ -11,11 +11,13 @@ const CentreOfExcellence = () => {
   const getBgImage = (id) => {
     if (id === 'AdvToolRoom') {
       return {
-        bgImage: 'https://ucarecdn.com/ca9da199-d492-4bfb-91b1-9de92213e55e/-/preview/1000x666/',
-        title: 'Advanced Tool Room',
-        desc: 'Description for Advanced Tool Room',
-        desc2: 'Description for Advanced Tool Room',
-        data:advtoolroom
+        bgImage:
+          "https://ucarecdn.com/ca9da199-d492-4bfb-91b1-9de92213e55e/-/preview/1000x666/",
+        title: "Advanced Tool Room",
+        desc: "Description for Advanced Tool Room",
+        desc2: "Description for Advanced Tool Room",
+        description:"The Tool Room is equipped with state-of-the-art machinery, offers a comprehensive environment for training, research, and consultancy. CNC 5-Axis Milling Centre, CNC Turn Mill, CNC Horizontal and Vertical Milling Centres are installed to ensure precise and complex machining. CNC Laser Cutting Machine & CNC Abrasive Water Jet Cutting Machines are available to provide advanced solutions for cutting of various materials with high accuracy and Wire-Cut EDM is installed to intricate part production. The facility is geared towards providing expert consultancy services, helping industries to solve complex manufacturing problems and optimize production processes"  ,
+        data: advtoolroom,
       };
     } else if (id === 'R&DLab') {
       return {
@@ -31,6 +33,8 @@ const CentreOfExcellence = () => {
         title: 'Material',
         desc: 'Description for Material',
         desc2: 'Description for Material',
+        description:
+          "The Material Testing Lab is a state-of-the-art facility equipped with advanced instruments for comprehensive material analysis. Key equipment includes a Digital & Metallurgical Microscope for detailed microstructural examination, and an Optical Emission Spectrometer for precise elemental analysis, Universal Testing Machine (UTM) for tensile and compression tests, Impact Testing Machine, Fatigue Testing Machine to assess material durability under various conditions, Micro-Vickers, Rockwell, Brinell methods for hardness testing, Thermal Imager for material thermal properties and Salt Spray Corrosion Testing Machine to measure Corrosion resistance. The lab is also having Hot Mounting Press, Abrasive Cutting Machine, and Double Disc Polishing Machine sample preparation.This facility serves as a hub for training, research, and consultancy to provide valuable resources for material science investigations and industrial applications",
         data:material
       };
     }  else {
@@ -70,15 +74,11 @@ const CentreOfExcellence = () => {
       </div>
      
       <div className="flex flex-col items-center justify-center ">
-        <h1 className="text-5xl mt-7 font-bold mb-4 ">About Our Center</h1>
-        {/* <ul className="list-disc text-left text-black h-96 w-full">
-          {data['Advance Tool Room'].map((item) =>{
-              <div className='text-black h-96 w-full' key={item.name}>
-                <h2>{item.name}</h2>
-                <p>{item.description}</p>
-              </div>;
-          })}
-        </ul> */}
+        <h1 className="text-4xl mt-7 font-semibold mb-3 ">About Our Centre</h1>
+        <hr className="w-[10%] border-t-[3px] border-yellow-300 mb-10" />
+        <p className="text-center text-base text-black px-24 w-full">
+          {bgImage.description}
+        </p> 
       </div>
 
       {
