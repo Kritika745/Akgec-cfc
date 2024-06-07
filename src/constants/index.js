@@ -4,7 +4,7 @@ const advtoolroom = [
     brief:"Engine block, Cylinder, and housing of different component machining.",
     description:
     "HMC( horizontal machining center )with a horizontal spindle. It has an automatic indexing rotary and 3 to 5 motion coordinates. The machine is having three linear motion coordinates plus one rotary motion coordinate.",
-    image:""
+    image:"https://ucarecdn.com/96824a7e-4f71-404b-acf9-6c46d7243eb1/-/preview/1000x666/"
   },
   {
     name: "CNC VMC",

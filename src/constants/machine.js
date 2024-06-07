@@ -350,8 +350,8 @@ export const advancetoolroom = [
   {
       id: 4,
       title: "CNC EDM Wirecut & Wire drill",
-      image1: "",
-      image2: "",
+      image1: "https://ucarecdn.com/2d3b0785-4210-438f-b362-c8f0c76273b7/-/quality/best/",
+      image2: "https://ucarecdn.com/8d8798d6-baae-4a42-a7d8-f9608c4d5c54/-/preview/905x1000/",
       image: 'https://ucarecdn.com/c7521c13-5cce-40be-8b47-fff0f1983e3a/-/preview/666x1000/',
       description1:
           "Wire electrical discharge machining is a non-contact subtractive manufacturing process that uses an electrically charged thin wire with a dielectric fluid to cut a metal part into different shapes. The process produces small chips and precise cut lines by melting or vaporizing the material rather than cutting it.",
@@ -370,7 +370,7 @@ export const advancetoolroom = [
   {
       id: 5,
       title: "CNC Laser Cutting",
-      image1: "",
+      image1: "https://ucarecdn.com/adb68ac9-8ed2-4113-bd06-ff4426a8d090/-/preview/1000x772/",
       image2: "https://ucarecdn.com/cbce252a-c967-47c2-815e-c48fe4fd0aea/-/preview/1000x772/",
       image: "https://ucarecdn.com/b8dc0d38-867f-4d05-853e-57aea0e50eab/-/preview/1000x666/",
       description1:
@@ -414,7 +414,7 @@ export const advancetoolroom = [
       id: 7,
       title: "Double Column Band Saw",
       image1: "https://ucarecdn.com/ecc40d2a-4e96-4602-8d39-677963c1a109/-/preview/1000x772/",
-      image2: "",
+      image2: "https://ucarecdn.com/2d3b0785-4210-438f-b362-c8f0c76273b7/-/quality/best/",
       image: "https://ucarecdn.com/2f6f908d-89f3-465b-bc8d-35e5d99babf2/-/preview/1000x666/",
       description1:
           "Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials",
@@ -430,7 +430,7 @@ export const advancetoolroom = [
       id: 8,
       title: "CNC Hydraulic Press Brake",
       image1: "https://ucarecdn.com/e96e748a-250e-4096-9c3d-2c858bf5de3d/-/preview/1000x666/",
-      image2: "",
+      image2: "https://ucarecdn.com/79438549-2259-4378-b3d3-dd65019dd4b4/-/preview/1000x811/",
       image: "https://ucarecdn.com/ba2c2ef9-730a-4236-86c9-50e9841124c2/-/preview/1000x666/",
       description1:
           "The Hindustan Hydraulic CNC Bending Swift 100-31 is a high-precision bending machine engineered for efficiency and versatility. Key parameters include a bending length of 3200 mm, maximum pressing force of 100 tons, and a bending speed of 10 mm/s. This machine can handle sheet materials up to 10 mm in thickness, offering robust capabilities in precision bending, consistent repeatability, and advanced CNC control for complex bends. Ideal for applications in automotive, aerospace, and metal fabrication industries, the Swift 100 excels in producing accurate, high-quality bends for components, enabling large-scale production and intricate custom work with superior reliability.",
