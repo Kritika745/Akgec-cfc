@@ -298,9 +298,11 @@ export const advancetoolroom = [
       image2: "https://ucarecdn.com/37b7e414-d288-47c8-baeb-8c1279e0b013/-/preview/1000x772/",
       image: "https://ucarecdn.com/96824a7e-4f71-404b-acf9-6c46d7243eb1/-/preview/1000x666/",
       description1:
-          "The Ace Micromatic HMC 400 XL is a high-performance horizontal machining center designed for precision and efficiency. Key parameters include a work envelope of 600 x 600 x 600 mm, spindle speed up to 12,000 RPM, and rapid traverse rates of 36 m/min. This machine offers robust capabilities such as high-speed machining, excellent rigidity, and advanced tool management, ensuring superior accuracy and productivity. Ideal for applications in automotive, aerospace, and general engineering, the HMC 400 XL excels in the production of complex components, large-scale manufacturing, and precision parts, delivering consistent, high-quality results.",
+          {"The Ace Micromatic HMC 400 XL ":" It is a high-performance horizontal machining center designed for precision and efficiency. Key parameters include a work envelope of 600 x 600 x 600 mm, spindle speed up to 12,000 RPM, and rapid traverse rates of 36 m/min. This machine offers robust capabilities such as high-speed machining, excellent rigidity, and advanced tool management, ensuring superior accuracy and productivity. Ideal for applications in automotive, aerospace, and general engineering, the HMC 400 XL excels in the production of complex components, large-scale manufacturing, and precision parts, delivering consistent, high-quality results.",
+            "Service Provide ":" Engine block, Cylinder, and housing of different component machining."
+          },
       description2:
-          "Service Provide: Engine block, Cylinder, and housing of different component machining.",
+          "",
       specifications: {
           "Model Name": "HMC400XL",
           "Stroke X-axis travel": "600mm",
@@ -318,9 +320,11 @@ export const advancetoolroom = [
       image2: "https://ucarecdn.com/df925017-5587-40a8-88d5-cb3ff07a551e/-/preview/1000x772/",
       image: "https://ucarecdn.com/8b6005d3-b9c1-4c5b-876c-a38df9e70be2/-/preview/1000x666/",
       description1:
-          "VMC(vertical machining center)with the spindle axis perpendicular to the worktable. It can complete the processes of milling, boring, drilling, tapping and cutting threads. The VMC is having three-axis and two-linkage",
+          {"VMC(vertical machining center) ":" with the spindle axis perpendicular to the worktable. It can complete the processes of milling, boring, drilling, tapping and cutting threads. The VMC is having three-axis and two-linkage",
+            "Service Provide ":" All types of Die and mould machining, Drilling, Shaping, Cutting, Tapping, Boring on any component"
+          },
       description2:
-          "Service Provide: All types of Die and mould machining, Drilling, Shaping, Cutting, Tapping, Boring on any component",
+          "",
       specifications: {
           "Model Name": "MCV700",
           "Stroke X-axis travel": "1600mm",
@@ -337,9 +341,11 @@ export const advancetoolroom = [
       image2: "https://ucarecdn.com/61b11c0c-cd49-40a0-8a2f-7ae69b9c2942/-/preview/1000x825/",
       image: "https://ucarecdn.com/d737ed26-5903-46ae-af09-989d345ed63e/-/preview/1000x825/",
       description1:
-          "CNC turning centres are advanced computer numerically controlled machines. Which have 3, 4, or even 5 axes, along with a multitude of cutting capabilities, including milling, drilling, tapping, and of course, turning.",
+          {"CNC turning centres ":" These are the advanced computer numerically controlled machines. Which have 3, 4, or even 5 axes, along with a multitude of cutting capabilities, including milling, drilling, tapping, and of course, turning.",
+            "Service provides ":" Various machining operations with high precision."
+          },
       description2:
-          "Service provides: Various machining operations with high precision.",
+          "",
       specifications: {
           "Model Name": "QTE300 MY SG",
           "Feed Axes Travel (X Axis)": "215mm",
@@ -362,9 +368,11 @@ export const advancetoolroom = [
       image2: "https://ucarecdn.com/8d8798d6-baae-4a42-a7d8-f9608c4d5c54/-/preview/905x1000/",
       image: 'https://ucarecdn.com/c7521c13-5cce-40be-8b47-fff0f1983e3a/-/preview/666x1000/',
       description1:
-          "Wire electrical discharge machining is a non-contact subtractive manufacturing process that uses an electrically charged thin wire with a dielectric fluid to cut a metal part into different shapes. The process produces small chips and precise cut lines by melting or vaporizing the material rather than cutting it.",
+          {"Wire electrical discharge machining " :" It is a non-contact subtractive manufacturing process that uses an electrically charged thin wire with a dielectric fluid to cut a metal part into different shapes. The process produces small chips and precise cut lines by melting or vaporizing the material rather than cutting it.",
+            "Service provides ":" Cutting of any type of profile on any metal and alloys. Manufacturing of Die, Fixtures, and gauges, Cutting tools with high precision."
+          },
       description2:
-          "Service provides: Cutting of any type of profile on any metal and alloys. Manufacturing of Die, Fixtures, and gauges, Cutting tools with high precision.",
+          "",
       specifications: {
           "Model Name": "E Merge S64",
           "Stroke X": "600mm",
@@ -382,9 +390,11 @@ export const advancetoolroom = [
       image2: "https://ucarecdn.com/cbce252a-c967-47c2-815e-c48fe4fd0aea/-/preview/1000x772/",
       image: "https://ucarecdn.com/b8dc0d38-867f-4d05-853e-57aea0e50eab/-/preview/1000x666/",
       description1:
-          "Computer Numeric Controlled (CNC) Laser cutting machines work on the principle that a focused high-power laser beam is used to cut, inscribe, or engrave a metal surface to get the desired shapes. They are specially used to cut intricate shapes and minute holes with a high level of accuracy.",
+          {"Computer Numeric Controlled (CNC) ":" These Laser cutting machines work on the principle that a focused high-power laser beam is used to cut, inscribe, or engrave a metal surface to get the desired shapes. They are specially used to cut intricate shapes and minute holes with a high level of accuracy.",
+            "Service Provides ":" Cutting of various materials with high precision."
+          },
       description2:
-          "Service Provides: Cutting of various materials with high precision.",
+          "",
       specifications: {
           "Model Name": "Fiber Light 3015",
           "Stroke X-axis": "1500mm",
@@ -406,9 +416,11 @@ export const advancetoolroom = [
       image2: "https://ucarecdn.com/66c300d5-8f43-4210-96ac-9c29b5c17650/",
       image: "https://ucarecdn.com/1cff8c49-62ab-4ee7-bcaf-8abd674cf366/-/preview/1000x666/",
       description1:
-          "A CNC waterjet cutting machine is an industrial tool that uses a high-pressure stream of water to cut through metal, plastic, and other materials. This process can be done with or without abrasive material in the stream depending on the type of material and project design. The abrasive material, which is added to the stream during cutting operations, makes it possible for these machines to work faster than ever before while still maintaining a high degree of accuracy.",
+          {"CNC waterjet cutting machine ":" It is an industrial tool that uses a high-pressure stream of water to cut through metal, plastic, and other materials. This process can be done with or without abrasive material in the stream depending on the type of material and project design. The abrasive material, which is added to the stream during cutting operations, makes it possible for these machines to work faster than ever before while still maintaining a high degree of accuracy.",
+            "Service provide " :" High precision cutting of various materials."
+          },
       description2:
-          "Service provide: High precision cutting of various materials.",
+          "",
       specifications: {
           "Model Name": "JetCut",
           "X-Axis Travel": "3000mm",
@@ -425,9 +437,11 @@ export const advancetoolroom = [
       image2: "https://ucarecdn.com/2d3b0785-4210-438f-b362-c8f0c76273b7/-/quality/best/",
       image: "https://ucarecdn.com/2f6f908d-89f3-465b-bc8d-35e5d99babf2/-/preview/1000x666/",
       description1:
-          "Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials",
+          {"Double Column Band Saw ":" Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials",
+            "Service Provide ":" Cutting of solid rod, hollow pipe, in round and square cross section."
+          },
       description2:
-          "Service Provide: Cutting of solid rod, hollow pipe, in round and square cross section.",
+          "",
       specifications: {
           "Model Name": "DCA260F",
           "Cutting capacity Round": "200-250mm dia",
@@ -441,9 +455,11 @@ export const advancetoolroom = [
       image2: "https://ucarecdn.com/79438549-2259-4378-b3d3-dd65019dd4b4/-/preview/1000x811/",
       image: "https://ucarecdn.com/ba2c2ef9-730a-4236-86c9-50e9841124c2/-/preview/1000x666/",
       description1:
-          "The Hindustan Hydraulic CNC Bending Swift 100-31 is a high-precision bending machine engineered for efficiency and versatility. Key parameters include a bending length of 3200 mm, maximum pressing force of 100 tons, and a bending speed of 10 mm/s. This machine can handle sheet materials up to 10 mm in thickness, offering robust capabilities in precision bending, consistent repeatability, and advanced CNC control for complex bends. Ideal for applications in automotive, aerospace, and metal fabrication industries, the Swift 100 excels in producing accurate, high-quality bends for components, enabling large-scale production and intricate custom work with superior reliability.",
+          {"The Hindustan Hydraulic CNC Bending Swift 100-31 ":" It is a high-precision bending machine engineered for efficiency and versatility. Key parameters include a bending length of 3200 mm, maximum pressing force of 100 tons, and a bending speed of 10 mm/s. This machine can handle sheet materials up to 10 mm in thickness, offering robust capabilities in precision bending, consistent repeatability, and advanced CNC control for complex bends. Ideal for applications in automotive, aerospace, and metal fabrication industries, the Swift 100 excels in producing accurate, high-quality bends for components, enabling large-scale production and intricate custom work with superior reliability.",
+            "Service Provide ":" Cutting of solid rod, hollow pipe, in round and square cross section."
+          },
       description2:
-          "Service Provide: Cutting of solid rod, hollow pipe, in round and square cross section.",
+          "",
       specifications: {
           "Model Name": "Swift 100-31 ",
           "Capacity ": "1000 KN",
@@ -458,9 +474,12 @@ export const advancetoolroom = [
       image2: "https://ucarecdn.com/30ef5514-0165-493a-93d5-0c4f01bda275/",
       image: "https://ucarecdn.com/fd9a0a03-1110-412a-b7cc-d52149c9311f/-/preview/432x369/",
       description1:
-          "5-axis machining provides infinite possibilities as to the part sizes and shapes you can effectively process. The term “5-axis” refers to the number of directions in which the cutting tool can move. On a 5-axis machining center, the cutting tool moves across the X, Y and Z linear axes as well as rotates on the A and B axes to approach the workpiece from any direction. In other words, you can process five sides of a part in a single setup.",
+          {"5-axis machining ":" It provides infinite possibilities as to the part sizes and shapes you can effectively process. The term “5-axis” refers to the number of directions in which the cutting tool can move. On a 5-axis machining center, the cutting tool moves across the X, Y and Z linear axes as well as rotates on the A and B axes to approach the workpiece from any direction. In other words, you can process five sides of a part in a single setup.",
+            "Mazak CNC 5-Axis C600 ":" It a state-of-the-art machining center engineered for intricate and precise manufacturing. With simultaneous five-axis machining, it enables complex part production in a single setup.",
+            "Key features ":" It include a spindle speed of up to 12,000 RPM, a 600 mm table diameter, and advanced CNC controls for unparalleled precision. The C600 handles a wide range of materials, including metals and composites, making it ideal for aerospace, automotive, and medical industries. Its robust construction, high accuracy, and versatility boost productivity, ensuring exceptional performance for the most detailed and complex machining tasks."
+          },
       description2:
-          "Mazak CNC 5-Axis C600, a state-of-the-art machining center engineered for intricate and precise manufacturing. With simultaneous five-axis machining, it enables complex part production in a single setup. Key features include a spindle speed of up to 12,000 RPM, a 600 mm table diameter, and advanced CNC controls for unparalleled precision. The C600 handles a wide range of materials, including metals and composites, making it ideal for aerospace, automotive, and medical industries. Its robust construction, high accuracy, and versatility boost productivity, ensuring exceptional performance for the most detailed and complex machining tasks.",
+          "",
       specifications: {
           "Model Name": "C600",
           "Spindle Speed": "Up to 12,000 RPM",

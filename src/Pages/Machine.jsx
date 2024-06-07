@@ -32,7 +32,7 @@ const Machine = () => {
         <div className='sm:w-[50%] w-full'>
              <img src={machine.image1} alt="" />
         </div>
-        <div className='sm:w-[70%] w-full px-6 sm:px-10 md:px-20 lg:px-28 flex flex-col items-center justify-center '>
+        <div className='sm:w-[70%] w-full px-6 sm:px-10 md:px-20 lg:px-28 flex flex-col items-start justify-center '>
             <div className='flex flex-col w-full justify-center items-center '>
             <h1 className='text-xl mt-4 md:text-3xl lg:text-4xl font-bold mb-2'>{machine.title}</h1>
             <hr className="w-[40%] border-t-[3px] border-yellow-300 mb-10" />
