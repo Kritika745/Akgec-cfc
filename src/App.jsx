@@ -8,11 +8,13 @@ import Footer2 from './Components/Footer2';
 import About from './Components/About';
 import CentreOfExcellence from './Pages/CentreOfExcellence';
 import Machine from './Pages/Machine';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
