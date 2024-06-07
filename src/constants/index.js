@@ -16,34 +16,34 @@ const advtoolroom = [
   {
     name:"CNC Turn Mill ",
     brief:" Milling, Drilling, Tapping, and ofcourse, Turning",
-    description:"CNC turning centres are advanced computer numerically controlled machines. Which have 3, 4, or even 5 axes, along with a multitude of cutting capabilities, including milling, drilling, tapping, and ofcourse, turning.",
+    description:"CNC turning centres are advanced computer numerically controlled machines. Which have 3, 4, or even 5 axes, along with a multitude of cutting capabilities, including milling, drilling, tapping, and ofcourse, turning.",
     image:"https://ucarecdn.com/42287580-35c6-460a-a72b-57141a2025db/-/preview/1000x666/"
   },
   {
     name: "EDM Wirecut & Wire drill",
     brief:"Cutting of any type of profile on any metal and alloys.",
     description:
-      "Wire electrical discharge machining is a non-contact subtractive manufacturing process that uses an electrically charged thin wire with a dielectric fluid to cut a metal part into different shapes. The process produces small chips and precise cut lines by melting or vaporizing the material rather than cutting it.",
+      "Wire electrical discharge machining is a non-contact subtractive manufacturing process that uses an electrically charged thin wire with a dielectric fluid to cut a metal part into different shapes. The process produces small chips and precise cut lines by melting or vaporizing the material rather than cutting it.",
     image:'https://ucarecdn.com/c7521c13-5cce-40be-8b47-fff0f1983e3a/-/preview/666x1000/'
     
   },
   {
     name:"CNC Laser Cutting",
      brief:"Focused high-power laser beam is used to cut, inscribe, or engrave a metal surface to get the desired shapes.",
-     description:"They are specially used to cut intricate shapes and minute holes with a high level of accuracy.",
+     description:"Computer Numeric Controlled (CNC) Laser cutting machines work on the principle that a focused high-power laser beam is used to cut, inscribe, or engrave a metal surface to get the desired shapes. They are specially used to cut intricate shapes and minute holes with a high level of accuracy.",
      image:"https://ucarecdn.com/b8dc0d38-867f-4d05-853e-57aea0e50eab/-/preview/1000x666/"
   },
   {
     name:"CNC Abrasive Water Jet Cutting",
     brief:"The An Innovative 3015 B Water Jet Cutting machine offers precise, versatile cutting for materials up to 200 mm thick, with a 3000 x 1500 mm area and 15 m/min speed.",
-    description:"A CNC waterjet cutting machine swiftly and accurately cuts through metal, plastic, and other materials using high-pressure water. Abrasive material can be added to enhance speed while maintaining precision in the cutting process.",
+    description:"A CNC waterjet cutting machine is an industrial tool that uses a high-pressure stream of water to cut through metal, plastic, and other materials. This process can be done with or without abrasive material in the stream depending on the type of material and project design. The abrasive material, which is added to the stream during cutting operations, makes it possible for these machines to work faster than ever before while still maintaining a high degree of accuracy.",
     image:"https://ucarecdn.com/1cff8c49-62ab-4ee7-bcaf-8abd674cf366/-/preview/1000x666/"
   },
   { 
     name: "Double Column Band Saw",
     brief:"cutting of solid rod,  hollow pipe, in round and square cross section. ",
     description:
-      "Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials",
+      "Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials.",
      image:"https://ucarecdn.com/2f6f908d-89f3-465b-bc8d-35e5d99babf2/-/preview/1000x666/"
   },
   {
@@ -55,7 +55,7 @@ const advtoolroom = [
   {
     name:"CNC 5-Axis Machining center ",
     brief:"The CNC 5-Axis C600 is a high-precision machining center with a 600 mm table, 12,000 RPM spindle, and advanced CNC controls for complex manufacturing in aerospace, automotive, and medical industries.",
-    description:"The Mazak CNC 5-Axis C600 features simultaneous five-axis machining, a 12,000 RPM spindle, and a 600 mm table. Ideal for aerospace, automotive, and medical industries, it offers high precision, versatility, and productivity for complex tasks.",
+    description:"5-axis machining provides infinite possibilities as to the part sizes and shapes you can effectively process. The term “5-axis” refers to the number of directions in which the cutting tool can move. On a 5-axis machining center, the cutting tool moves across the X, Y and Z linear axes as well as rotates on the A and B axes to approach the workpiece from any direction. In other words, you can process five sides of a part in a single setup.",
     image:"https://ucarecdn.com/fd9a0a03-1110-412a-b7cc-d52149c9311f/-/preview/432x369/"
   }
 ];

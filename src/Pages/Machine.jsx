@@ -38,10 +38,12 @@ const Machine = () => {
             <hr className="w-[40%] border-t-[3px] border-yellow-300 mb-10" />
             </div>
             {Object.entries(machine.description1).map(([key, value], index) => (
-                    <p key={index}>
-                      {}
-                        <strong style={{ color: '#fff5a6' }}>{key}:</strong> {value}
+                    <div key={index}>
+                    <p>
+                      <strong style={{ color: '#fff5a6' }}>{key}:</strong> {value}
                     </p>
+                    <br />
+                  </div>
                 ))} 
                    {machine.description2 && <p className='text-base sm:text-md lg:text-lg text-justify'>
                     {machine.description2}</p> }  
