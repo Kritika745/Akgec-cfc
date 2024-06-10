@@ -1,80 +1,75 @@
 const advtoolroom = [
   {
     name: "CNC HMC",
-    brief:"Engine block, Cylinder, and housing of different component machining.",
-    description:
-    "HMC( horizontal machining center )with a horizontal spindle. It has an automatic indexing rotary and 3 to 5 motion coordinates. The machine is having three linear motion coordinates plus one rotary motion coordinate.",
-    image:"https://ucarecdn.com/96824a7e-4f71-404b-acf9-6c46d7243eb1/-/preview/1000x666/"
+    brief: "Machining of engine blocks, cylinders, and housings with precision and efficiency.",
+    description: "HMC (Horizontal Machining Center) with a horizontal spindle, automatic indexing rotary, and 3 to 5 motion coordinates. It features three linear motion coordinates plus one rotary motion coordinate, ensuring precise and efficient machining operations.",
+    image: "https://ucarecdn.com/96824a7e-4f71-404b-acf9-6c46d7243eb1/-/preview/1000x666/"
   },
   {
     name: "CNC VMC",
-    brief:"All types of Die and mould machining, Drilling, Shaping, Cutting, Tapping, Boring on any component",
-    description:
-    "VMC(vertical machining center)with the spindle axis perpendicular to the worktable. It can complete the processes of milling, boring, drilling, tapping and cutting threads. The VMC is having three-axis and two-linkage",
-    image:"https://ucarecdn.com/8b6005d3-b9c1-4c5b-876c-a38df9e70be2/-/preview/1000x666/"
+    brief: "Milling, drilling, shaping, cutting, tapping, and boring with high precision and accuracy.",
+    description: "VMC (Vertical Machining Center) with the spindle axis perpendicular to the worktable. It handles milling, boring, drilling, tapping, and cutting threads with three-axis and two-linkage capabilities, offering versatility and precision in machining tasks.",
+    image: "https://ucarecdn.com/8b6005d3-b9c1-4c5b-876c-a38df9e70be2/-/preview/1000x666/"
   },
   {
-    name:"CNC Turn Mill ",
-    brief:" Milling, Drilling, Tapping, and ofcourse, Turning",
-    description:"CNC turning centres are advanced computer numerically controlled machines. Which have 3, 4, or even 5 axes, along with a multitude of cutting capabilities, including milling, drilling, tapping, and ofcourse, turning.",
-    image:"https://ucarecdn.com/42287580-35c6-460a-a72b-57141a2025db/-/preview/1000x666/"
+    name: "CNC Turn Mill",
+    brief: "Advanced milling, drilling, tapping, and turning capabilities for various applications.",
+    description: "CNC turning centers with advanced numerical control and 3 to 5 axes. They offer a multitude of cutting capabilities, including milling, drilling, tapping, and turning. These centers provide high precision and efficiency for various machining tasks.",
+    image: "https://ucarecdn.com/42287580-35c6-460a-a72b-57141a2025db/-/preview/1000x666/"
   },
   {
-    name: "EDM Wirecut & Wire drill",
-    brief:"Cutting of any type of profile on any metal and alloys.",
-    description:
-      "Wire electrical discharge machining is a non-contact subtractive manufacturing process that uses an electrically charged thin wire with a dielectric fluid to cut a metal part into different shapes. The process produces small chips and precise cut lines by melting or vaporizing the material rather than cutting it.",
-    image:'https://ucarecdn.com/c7521c13-5cce-40be-8b47-fff0f1983e3a/-/preview/666x1000/'
-    
+    name: "EDM Wirecut & Wire Drill",
+    brief: "Precise cutting of profiles on various metals and alloys with high accuracy.",
+    description: "Wire EDM uses a thin, electrically charged wire with dielectric fluid to cut metal parts into various shapes. It produces precise cuts by melting or vaporizing the material. This method is ideal for complex profiles and high-precision applications in manufacturing.",
+    image: "https://ucarecdn.com/c7521c13-5cce-40be-8b47-fff0f1983e3a/-/preview/666x1000/"
   },
   {
-    name:"CNC Laser Cutting",
-     brief:"Focused high-power laser beam is used to cut, inscribe, or engrave a metal surface to get the desired shapes.",
-     description:"Computer Numeric Controlled (CNC) Laser cutting machines work on the principle that a focused high-power laser beam is used to cut, inscribe, or engrave a metal surface to get the desired shapes. They are specially used to cut intricate shapes and minute holes with a high level of accuracy.",
-     image:"https://ucarecdn.com/b8dc0d38-867f-4d05-853e-57aea0e50eab/-/preview/1000x666/"
+    name: "CNC Laser Cutting",
+    brief: "High-accuracy laser cutting, engraving, and inscribing for detailed work.",
+    description: "CNC laser cutting machines use a high-power laser beam to cut intricate shapes and minute holes with high accuracy. Ideal for detailed and precise work. This technology ensures minimal material waste, making it suitable for various applications.",
+    image: "https://ucarecdn.com/b8dc0d38-867f-4d05-853e-57aea0e50eab/-/preview/1000x666/"
   },
   {
-    name:"CNC Abrasive Water Jet Cutting",
-    brief:"The An Innovative 3015 B Water Jet Cutting machine offers precise, versatile cutting for materials up to 200 mm thick, with a 3000 x 1500 mm area and 15 m/min speed.",
-    description:"A CNC waterjet cutting machine is an industrial tool that uses a high-pressure stream of water to cut through metal, plastic, and other materials. This process can be done with or without abrasive material in the stream depending on the type of material and project design. The abrasive material, which is added to the stream during cutting operations, makes it possible for these machines to work faster than ever before while still maintaining a high degree of accuracy.",
-    image:"https://ucarecdn.com/1cff8c49-62ab-4ee7-bcaf-8abd674cf366/-/preview/1000x666/"
+    name: "CNC Abrasive Water Jet Cutting",
+    brief: "Versatile cutting of thick materials with high precision and speed.",
+    description: "CNC waterjet cutting uses a high-pressure water stream, with or without abrasive, to cut through various materials. It maintains high accuracy and speed for diverse projects, allowing for precise cuts on thick materials and complex shapes, enhancing manufacturing efficiency.",
+    image: "https://ucarecdn.com/1cff8c49-62ab-4ee7-bcaf-8abd674cf366/-/preview/1000x666/"
   },
-  { 
+  {
     name: "Double Column Band Saw",
-    brief:"cutting of solid rod,  hollow pipe, in round and square cross section. ",
-    description:
-      "Focused to cut materials which are difficult to machine, such as Inconel, Hastelloy, Titanium, Stainless Steel, etc., as well as any mild steel, taking into account the needs of solidity and hardness for the cut of this kind of materials.",
-     image:"https://ucarecdn.com/2f6f908d-89f3-465b-bc8d-35e5d99babf2/-/preview/1000x666/"
+    brief: "Cutting solid rods and hollow pipes in various shapes with precision.",
+    description: "Specialized for cutting materials like Inconel, Hastelloy, Titanium, Stainless Steel, and mild steel. Ensures precision for materials with high solidity and hardness. It is designed to handle tough and durable materials efficiently, meeting various industry requirements.",
+    image: "https://ucarecdn.com/2f6f908d-89f3-465b-bc8d-35e5d99babf2/-/preview/1000x666/"
   },
   {
-    name:"CNC Hydraulic Press Brake",
-    brief:"The Hindustan Hydraulic CNC Bending Swift 100-31 is a high-precision machine with a 3200 mm length, 100-ton force, and 10 mm/s speed for versatile bending in various industries.",
-    description:"The Hindustan Hydraulic CNC Bending Swift 100-31 offers efficient, precise bending with a 3200 mm length, 100-ton force, and 10 mm/s speed. It handles up to 10 mm thick sheets, ensuring accuracy and repeatability for automotive, aerospace, and metal fabrication applications.",
-    image:"https://ucarecdn.com/ba2c2ef9-730a-4236-86c9-50e9841124c2/-/preview/1000x666/"
-  },  
+    name: "CNC Hydraulic Press Brake",
+    brief: "Precision bending for automotive, aerospace, and metal industries applications.",
+    description: "It offers precise bending for up to 10 mm thick sheets, ensuring accuracy for automotive, aerospace, and metal fabrication industries. This machine combines strength and precision for high-quality results in various applications.",
+    image: "https://ucarecdn.com/ba2c2ef9-730a-4236-86c9-50e9841124c2/-/preview/1000x666/"
+  },
   {
-    name:"CNC 5-Axis Machining center ",
-    brief:"The CNC 5-Axis C600 is a high-precision machining center with a 600 mm table, 12,000 RPM spindle, and advanced CNC controls for complex manufacturing in aerospace, automotive, and medical industries.",
-    description:"5-axis machining provides infinite possibilities as to the part sizes and shapes you can effectively process. The term “5-axis” refers to the number of directions in which the cutting tool can move. On a 5-axis machining center, the cutting tool moves across the X, Y and Z linear axes as well as rotates on the A and B axes to approach the workpiece from any direction. In other words, you can process five sides of a part in a single setup.",
-    image:"https://ucarecdn.com/fd9a0a03-1110-412a-b7cc-d52149c9311f/-/preview/432x369/"
+    name: "CNC 5-Axis Machining Center",
+    brief: "Complex manufacturing with advanced CNC controls and precision for diverse industries.",
+    description: "It allows processing of parts in multiple directions with X, Y, Z linear axes and A, B rotational axes, enabling complex manufacturing in aerospace, automotive, and medical industries. It provides unmatched versatility and precision for various applications.",
+    image: "https://ucarecdn.com/fd9a0a03-1110-412a-b7cc-d52149c9311f/-/preview/432x369/"
   }
 ];
 
-const rnd =[
+const rnd = [
   {
-   name:"Metal 3d printer (SLM 280)",
-   brief:"The SLM 280 Single Laser Machine is an advanced additive manufacturing system with a 280 x 280 x 365 mm build envelope and 400W fiber laser, ideal for precise metal powder melting in various industries.",
-   description:"The SLM 280 Single Laser Machine features a 280 x 280 x 365 mm build envelope and 400W fiber laser for precise additive manufacturing. It processes aluminum, titanium, stainless steel, and cobalt-chromium alloys, perfect for aerospace, automotive, medical, and tooling applications.",
-   image:"https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/"
+    name: "Metal 3D Printer (SLM 280)",
+    brief: "Additive manufacturing for aerospace, automotive, and medical industries applications.",
+    description: "The SLM 280 features precise additive manufacturing for aluminum, titanium, stainless steel, and cobalt-chromium alloys, suitable for aerospace, automotive, medical, and tooling applications. This machine ensures high-quality and precise metal parts, enhancing production capabilities.",
+    image: "https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/"
   },
   {
-    name:"Post-processing",
-    brief:"Sand blasting, hot air ovens, and inert gas muffle furnaces enhance post-processing in additive manufacturing, offering precise finishes and controlled heating for diverse industries.",
-    description:"Sand blasting enhances surface roughness, while the hot air oven dries metal powder with precise temperature control up to 200°C. The Inert Gas Muffle Furnace provides controlled heating up to 1200°C in an inert atmosphere, ideal for sintering and heat treatment. These machines cater to diverse industry needs with their reliability and efficiency in post-processing for additive manufacturing.",
-    image:"https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/"
-  },
-  
+    name: "Post-Processing",
+    brief: "Enhancing finishes and controlled heating for diverse industry needs and applications.",
+    description: "Sand blasting improves surface roughness, hot air ovens offer precise drying, and inert gas muffle furnaces provide controlled heating for sintering and heat treatment up to 1200°C. These processes ensure high-quality finishes and optimal material properties, catering to various industry requirements.",
+    image: "https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/"
+  }
 ];
+
 
 
 const material=[
