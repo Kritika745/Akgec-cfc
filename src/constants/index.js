@@ -70,82 +70,79 @@ const rnd = [
   }
 ];
 
-
-
-const material=[
+const material = [
   {
-    name:"Universal Testing Machine (UTES HGFL TS)",
-    brief:"The FIE UTES HGFL TS Universal Testing Machine offers a robust 1000 kN capacity with digital extensometers for precise material testing in various industries.",
-    description:"Introducing the FIE UTM UTES HGFL TS: a robust 1000 kN Universal Testing Machine with digital extensometers for precise measurements. Ideal for tensile, compression, and flexural testing in construction, manufacturing, and research, delivering reliable results for material characterization.",
-    image:"https://ucarecdn.com/648ebbc0-629a-4549-b581-c0a54a9857f0/-/preview/306x400/"
+    name: "Universal Testing Machine (UTES HGFL TS)",
+    brief: "The FIE UTES HGFL TS Universal Testing Machine offers a robust 1000 kN capacity for precise material testing.",
+    description: "The FIE UTM UTES HGFL TS: a robust 1000 kN Universal Testing Machine with digital extensometers for precise measurements. Ideal for tensile, compression, and flexural testing in construction, manufacturing, and research, delivering reliable results for material characterization.",
+    image: "https://ucarecdn.com/648ebbc0-629a-4549-b581-c0a54a9857f0/-/preview/306x400/"
   },
   {
-    name:"Fatigue Testing.",
-    brief:"Fatigue tests are performed to measure the reduction in stiffness and strength of materials under repeated loading and to determine the total number of load cycles to failure. ",
-    description:"The FIE Pro-200 Fatigue Testing Machine offers a high-performance solution with a maximum load capacity of 200 kN. Its versatility in cyclic testing, including adjustable frequency and amplitude, makes it ideal for evaluating material fatigue in automotive, aerospace, and structural engineering applications.",
-    image:"https://ucarecdn.com/4188117c-6edd-4971-8b43-5135befca028/-/preview/979x1000/"
+    name: "Fatigue Testing",
+    brief: "Fatigue tests measure reduction in material stiffness and strength under repeated loading.",
+    description: "The FIE Pro-200 Fatigue Testing Machine offers a high-performance solution with a maximum load capacity of 200 kN. Its versatility in cyclic testing, including adjustable frequency and amplitude, makes it ideal for evaluating material fatigue in automotive, aerospace, and structural engineering applications.",
+    image: "https://ucarecdn.com/4188117c-6edd-4971-8b43-5135befca028/-/preview/979x1000/"
   },
   {
-    name:"Impact Testing Machine (IT 30 AUTO)",
-    brief:"The Impact Testing Machine offers robust material toughness assessment with a 300 Joules capacity, suitable for testing metals, plastics, and composites across industries.",
-    description:"Resistance of a metal to impacts is evaluated in terms of impact strength. A metal may possess satisfactory ductility under static loads but may fail under dynamic loads or impact. The impact strength of a metal is determined by measuring the energy absorbed in the fracture",
-    image:"https://ucarecdn.com/5a16d0b4-d73c-46f0-ab94-0cb6ae7200b4/-/preview/1000x666/",
+    name: "Impact Testing Machine (IT 30 AUTO)",
+    brief: "The Impact Testing Machine offers robust material toughness assessment with a 300 Joules capacity.",
+    description: "Resistance of a metal to impacts is evaluated in terms of impact strength. A metal may possess satisfactory ductility under static loads but may fail under dynamic loads or impact. The impact strength of a metal is determined by measuring the energy absorbed in the fracture.",
+    image: "https://ucarecdn.com/5a16d0b4-d73c-46f0-ab94-0cb6ae7200b4/-/preview/1000x666/"
   },
   {
-    name:"Micro-Vickers Hardness",
-    brief:"It provides a comprehensive range of hardness testing machines for accurate and reliable results across various industries.",
-    description:"Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Vickers method is based on an optical measurement system. it specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value",
-    image:"https://ucarecdn.com/4a1209c2-8082-407d-8c4c-2f9f76725daa/-/preview/666x1000/"
+    name: "Micro-Vickers Hardness",
+    brief: "Provides comprehensive hardness testing machines for accurate and reliable results across industries.",
+    description: "Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Vickers method is based on an optical measurement system. It specifies a range of light loads to make an indentation which is measured and converted to a hardness value.",
+    image: "https://ucarecdn.com/4a1209c2-8082-407d-8c4c-2f9f76725daa/-/preview/666x1000/"
   },
   {
-    name:"Brinell Hardness",
-    brief:"It provides a comprehensive range of hardness testing machines for accurate and reliable results across various industries.",
-    description:"Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Brinell method applies a predetermined test load to a carbide ball of fixed diameter which is held for a predetermined time period and then removed. The resulting impression is measured with a specially designed Brinell microscope or optical system across at least two diameters. Brinell hardness is measured by 2.5, 5 or 10mm diameter indentor with measuring force ranges from 62.5kg to 3000kg.",
-    image:"https://ucarecdn.com/8a888da9-7d15-4cc8-978d-53671d6d0dd9/-/preview/666x1000/"
+    name: "Brinell Hardness",
+    brief: "Provides comprehensive hardness testing machines for accurate and reliable results across industries.",
+    description: "Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. It applies a predetermined test load to a carbide ball of fixed diameter. It is measured with a 2.5, 5, or 10mm diameter indenter with measuring force ranges from 62.5kg to 3000kg.",
+    image: "https://ucarecdn.com/8a888da9-7d15-4cc8-978d-53671d6d0dd9/-/preview/666x1000/"
   },
   {
-    name:"Rockwell Hardness",
-    brief:"Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation.",
-    description:"The Rockwell method measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter. After holding the preliminary test force for a specified dwell time, the baseline depth of indentation is measured. After the preload, an additional load, call the major load, is added to reach the total required test load. The Rockwell hardness value",
-    image:"https://ucarecdn.com/c0b09aab-7c40-4443-8162-7fa246eff319/-/preview/666x1000/"
+    name: "Rockwell Hardness",
+    brief: "Hardness Test is defined as the resistance to indentation, determined by measuring the permanent depth.",
+    description: "The Rockwell method measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter. Then the baseline depth of indentation is measured The Rockwell hardness value is then determined.",
+    image: "https://ucarecdn.com/c0b09aab-7c40-4443-8162-7fa246eff319/-/preview/666x1000/"
   },
   {
-    name:"Optical Emission Spectrometer (OES)",
-    brief:"Precision-engineered OES analyzer delivering rapid, reliable multi-element analysis for stringent quality standards in metal processing.",
-    description:"The SPECTROMAXxLMX10 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
-    image:"https://ucarecdn.com/934c0ff8-33a3-4ca3-8637-4fbad2c5ff1e/-/preview/1000x666/"
-    
+    name: "Optical Emission Spectrometer (OES)",
+    brief: "Precision-engineered OES analyzer delivering rapid, reliable multi-element analysis for quality standards.",
+    description: "The SPECTROMAXxLMX10 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
+    image: "https://ucarecdn.com/934c0ff8-33a3-4ca3-8637-4fbad2c5ff1e/-/preview/1000x666/"
   },
   {
-     name:"Digital Microscope (Smart zoom 5)",
-     brief:"Fully automated digital microscope offering high-quality, reproducible QA/QC measurements across industries with versatile magnification options and advanced imaging capabilities.",
-     description:"The digital microscope uses optics and a digital camera to output an image to a monitor, sometimes by means of software running on a computer.",
-     image:"https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
-    },
-    {
-      name:"Metallurgical Microscope (Stand Axio Observer 7)",
-      brief:"Advanced inverted microscope with ZEISS optics, motorized components, and dedicated software for precise metal analysis and material characterization.",
-      description:"The Axio Observer 7 by ZEISS is a fully motorized inverted microscope for metals, offering reliable results with five objective options (50X-1000X), advanced features like Extended Depth of Field (EDF), and dedicated software modules for precise analysis of metallic materials.",
-      image:"https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
-    },
-  {
-    name:"Salt Spray Testing Chamber (SST/HMI-480)",
-    brief:"Salt Spray Corrosion Testing Machine: 1000-liter capacity for precise corrosion resistance evaluation in automotive, aerospace, and marine industries.",
-    description:"A Salt Spray Testing Chamber is used to evaluate the corrosion resistance of materials and coatings by exposing them to a saline fog environment.",
-    image:"https://ucarecdn.com/69f6705f-5323-4865-aed3-f49ae19d92e9/-/preview/476x300/"
+    name: "Digital Microscope (Smart zoom 5)",
+    brief: "Fully automated digital microscope offering high-quality, reproducible QA/QC measurements.",
+    description: "The digital microscope uses optics and a digital camera to output an image to a monitor, sometimes by means of software running on a computer. It offers versatile magnification options and advanced imaging capabilities, making it ideal for various industries.",
+    image: "https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
   },
   {
-    name:"Sample Preparation Machine",
-    brief:"Metatech's sample prep equipment: Autopol Dual II for grinding & polishing, Automount Hot Mounting Press for uniform encapsulation, and Oscicut Sample Cutting for accurate sectioning, offering efficient solutions for metallography and material analysis in diverse industries.",
-    description:"Abrasive Cutting, Hot Mounting, Specimen Grinding & Polishing - These processes are essential for preparing samples for further analysis and testing.",
-    image:"https://ucarecdn.com/5744a99b-bb39-4e0e-89ce-500d8b740f5e/-/preview/1000x666/"
+    name: "Metallurgical Microscope (Stand Axio Observer 7)",
+    brief: "It is for precise metal analysis and material characterization.",
+    description: "The Axio Observer 7 by ZEISS is a fully motorized inverted microscope for metals, offering reliable results with five objective options (50X-1000X), advanced features like Extended Depth of Field (EDF), and dedicated software modules for precise analysis of metallic materials. It is ideal for detailed and accurate metal analysis and characterization.",
+    image: "https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
   },
   {
-    name:"Thermal Imager (KT -400)",
-    brief:"The Sonel KT400 Thermal Imager is a versatile tool with a temperature range from -20°C to 400°C, offering high-resolution thermal imaging for predictive maintenance and quality control across various industries.",
-    description:"It's perfect for detecting anomalies in electrical, mechanical, and building inspections, aiding in predictive maintenance and quality control.",
-    image:"https://ucarecdn.com/ec0fd5cb-376f-4b3d-8a32-fe25c104c2a7/-/preview/207x264/"
+    name: "Salt Spray Testing Chamber (SST/HMI-480)",
+    brief: "Salt Spray Corrosion Testing Machine: 1000-liter capacity for precise corrosion resistance evaluation.",
+    description: "A Salt Spray Testing Chamber is used to evaluate the corrosion resistance of materials and coatings by exposing them to a saline fog environment. It is crucial for assessing the durability and lifespan of materials in automotive, aerospace, and marine industries.",
+    image: "https://ucarecdn.com/69f6705f-5323-4865-aed3-f49ae19d92e9/-/preview/476x300/"
   },
+  {
+    name: "Sample Preparation Machine",
+    brief: "Metatech's sample prep equipment: Autopol Dual II, Automount Hot Mounting Press, and Oscicut Sample Cutting.",
+    description: "Abrasive Cutting, Hot Mounting, Specimen Grinding & Polishing - These processes are essential for preparing samples for further analysis and testing. Metatech's equipment ensures uniform encapsulation and accurate sectioning for efficient metallography and material analysis in diverse industries.",
+    image: "https://ucarecdn.com/5744a99b-bb39-4e0e-89ce-500d8b740f5e/-/preview/1000x666/"
+  },
+  {
+    name: "Thermal Imager (KT -400)",
+    brief: "The Sonel KT400 Thermal Imager offers high-resolution imaging for predictive maintenance and quality control.",
+    description: "The Sonel KT400 Thermal Imager is a versatile tool with a temperature range from -20°C to 400°C, offering high-resolution thermal imaging for predictive maintenance and quality control. It's perfect for detecting anomalies in electrical, mechanical, and building inspections.",
+    image: "https://ucarecdn.com/ec0fd5cb-376f-4b3d-8a32-fe25c104c2a7/-/preview/207x264/"
+  }
 ];
 
 const iiot= [
