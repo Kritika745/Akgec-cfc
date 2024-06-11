@@ -18,10 +18,10 @@ const advtoolroom = [
     image: "https://ucarecdn.com/42287580-35c6-460a-a72b-57141a2025db/-/preview/1000x666/"
   },
   {
-    name: "EDM Wirecut & Wire Drill",
+    name: "EDM Wirecut",
     brief: "Precise cutting of profiles on various metals and alloys with high accuracy.",
     description: "Wire EDM uses a thin, electrically charged wire with dielectric fluid to cut metal parts into various shapes. It produces precise cuts by melting or vaporizing the material. This method is ideal for complex profiles and high-precision applications in manufacturing.",
-    image: "https://ucarecdn.com/c7521c13-5cce-40be-8b47-fff0f1983e3a/-/preview/666x1000/"
+    image: "https://ucarecdn.com/484a66cb-a86c-4de6-8fe2-59ab540cd97c/-/preview/1000x666/"
   },
   {
     name: "CNC Laser Cutting",
@@ -81,7 +81,7 @@ const material = [
     name: "Fatigue Testing",
     brief: "Fatigue tests measure reduction in material stiffness and strength under repeated loading.",
     description: "The FIE Pro-200 Fatigue Testing Machine offers a high-performance solution with a maximum load capacity of 200 kN. Its versatility in cyclic testing, including adjustable frequency and amplitude, makes it ideal for evaluating material fatigue in automotive, aerospace, and structural engineering applications.",
-    image: "https://ucarecdn.com/4188117c-6edd-4971-8b43-5135befca028/-/preview/979x1000/"
+    image: "https://ucarecdn.com/38dd0fe0-429e-4186-ba25-6036d9290c72/-/preview/1000x666/"
   },
   {
     name: "Impact Testing Machine (IT 30 AUTO)",
@@ -111,7 +111,7 @@ const material = [
     name: "Optical Emission Spectrometer (OES)",
     brief: "Precision-engineered OES analyzer delivering rapid, reliable multi-element analysis for quality standards.",
     description: "The SPECTROMAXxLMX10 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
-    image: "https://ucarecdn.com/934c0ff8-33a3-4ca3-8637-4fbad2c5ff1e/-/preview/1000x666/"
+    image: "https://ucarecdn.com/c560c519-f264-4de6-93d3-3fec870cf819/-/preview/1000x666/"
   },
   {
     name: "Digital Microscope (Smart zoom 5)",
@@ -141,7 +141,7 @@ const material = [
     name: "Thermal Imager (KT -400)",
     brief: "The Sonel KT400 Thermal Imager offers high-resolution imaging for predictive maintenance and quality control.",
     description: "The Sonel KT400 Thermal Imager is a versatile tool with a temperature range from -20°C to 400°C, offering high-resolution thermal imaging for predictive maintenance and quality control. It's perfect for detecting anomalies in electrical, mechanical, and building inspections.",
-    image: "https://ucarecdn.com/ec0fd5cb-376f-4b3d-8a32-fe25c104c2a7/-/preview/207x264/"
+    image: "https://ucarecdn.com/f810ce0f-d1b9-4234-bb46-9a67d30d7c96/-/preview/1000x666/"
   }
 ];
 

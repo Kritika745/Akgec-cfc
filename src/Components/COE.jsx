@@ -21,7 +21,7 @@ const COE = () => {
                 </div>
             <div className='p-2'> 
                 <p className='text-gray-400'>Manufacturing</p>
-                <h2 className='font-semibold text-lg'>Adv. Tool Room</h2>
+                <h2 className='font-semibold text-lg'>Model Tool Room</h2>
             </div>
             </div>
             <div className='flex '>
@@ -37,7 +37,7 @@ const COE = () => {
                 </div>
             <div className='p-2'> 
                 <p className='text-gray-400'>Additive Manufacturing</p>
-                <h2 className='font-semibold text-lg'>R & D Lab</h2>
+                <h2 className='font-semibold text-lg'>Research & Development</h2>
             </div>
             </div>
             <div className='flex '>
