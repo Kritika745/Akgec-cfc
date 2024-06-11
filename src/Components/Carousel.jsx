@@ -28,7 +28,7 @@ const Carousel = () => {
           mousewheel: true,
         }}
         autoplay={{
-          delay: 30000,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         navigation={true}
