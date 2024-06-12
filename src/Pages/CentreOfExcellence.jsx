@@ -13,23 +13,23 @@ const CentreOfExcellence = () => {
       return {
         bgImage:
           "https://ucarecdn.com/ca9da199-d492-4bfb-91b1-9de92213e55e/-/preview/1000x666/",
-        title: "Advanced Tool Room",
-        desc: "Description for Advanced Tool Room",
-        desc2: "Description for Advanced Tool Room",
+        title: "Model Tool Room",
+        desc: "Description for Model Tool Room",
+        desc2: "Description for Model Tool Room",
         description:"The Tool Room is equipped with state-of-the-art machinery, offers a comprehensive environment for training, research, and consultancy. CNC 5-Axis Milling Centre, CNC Turn Mill, CNC Horizontal and Vertical Milling Centres are installed to ensure precise and complex machining. CNC Laser Cutting Machine & CNC Abrasive Water Jet Cutting Machines are available to provide advanced solutions for cutting of various materials with high accuracy and Wire-Cut EDM is installed to intricate part production. The facility is geared towards providing expert consultancy services, helping industries to solve complex manufacturing problems and optimize production processes"  ,
         data: advtoolroom,
       };
     } else if (id === 'R&DLab') {
       return {
-        bgImage: 'https://ucarecdn.com/d8f92026-8187-41ef-b606-4f115994c675/-/preview/1000x666/',
-        title: 'R&D Lab',
-        desc: 'Description for R&D Lab',
-        desc2: 'Description for R&D Lab',
+        bgImage: 'https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/',
+        title: 'Research & Development',
+        desc: 'Description for Research & Development Lab',
+        desc2: 'Description for Research & Development Lab',
         data:rnd
       };
     } else if (id === 'Material') {
       return {
-        bgImage: 'https://ucarecdn.com/96824a7e-4f71-404b-acf9-6c46d7243eb1/-/preview/1000x666/',
+        bgImage: 'https://ucarecdn.com/d8f92026-8187-41ef-b606-4f115994c675/-/preview/1000x666/',
         title: 'Material',
         desc: 'Description for Material',
         desc2: 'Description for Material',

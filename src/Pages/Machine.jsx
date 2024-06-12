@@ -29,17 +29,17 @@ const Machine = () => {
     <div className='w-full pt-16 sm:pt-20 bg-gray-900 text-white pb-16'>
       <div className='flex sm:flex-row flex-col'>
 
-        <div className='sm:w-[50%] w-full'>
+        <div className='sm:w-[70%] w-full'>
              <img src={machine.image1} alt="" />
         </div>
-        <div className='sm:w-[70%] w-full px-6 sm:px-10 md:px-20 lg:px-28 flex flex-col items-start justify-center '>
+        <div className='sm:w-[70%] w-full px-6 sm:px-10 md:px-20 lg:px-6 lg:pr-9 flex flex-col items-start justify-center '>
             <div className='flex flex-col w-full justify-center items-center '>
             <h1 className='text-xl mt-4 md:text-3xl lg:text-4xl font-bold mb-2'>{machine.title}</h1>
             <hr className="w-[40%] border-t-[3px] border-yellow-300 mb-10" />
             </div>
             {Object.entries(machine.description1).map(([key, value], index) => (
                     <div key={index}>
-                    <p>
+                    <p className='text-justify'>
                       <strong style={{ color: '#fff5a6' }}>{key}:</strong> {value}
                     </p>
                     <br />

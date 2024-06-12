@@ -119,29 +119,26 @@ const RDlab = () => {
           <h1 className=" text-3xl font-bold tracking-tight mt-3 text-black md:text-4xl lg:text-5xl underline">
                   {item["Post-processing"].title}
             </h1>
-          <div className="mx-auto grid w-full max-w-7xl items-center space-y-4 px-2 py-10 md:grid-cols-2 md:space-y-0 lg:grid-cols-3">
-            {rndlab1.map((i) => (
+          <div className=" w-full max-w-7xl items-center space-y-4 px-2 py-10 md:grid-cols-2 md:space-y-0 lg:grid-cols-3">
               <div
-                key={i}
-                className="relative aspect-[16/9] flex gap-6 w-auto rounded-md md:aspect-auto md:h-[400px]"
+                className="  flex items-center justify-center sm:flex-row gap-6 w-auto rounded-md md:aspect-auto md:h-[400px]"
               >
                 <img
-                  src={i["Post-processing"].image}
+                  src={"https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/"}
+                  alt="AirMax Pro"
+                  className="z-0 h-full w-[80%] rounded-md object"
+                />
+                <img
+                  src={"https://ucarecdn.com/816778f0-d691-45c3-8a9c-0384b0ee8e30/-/preview/666x1000/"}
                   alt="AirMax Pro"
                   className="z-0 h-full w-full rounded-md object"
                 />
                 <img
-                  src={i["Post-processing"].image}
-                  alt="AirMax Pro"
-                  className="z-0 h-full w-full rounded-md object"
-                />
-                <img
-                  src={i["Post-processing"].image}
+                  src={"https://ucarecdn.com/c14b8a3b-dc0f-4703-92e4-f5db012d7ba7/-/preview/666x1000/"}
                   alt="AirMax Pro"
                   className="z-0 h-full w-full rounded-md object"
                 />
               </div>
-            ))}
           </div>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto w-full text-center">

@@ -2,7 +2,7 @@ export const materialtesting = [
   {
     id:1 ,
     title: "Universal Testing Machine",
-    image1: "https://ucarecdn.com/95f04a79-ae04-4912-a8f0-b21467b04b87/-/preview/1000x772/",
+    image1: "https://ucarecdn.com/2a0067e8-7116-4def-9981-decc31d34231/60%201.png",
     image2: "",
     image:"https://ucarecdn.com/648ebbc0-629a-4549-b581-c0a54a9857f0/-/preview/306x400/",
     description1:{
@@ -168,7 +168,7 @@ export const materialtesting = [
   {
     id:7,
     title: "Optical Emission Spectrometer (OES)",
-    image1: "https://ucarecdn.com/39b3402c-9009-4ae2-8e16-a35bf4094da3/Untitleddesign161.png",
+    image1: "https://ucarecdn.com/5283a899-c554-4355-9024-268bcc12ed6b/-/preview/1000x772/",
     image2: "https://ucarecdn.com/7ba8efc1-b8de-4339-92fe-8e18e80f272d/Untitleddesign141.png",
     image:"https://ucarecdn.com/934c0ff8-33a3-4ca3-8637-4fbad2c5ff1e/-/preview/1000x666/",
     description1:
@@ -363,10 +363,10 @@ export const advancetoolroom = [
   },
   {
       id: 4,
-      title: "CNC EDM Wirecut & Wire drill",
-      image1: "https://ucarecdn.com/2d3b0785-4210-438f-b362-c8f0c76273b7/-/quality/best/",
+      title: "CNC EDM Wirecut",
+      image1: "https://ucarecdn.com/7aa6b67b-61a8-4d2d-8b39-b382f02b16b3/-/preview/1000x772/",
       image2: "https://ucarecdn.com/8d8798d6-baae-4a42-a7d8-f9608c4d5c54/-/preview/905x1000/",
-      image: 'https://ucarecdn.com/c7521c13-5cce-40be-8b47-fff0f1983e3a/-/preview/666x1000/',
+      image: 'https://ucarecdn.com/484a66cb-a86c-4de6-8fe2-59ab540cd97c/-/preview/1000x666/',
       description1:
           {"The Wire-Cut EDM eMerge S64 ":" It is a cutting-edge precision machining solution, designed for unmatched accuracy and exceptional surface finishes. Key parameters include a workpiece capacity of 800 x 600 x 300 mm, maximum cutting speed of 300 mm²/min, wire diameter range of 0.1 to 0.3 mm, and positioning accuracy of ± 0.002 mm. With capabilities such as high precision cutting, excellent repeatability, and fine surface finishing, the eMerge S64 is perfect for complex geometries and detailed work. It is ideal for applications in aerospace, medical devices, tool and die making, electronic parts, and prototype development, ensuring efficient and reliable performance.",
             "Service Provided ":" Cutting of any type of profile on any metal and alloys. Manufacturing of Die, Fixtures, and gauges, Cutting tools with high precision."
