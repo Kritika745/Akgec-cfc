@@ -5,15 +5,15 @@ import { ChevronRight } from 'lucide-react';
 const COE = () => {
   return (
     <>
-    <div className='w-full items-center justify-center flex flex-col mt-4'>
+    <div className='w-full items-center justify-center flex flex-col pt-16'>
     <div className=' w-full items-center justify-center flex mb-2'>
-        <h1 className=' md:text-3xl text-2xl font-bold text-[#203c70]'>Facilities</h1>
+        <h1 className=' md:text-3xl text-2xl font-bold text-[#203c70]'>FACILITIES</h1>
         
      </div>
-     <hr className='border-t-[3px] border-[#FBDD07] w-[10%] mb-12' />
+     <hr className='border-t-[3px] border-[#FBDD07] sm:w-[10%] w-[15%] mb-16' />
      </div>
 
-      <div className='flex w-full justify-center items-center gap-24 flex-wrap mb-16'>
+      <div className='flex w-full md:justify-center justify-start flex-wrap mb-16 gap-0 md:gap-24'>
         <div className='flex flex-col'>
             <div className='flex mb-4'>
             <div className='bg-[#FBDD07] w-16 h-16 flex items-center text-white text-3xl font-semibold justify-center rounded-lg'>
@@ -24,7 +24,7 @@ const COE = () => {
                 <h2 className='font-semibold text-lg'>Model Tool Room</h2>
             </div>
             </div>
-            <div className='flex '>
+            <div className='flex pl-4'>
             <ChevronRight />
             <Link to='/centre/AdvToolRoom'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
             </div>
@@ -40,7 +40,7 @@ const COE = () => {
                 <h2 className='font-semibold text-lg'>Research & Development</h2>
             </div>
             </div>
-            <div className='flex '>
+            <div className='flex pl-4'>
             <ChevronRight />
             <Link to='/centre/R&DLab'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
             </div>
@@ -56,7 +56,7 @@ const COE = () => {
                 <h2 className='font-semibold text-lg'>Material Testing Lab</h2>
             </div>
             </div>
-            <div className='flex '>
+            <div className='flex pl-4'>
             <ChevronRight />
             <Link to='/centre/Material'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
             </div>
@@ -69,10 +69,10 @@ const COE = () => {
                 </div>
             <div className='p-2'> 
                 <p className='text-gray-400'>Industry 4.0</p>
-                <h2 className='font-semibold text-lg'>Industrial IOT</h2>
+                <h2 className='font-semibold text-lg'>IIOT</h2>
             </div>
             </div>
-            <div className='flex '>
+            <div className='flex pl-4 '>
             <ChevronRight />
             <Link to='/centre/iiot'><p className={`text-black md:text-lg font-semibold`}>Read More</p></Link>           
             </div>
