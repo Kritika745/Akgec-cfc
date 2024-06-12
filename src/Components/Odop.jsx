@@ -3,27 +3,27 @@ import odop from '../assets/image.png';
 
 const Odop = () => {
   return (
-    <div className= 'pt-10 '>
+    <div className= 'pt-16 '>
 
-      <div className='flex gap-2 w-full justify-center '>
-      <h1 className='md:text-3xl text-2xl  text-center font-bold text-[#99435A] '>ONE</h1>
-      <h1 className='md:text-3xl text-2xl  text-center font-bold text-[#029043] '>DISTRICT</h1>
-      <h1 className='md:text-3xl text-2xl  text-center font-bold text-[#2F80C2] '>ONE</h1>
-      <h1 className='md:text-3xl text-2xl  text-center font-bold text-[#E65290] '>PRODUCT</h1>
+      <div className='flex gap-1 sm:gap-2 w-full justify-center px-2 '>
+      <h1 className='md:text-3xl sm:text-2xl text-xl  text-center font-bold text-[#99435A] '>ONE</h1>
+      <h1 className='md:text-3xl sm:text-2xl text-xl  text-center font-bold text-[#029043] '>DISTRICT</h1>
+      <h1 className='md:text-3xl sm:text-2xl text-xl  text-center font-bold text-[#2F80C2] '>ONE</h1>
+      <h1 className='md:text-3xl sm:text-2xl text-xl  text-center font-bold text-[#E65290] '>PRODUCT</h1>
       </div>
       
       <div className='flex w-full items-center justify-center mb-10'>
         <hr className='w-[8%] border-t-2 border-gray-400' />
-        <p className='px-4'>UTTAR PRADESH</p>
+        <p className='sm:px-4 px-2 '>UTTAR PRADESH</p>
         <hr className='w-[8%] border-t-2 border-gray-400' />
       </div>
 
      
     <div className="">
-      <div className="sm:hidden block flex items-center justify-center mr-4 m-6">
-        <img src={odop} alt="ODOP" className="md:h-36 md:w-full lg:w-[60%] xl:h-42 w-[70%] rounded-md " />
+      <div className="sm:hidden flex items-center justify-center m-6">
+        <img src={odop} alt="ODOP" className=" w-[70%] rounded-md " />
       </div> 
-      <div className=" sm:bg-[url('https://ucarecdn.com/906c271b-ca8f-4dd0-878a-358ca00b4de0/-/preview/608x244/')] bg-no-repeat bg-center  md:text-lg text-base leading-relaxed px-10 sm:px-16 md:px-24 text-justify">
+      <div className=" sm:bg-[url('https://ucarecdn.com/906c271b-ca8f-4dd0-878a-358ca00b4de0/-/preview/608x244/')] bg-no-repeat bg-center  md:text-lg text-base leading-relaxed px-8 sm:px-16 md:px-24 text-justify">
         <p className="mb-2 ">
           One District One Product (ODOP) scheme is an initiative of Government of Uttar Pradesh to encourage & promote MSMEs related to the indigenous and specialized product
            with distinct identity from a district which have potential of generating more employment and development.

@@ -2,12 +2,12 @@ import React from 'react'
 
 const Services = () => {
   return (
-   <div className='w-full mb-16 lg:px-16'>
+   <div className='w-full pt-16 lg:px-16'>
     <div className='w-full flex justify-center items-center flex-col'>
          <div className=' w-full items-center justify-center flex mb-2'>
         <h1 className=' md:text-3xl text-2xl font-bold text-[#203c70]'>SERVICES</h1>
         </div>
-        <hr className='border-t-[3px] border-[#FBDD07] w-[10%] mb-12' />
+        <hr className='border-t-[3px] border-[#FBDD07] sm:w-[10%] w-[15%] mb-12'/>
     </div>
       
       

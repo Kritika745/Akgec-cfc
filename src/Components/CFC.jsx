@@ -3,32 +3,32 @@ import React from 'react'
 const CFC = () => {
   return (
     
-    <div className=''>
-    <div className="py-16 ">
-      <div className="flex gap-2 w-full justify-center mb-2 ">
-        <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#2F80C2] ">
+    <div className='mt-16'>
+    <div className="">
+      <div className="flex gap-2 w-full justify-center mb-2 px-2 flex-wrap ">
+        <h1 className="md:text-3xl sm:text-2xl text-xl  text-center font-bold text-[#2F80C2] ">
           COMMON
         </h1>
-        <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#FBDD07] ">
+        <h1 className="md:text-3xl sm:text-2xl text-xl  text-center font-bold text-[#FBDD07] ">
           FACILITY
         </h1>
-        <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#28277d] ">
+        <h1 className="md:text-3xl sm:text-2xl text-xl  text-center font-bold text-[#28277d] ">
           CENTRE
         </h1>
-        <h1 className="md:text-3xl text-2xl  text-center font-bold text-[#2F80C2] ">
-          -AFIPD
+        <h1 className="md:text-3xl sm:text-2xl text-xl  text-center font-bold text-[#2F80C2] ">
+          - AFIPD
         </h1>
       </div>
 
       <div className="flex w-full items-center justify-center mb-8">
-        <hr className="w-[20%] border-t-[3px] border-yellow-300" />
+        <hr className="md:w-[20%] w-[30%] border-t-[3px] border-yellow-300" />
       </div>
 
       <div className="">
         <div style={{
           backgroundPosition: 'center',
         }}
-        className='bg-[url("https://ucarecdn.com/1e2353b3-22af-4e91-9086-a6b5c238bd40/-/preview/1000x797/")] bg-no-repeat bg-contain   md:text-lg text-base leading-relaxed px-10 sm:px-16 md:px-24 text-justify'>
+        className='bg-[url("https://ucarecdn.com/1e2353b3-22af-4e91-9086-a6b5c238bd40/-/preview/1000x797/")] bg-no-repeat bg-contain   md:text-lg text-base leading-relaxed px-8 sm:px-16 md:px-24 text-justify'>
           <p className="mb-2   ">
             Common Facility Centre (CFC) is established under “One District One
             Product (ODOP) CFC Scheme” of Government of Uttar Pradesh. One of
@@ -47,7 +47,7 @@ const CFC = () => {
             motivate the existing industries and new entrants to come forward
             and upgrade their technological skills.
           </p>
-          <p className="mb-4">
+          <p className="">
           AKG Foundation for Innovation and Product Development”, (AFIPD)
                 a consortium of 22 stakeholders from the General Engineering
                 Industries, has been incorporated as a Company Limited by Shares
