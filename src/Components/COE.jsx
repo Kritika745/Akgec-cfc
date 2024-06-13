@@ -13,8 +13,8 @@ const COE = () => {
      <hr className='border-t-[3px] border-[#FBDD07] sm:w-[10%] w-[15%] mb-16' />
      </div>
 
-      <div className='flex w-full md:justify-center justify-start flex-wrap mb-16 gap-0 md:gap-24'>
-        <div className='flex flex-col'>
+      <div className='flex w-full justify-center items-center flex-wrap mb-16 gap-10 md:gap-24 px-8 md:px-16'>
+        <div className='flex flex-col w-80 lg:w-auto'>
             <div className='flex mb-4'>
             <div className='bg-[#FBDD07] w-16 h-16 flex items-center text-white text-3xl font-semibold justify-center rounded-lg'>
                 1.
@@ -30,7 +30,7 @@ const COE = () => {
             </div>
          </div>
 
-         <div className='flex flex-col'>
+         <div className='flex flex-col w-80 lg:w-auto'>
             <div className='flex mb-4'>
             <div className='bg-[#FBDD07] w-16 h-16 flex items-center text-white text-3xl font-semibold justify-center rounded-lg'>
                 2.
@@ -46,7 +46,7 @@ const COE = () => {
             </div>
          </div>
 
-         <div className='flex flex-col'>
+         <div className='flex flex-col w-80 lg:w-auto'>
             <div className='flex mb-4'>
             <div className='bg-[#FBDD07] w-16 h-16 flex items-center text-white text-3xl font-semibold justify-center rounded-lg'>
                 3.
@@ -62,7 +62,7 @@ const COE = () => {
             </div>
          </div>
 
-         <div className='flex flex-col'>
+         <div className='flex flex-col w-80 lg4:w-auto'>
             <div className='flex mb-4'>
             <div className='bg-[#FBDD07] w-16 h-16 flex items-center text-white text-3xl font-semibold justify-center rounded-lg'>
                 4.
