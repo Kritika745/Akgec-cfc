@@ -55,6 +55,21 @@ const CFC = () => {
                 District One Product (ODOP) CFC Scheme” of Government of Uttar
                 Pradesh
           </p>
+          <p className="font-semibold mb-2">The major objectives of CFC are:</p>
+        <ul className="list-disc pl-5 space-y-1">
+          <li>To build up technical competency of cluster units, to make them competitive at global
+          market for price and quality.</li>
+          <li>To enhance productivity and improve product quality of cluster units for sustainable
+          growth and profit</li>
+          <li>To provide vital inputs and support to cluster units in design, prototype development
+          advance manufacturing, testing and skill development.</li>
+          <li>To meet emerging market demands of defense, railways and construction industries in
+          view of Make in India initiative and government focus on major imports substitution.</li>
+          <li>To provide Research and Development (R&D) facilities for exploring new and efficient
+          solutions to MSMEs.</li>
+          <li>To establish CFC as a starting point for technological breakthroughs in new products
+          and applications.</li>
+        </ul>
         </div>
       </div>
     </div>

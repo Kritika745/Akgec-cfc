@@ -18,32 +18,15 @@ export const materialtesting = [
     description2:
       "",
     specifications: {
-      "Ultimate Tensile Strength":
-        "Maximum stress a material can withstand without breaking.",
-      "Yield Stress":
-        "Represents the upper limit to forces that can be applied without producing permanent deformation.",
-      "Elongation %": "Numerical measure of the ductility of the material.",
-      "Reduction of Area":
-        "Measure of ductility obtained from the tensile test.",
-      "Bend Strength Test": "Ability to resist deformation under load.",
-      "Flattening Test":
-        "Determines if the tube will fracture upon flattening.",
-      "Flaring Test": "Measures expansion of the inside and outside diameter.",
-      "Compression Test":
-        "Behavior of materials when subjected to compressive loads.",
-      "Shear Test":
-        "Applies stress to experience a sliding failure along a plane parallel to the forces applied.",
       Model: "UTES-HGFL-TS",
       Make: "FIE (Fuel Instruments & Engineers Pvt. Ltd.)",
-      Vendor: "CANAN testing services",
       Loading: "Servo Controlled, Hydraulic Grip, Front Loading",
       "Maximum capacity": "1000 kN",
-      "Measuring range": "0-1000 kN",
+      "Measuring range": "20KN-1000 kN",
       "Load resolution": "25 N",
       Power: "5 HP",
       "RAM stroke": "250mm",
       "Piston speed/straining": "0-80 mm per min.",
-      "Test perform": "Tensile, Compression",
     },
   },
   {
@@ -53,7 +36,7 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/fbba54cc-d649-4b8e-83d9-d912d476da65/-/preview/1000x772/",
     image:"https://ucarecdn.com/4188117c-6edd-4971-8b43-5135befca028/-/preview/979x1000/",
     description1:{
-      "The FIE Pro-200 Fatigue Testing Machine ": "It is a high-performance solution designed for durability testing with a maximum load capacity of 200 kN. It offers versatility in cyclic testing, with adjustable frequency and amplitude, making it suitable for evaluating material fatigue in automotive, aerospace, and structural engineering applications."},
+      "The FIE Pro-200 Fatigue Testing Machine ": "This is a high-performance solution designed fortesting the materials in repeated loading condition making it suitable for evaluating thematerials fatigue life for various structural applications. In this machine test materialspecimen of diameter 8 mm is held at the two ends with the help of collets, then load isapplied at center for uniform bending moment and rotate it with 4200 RPM by motor.During each revolution reverse stresses in all fibers of specimen is produced. Bendingmoment is applied with lever mechanism system so various weight can be easilyreplaced. After completing the test process whatever number of revolutions taken byspecimen up to its break point is displayed on the digital counter."},
     description2: "",
     specifications: {
       Model: "Fatigue Pro-200",
@@ -78,20 +61,18 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/2f33efc0-383e-491f-8ed0-281671bb6a05/-/preview/1000x772/",
     image:"https://ucarecdn.com/5a16d0b4-d73c-46f0-ab94-0cb6ae7200b4/-/preview/1000x666/",
     description1:
-      {"The FIE Auto Impact 30 Impact Testing Machine " : "It is a robust solution for assessing material toughness with a capacity of 300 Joules. Its key parameters include a pendulum capacity of 300 Joules and a test height of 0-500 mm, making it suitable for testing metals, plastics, and composites in various industries. The impact strength of a metal is determined by measuring the energy absorbed in the fracture."},
+      {"The FIE Auto Impact 30 Impact Testing Machine " : "is a robust solution for assessing materialtoughness with a capacity of 300 Joules, making it suitable for testing metals, plastics,and composites in various industries. The impact strength of a metal is determined bymeasuring the energy absorbed in the fracture.."},
     description2:
       "",
     specifications: {
       Model: "IT 30 AUTO",
       Make: "FIE (Fuel Instruments & Engineers Pvt. Ltd.)",
-      Vendor: "CANAN testing services",
       "Maximum capacity": "300 J/ 168J",
       "Maximum scale graduation": "0.5J",
       "Overall size (Approx.)": "1.1m×0.45m×1.65m (H)",
       "Net weight (Approx.)": "450 kg",
-      "Standard Accessories":
-        "Izod striker, Charpy striker, Anvil, Self Centering Tong, Centering Gauge, Spanner Set, Instruction Manual",
-    },
+      "Test":"Charpy, Izod",
+     },
   },
   {
     id:4,
@@ -129,7 +110,6 @@ export const materialtesting = [
     specifications: {
       Model: "B 3000-TSFA",
       Make: "FIE (Fuel Instruments & Engineers Pvt. Ltd.)",
-      Vendor: "CANAN testing services",
       "Test Load": "250-3000 kgf",
       Magnification: "4X",
       "Measuring range": "1-6mm",
@@ -152,7 +132,6 @@ export const materialtesting = [
     specifications: {
       Model: "RASN-TSFA",
       Make: "FIE (Fuel Instruments & Engineers Pvt. Ltd.)",
-      Vendor: "CANAN testing services",
       "Major load": "588.4, 980.7, 1471 N (60, 100, 150 kgf)",
       "Minor load": "98.7 kgf",
       "Max. test height": "230 mm",
@@ -168,13 +147,12 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/7ba8efc1-b8de-4339-92fe-8e18e80f272d/Untitleddesign141.png",
     image:"https://ucarecdn.com/934c0ff8-33a3-4ca3-8637-4fbad2c5ff1e/-/preview/1000x666/",
     description1:
-      {"SPECTROMAXxLMX10 ":" It is capable of accurate elemental analysis of metals including Iron & Steel, Aluminium, Copper and Nickel based alloys. Featuring advanced optics, robust construction, wide spectral range, high-resolution detectors, and user-friendly software, it ensures accurate and reliable results. Ideal for quality control in foundries and metal processing, it offers rapid, precise multi-element analysis, making it essential for stringent quality standards. Its outstanding repeatability, reproducibility, and reliability makes it one of the best optical emission spectrometry (OES) analyzer."},
+      {"SPECTROMAXxLMXA110 ":" It is capable of accurate elemental analysis of metals including Iron & Steel, Aluminium, Copper and Nickel based alloys. Featuring advanced optics, robust construction, wide spectral range, high-resolution detectors, and user-friendly software, it ensures accurate and reliable results. Ideal for quality control in foundries and metal processing, it offers rapid, precise multi-element analysis, making it essential for stringent quality standards. Its outstanding repeatability, reproducibility, and reliability makes it one of the best optical emission spectrometry (OES) analyzer."},
     description2:
       "",
     specifications: {
-      Model: "SPECTROMAXx LMX10",
+      Model: "SPECTROMAXxLMA110",
       Make: "SPECTRO Analytical Instruments GmbH",
-      Vendor: "AMETEK Instruments India Pvt. Ltd.",
       "Materials to be investigated":
         "Iron, Steels, Aluminium Alloys, Copper Alloys, Nickel Alloys",
       Accessories: "Spark Stand, PC, UPS, Polisher, Micro Lathe",
@@ -191,17 +169,12 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/7e632ec6-d37b-430d-8e5a-a18b00bbe09b/",
     image:"https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/",
     description1:
-      {"ZEISS Smartzoom 5 ": "It is a smart digital microscope - ideal for quality control and quality assurance applications in virtually every field of industry. It is having choices of varying magnification ranging from 34X-335X. It is fully automated and equipped with dedicated quality assurance (QA) and quality control (QC) components in electronics, materials science, and automotive industries. Smartzoom 5 provides fast, reproducible, high quality and reliable QA/QC measurements for routine as well as failure analyses. It also supports advanced types of microscopic images with extended depth of field (EDF), stitching and 3D imaging."},
+      {"ZEISS Smartzoom 5 ": "It is a smart digital microscope - ideal for quality control and quality assurance applications in virtually every field of industry. It is having choices of varying magnification ranging from 34X-335X. It is fully automated and equipped with dedicated quality assurance (QA) and quality control (QC) components ideal for electronics, defence, and automotive industries etc. Smartzoom 5 provides fast, reproducible, high quality and reliable QA/QC measurements for routine as well as failure analyses. It also supports advanced types of microscopic images with extended depth of field (EDF), stitching and 3D imaging."},
     description2: "",
     specifications: {
-      Model: "LV150N",
-      Make: "Nikon Corporation",
-      Vendor: "Nikon Corporation",
-      Magnification: "5X, 10X, 20X, 50X, 100X",
-      "Observation Method":
-        "Bright Field, Dark Field, Cross Polarizer, Differential Interference Contrast (DIC)",
-      Eyepiece: "10X",
-      "Image capture": "By using NIKON image analysis software NIS-Element (D)",
+      Model: "Smartzoom 5",
+      Make: "Carl Zeiss",
+      Magnification: "34-335X",
     },
   },
   {
@@ -214,14 +187,9 @@ export const materialtesting = [
       {"Axio Observer 7 ":" It combines the proven quality of ZEISS optics with automated components to give reliable and reproducible results. It is a fully motorized inverted microscope for metals and alloys. It is having choice of five different objectives of varying magnifications ranging from 50X-1000X. Extended depth of field (EDF) and Stitching features makes it an advanced microscope.  Dedicated software modules helps in analysing non-metallic inclusions, grain sizes, phases and coating thickness in metallic materials. "},
     description2: "",
     specifications: {
-      Model: "LV150N",
-      Make: "Nikon Corporation",
-      Vendor: "Nikon Corporation",
-      Magnification: "5X, 10X, 20X, 50X, 100X",
-      "Observation Method":
-        "Bright Field, Dark Field, Cross Polarizer, Differential Interference Contrast (DIC)",
-      Eyepiece: "10X",
-      "Image capture": "By using NIKON image analysis software NIS-Element (D)",
+      Model: "Aio Observer 7",
+      Make: "Carl Zeiss",
+      Magnification: "50X, 100X, 200X, 500X, 1000X",
     },
   },
   {
@@ -236,7 +204,6 @@ export const materialtesting = [
     specifications: {
       Model: "CCT-1",
       Make: "Presto",
-      Vendor: "Presto Stantest",
       "Internal Dimensions": "600 x 450 x 400 mm",
       "Temperature Range": "Ambient to 50°C",
       "Humidity Range": "Ambient to 98% RH",
@@ -271,18 +238,17 @@ export const materialtesting = [
     image2: "",
     image:"https://ucarecdn.com/ec0fd5cb-376f-4b3d-8a32-fe25c104c2a7/-/preview/207x264/",
     description1:
-      {"Thermal Imaging Camera ":" "},
+      {"Thermal Imaging Camera ":" KT-400 thermal imager is equipped with a modern sensor with a resolution of 384x288pixels. A wide temperature measurement range and high-quality lenses guarantee ahigh level of detail in the recorded images. A large display combined with innovativedata processing electronics is placed in a compact housing, thus ensuring a perfectbalance between high performance and small dimensions. Moreover, due to thecentrally located navigation button supported by a menu on the touchscreen, thismodel ensures simple and intuitive operation. Camera is additionally equipped withvisual lenses and related image mixing technologies: PIP, MIF. Support from the built-inLED torch and laser improves operational quality by facilitating photography and thenimage interpretation."},
     description2: "",
     specifications: {
-      Model: "TiX1000",
-      Make: "Fluke",
-      Vendor: "Fluke Corporation",
-      Resolution: "1024 x 768",
-      "Thermal sensitivity": "< 0.03°C at 30°C (30 mK)",
-      "Temperature range": "-40°C to 1200°C",
-      "Field of view": "32° x 24°",
-      "Focus system": "LaserSharp Auto Focus",
-      Display: "5.6 inch LCD",
+      Model: "KT-400",
+      "Detector Resolution": "384 x 288 pixels",
+      "Spectral range": "8-14 µm",
+      "Pixel size": "25 µm",
+      "Thermal sensitivity": "45mK",
+      "Focusing": "Manual",
+      "Mini.Focus distance": "0.5m",
+      "Temperature range": "-20°C to 650°C",
     },
   },
 ];
