@@ -122,11 +122,11 @@ const Footer2= ()=> {
           </h1>
           <img
             className="w-[3vw] h-[6vh] pb-2"
-            src="https://itbt-website.vercel.app/Images/Screenshot_2023-11-29_202207-removebg-preview.png"
+            src="http://res.cloudinary.com/dhy42cidp/image/upload/v1718277376/wtnp8vmrhdtufqqcentp.png"
             alt=""
           />
           <h1 className="uppercase text-lg font-sans font-semibold">
-            Big data center of excellence
+            Big data centre of excellence
           </h1>
         </div>
       </section>
