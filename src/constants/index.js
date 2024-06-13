@@ -3,7 +3,7 @@ const advtoolroom = [
     name: "CNC HMC",
     brief: "Machining of engine blocks, cylinders, and housings with precision and efficiency.",
     description: "HMC (Horizontal Machining Center) with a horizontal spindle, automatic indexing rotary, and 3 to 5 motion coordinates. It features three linear motion coordinates plus one rotary motion coordinate, ensuring precise and efficient machining operations.",
-    image: "https://ucarecdn.com/96824a7e-4f71-404b-acf9-6c46d7243eb1/-/preview/1000x666/"
+    image: "https://ucarecdn.com/80653ba2-2ff6-4519-9aa4-3e0c90f27fda/-/preview/1000x666/"
   },
   {
     name: "CNC VMC",
@@ -39,7 +39,7 @@ const advtoolroom = [
     name: "Double Column Band Saw",
     brief: "Cutting solid rods and hollow pipes in various shapes with precision.",
     description: "Specialized for cutting materials like Inconel, Hastelloy, Titanium, Stainless Steel, and mild steel. Ensures precision for materials with high solidity and hardness. It is designed to handle tough and durable materials efficiently, meeting various industry requirements.",
-    image: "https://ucarecdn.com/2f6f908d-89f3-465b-bc8d-35e5d99babf2/-/preview/1000x666/"
+    image: "https://ucarecdn.com/b76187be-0f0e-4737-b0c4-0a46c11cd1a8/-/crop/5184x2495/0,0/-/preview/3000x3000/"
   },
   {
     name: "CNC Hydraulic Press Brake",
@@ -75,7 +75,7 @@ const material = [
     name: "Universal Testing Machine (UTES HGFL TS)",
     brief: "The FIE UTES HGFL TS Universal Testing Machine offers a robust 1000 kN capacity for material testing.",
     description: "The FIE UTM UTES HGFL TS: a robust 1000 kN Universal Testing Machine with digital extensometers for precise measurements. Ideal for tensile, compression, and flexural testing in construction, manufacturing, and research, delivering reliable results for material characterization.",
-    image: "https://ucarecdn.com/648ebbc0-629a-4549-b581-c0a54a9857f0/-/preview/306x400/"
+    image: "https://ucarecdn.com/21720c1c-615d-4bf0-83d1-7f26a113faad/-/crop/5184x2411/0,0/-/preview/3000x3000/"
   },
   {
     name: "Fatigue Testing",
@@ -93,43 +93,43 @@ const material = [
     name: "Micro-Vickers Hardness",
     brief: "Standard test method for micro dentation harness (10gf to 1000gf) of all the metals and care depth hardness.",
     description: "Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Vickers method is based on an optical measurement system. It specifies a range of light loads to make an indentation which is measured and converted to a hardness value.",
-    image: "https://ucarecdn.com/4a1209c2-8082-407d-8c4c-2f9f76725daa/-/preview/666x1000/"
+    image: "https://ucarecdn.com/725407b0-f661-4529-9b5e-797432131f2c/-/crop/1988x974/0,0/-/preview/3000x3000/"
   },
   {
     name: "Brinell Hardness",
     brief: "Provides comprehensive hardness testing machines for accurate and reliable results across industries.",
     description: "Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. It applies a predetermined test load to a carbide ball of fixed diameter. It is measured with a 2.5, 5, or 10mm diameter indenter with measuring force ranges from 62.5kg to 3000kg.",
-    image: "https://ucarecdn.com/8a888da9-7d15-4cc8-978d-53671d6d0dd9/-/preview/666x1000/"
+    image: "https://ucarecdn.com/b696a1c9-6fb3-48b9-9d52-24c4924ea986/-/crop/3300x1826/0,0/-/preview/3000x3000/"
   },
   {
     name: "Rockwell Hardness",
     brief: "Hardness Test is defined as the resistance to indentation, determined by measuring the permanent depth.",
     description: "The Rockwell method measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter. Then the baseline depth of indentation is measured The Rockwell hardness value is then determined.",
-    image: "https://ucarecdn.com/c0b09aab-7c40-4443-8162-7fa246eff319/-/preview/666x1000/"
+    image: "https://ucarecdn.com/e3592224-96a7-46c2-b49a-ada2575bd226/-/preview/1000x745/"
   },
   {
     name: "Optical Emission Spectrometer (OES)",
     brief: "Precision-engineered OES analyzer delivering rapid, reliable multi-element analysis for quality standards.",
     description: "The SPECTROMAXxLMX110 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
-    image: "https://ucarecdn.com/c560c519-f264-4de6-93d3-3fec870cf819/-/preview/1000x666/"
+    image: "https://ucarecdn.com/36b464fc-d2a1-4af6-9b62-bf7177d96f9c/-/preview/1000x491/"
   },
   {
     name: "Digital Microscope (Smart zoom 5)",
     brief: "Fully automated digital microscope offering high-quality, reproducible QA/QC measurements.",
     description: "The digital microscope uses optics and a digital camera to output an image to a monitor, sometimes by means of software running on a computer. It offers versatile magnification options and advanced imaging capabilities, making it ideal for various industries.",
-    image: "https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
+    image: "https://ucarecdn.com/fa1566a3-fa0b-41a8-886e-74bebd379652/-/crop/6000x3122/0,624/-/preview/3000x3000/"
   },
   {
     name: "Metallurgical Microscope (Stand Axio Observer 7)",
     brief: "It is for precise metal analysis and material characterization.",
     description: "The Axio Observer 7 by ZEISS is a fully motorized inverted microscope for metals, offering reliable results with five objective options (50X-1000X), advanced features like Extended Depth of Field (EDF), and dedicated software modules for precise analysis of metallic materials. It is ideal for detailed and accurate metal analysis and characterization.",
-    image: "https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
+    image: "https://ucarecdn.com/61860924-bf4e-4bd8-9dd6-7b32c375baa0/-/crop/6000x2644/0,790/-/preview/3000x3000/"
   },
   {
     name: "Salt Spray Testing Chamber (SST/HMI-1000)",
     brief: "Salt Spray Corrosion Testing Machine: 1000-liter capacity for corrosion resistance evaluation.",
     description: "A Salt Spray Testing Chamber is used to evaluate the corrosion resistance of materials and coatings by exposing them to a saline fog environment. It is crucial for assessing the durability and lifespan of materials in automotive, aerospace, and marine industries.",
-    image: "https://ucarecdn.com/69f6705f-5323-4865-aed3-f49ae19d92e9/-/preview/476x300/"
+    image: "https://ucarecdn.com/255c369b-4655-4c98-b03c-39cbe51a39c6/-/preview/1000x666/"
   },
   {
     name: "Sample Preparation Machine",
@@ -141,7 +141,7 @@ const material = [
     name: "Thermal Imager (KT -400)",
     brief: "The Sonel KT400 Thermal Imager offers high-resolution imaging for contactless temperature maintenance.",
     description: "The Sonel KT400 Thermal Imager is a versatile tool with a temperature range from -20°C to 650°C, offering high-resolution thermal imaging for predictive maintenance and quality control. It's perfect for detecting anomalies in electrical, mechanical, and building inspections.",
-    image: "https://ucarecdn.com/f810ce0f-d1b9-4234-bb46-9a67d30d7c96/-/preview/1000x666/"
+    image: "https://ucarecdn.com/b5940b1e-5f2f-4dd0-8b17-e9e17240be85/-/crop/5184x2369/0,506/-/preview/3000x3000/"
   }
 ];
 
