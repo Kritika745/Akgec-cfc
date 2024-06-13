@@ -38,12 +38,12 @@ const Partner = () => {
         SwipeToSlide:true,
         autoPlaySpeed:2000,
         slidesToShow:6,
-        arrows:false,
+        arrows:true,
         slidesToScroll:6,
 
         responsive:[
             {
-                breakpoint:1250,
+                breakpoint:1350,
                 settings:{
                     slidesToShow:5,
                     slidesToScroll:5,
@@ -52,7 +52,7 @@ const Partner = () => {
 
                 },
                 {
-                  breakpoint:1050,
+                  breakpoint:1080,
                   settings:{
                       slidesToShow:4,
                       slidesToScroll:4,
@@ -60,6 +60,25 @@ const Partner = () => {
                   },
   
                   },
+
+                  {
+                    breakpoint:900,
+                    settings:{
+                        slidesToShow:3,
+                        slidesToScroll:3,
+                        infinite: true,
+                    },
+    
+                    },
+                    {
+                      breakpoint:670,
+                      settings:{
+                          slidesToShow:2,
+                          slidesToScroll:2,
+                          infinite: true,
+                      },
+      
+                      },
                
             {
                 breakpoint: 576,
@@ -74,12 +93,14 @@ const Partner = () => {
     }
 
   return (
-    <div className='w-full flex items-center justify-center overflow-x-hidden mt-10'>
-      <div className='w-1/5 flex items-center justify-center '>
-        <h1 className='text-3xl text-center font-semibold border-r-[3px] border-yellow-400 p-2'>Industry Partners</h1>
+    <div className='w-full flex flex-col sm:flex-row items-center justify-center overflow-x-hidden mt-10'>
+      <div className='w-full sm:w-1/5 flex flex-col items-center justify-center '>
+        <h1 className='text-2xl lg:text-3xl text-center font-bold border-r-none sm:border-r-[3px] border-yellow-400 p-2  text-[#203c70]'>INDUSTRY PARTNERS</h1>
+        <hr className='sm:hidden border-t-[3px] border-[#FBDD07] w-[20%]' />
+
       </div>
 
-   <div className='w-4/5 flex  '>
+   <div className='w-[90%] sm:w-4/5 flex  '>
       <Slider {...settings} className='w-full '>
          
       {item.map((item, index) => {
