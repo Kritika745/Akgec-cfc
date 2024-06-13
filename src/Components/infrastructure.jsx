@@ -45,7 +45,7 @@ const Infra = ({ data , id}) => {
       </div>
 
    <div className='w-[78%] mx-9 py-3 flex flex-row '>
-      <Slider {...settings} className='w-full'>
+      <Slider {...settings} className="w-full">
       {data.map((item, index) => (
             <CardTwo key={index} subId={index+1} id={id} image={item.image} title={item.name} brief={item.brief} description={item.description} />
           ))}
