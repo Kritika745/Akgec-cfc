@@ -45,7 +45,7 @@ const advtoolroom = [
     name: "CNC Hydraulic Press Brake",
     brief: "Precision bending for automotive, aerospace, and metal industries applications.",
     description: "It offers precise bending for up to 10 mm thick sheets, ensuring accuracy for automotive, aerospace, and metal fabrication industries. This machine combines strength and precision for high-quality results in various applications.",
-    image: "https://ucarecdn.com/ba2c2ef9-730a-4236-86c9-50e9841124c2/-/preview/1000x666/"
+    image: "https://ucarecdn.com/dccbc714-ddc1-4486-a540-cb277b987076/-/crop/4425x2158/472,169/-/preview/3000x3000/"
   },
   {
     name: "CNC 5-Axis Machining Center",
