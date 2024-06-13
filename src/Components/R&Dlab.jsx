@@ -46,10 +46,10 @@ const RDlab = () => {
                 <li className=" text-3xl underline font-semibold tracking-tight text-black/80 mt-4 md:text-4xl lg:text-2xl">
                   {item["Metal 3D Printer (SLM 280)"].maintitle}
                 </li>
-                <p className="mt-1 max-w-xl text-base leading-relaxed text-gray-900">
+                <p className="mt-1 max-w-xl text-justify leading-relaxed text-gray-900">
                   {item["Metal 3D Printer (SLM 280)"].description1}
                 </p>
-                <p className="mt-4 max-w-xl text-base leading-relaxed text-gray-900">
+                <p className="mt-4 max-w-xl text-justify leading-relaxed text-gray-900">
                   {item["Metal 3D Printer (SLM 280)"].description2}
                 </p>
               </div>

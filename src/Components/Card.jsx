@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export function CardTwo(props) {
   return (
-    <div className="mx-[1rem] h-[36rem] z-10 bg-white rounded-md ">
+    <div className="mx-[1rem] h-[550px] z-10 bg-white rounded-md ">
       <img
         src={props.image}
         alt="Laptop"
