@@ -34,7 +34,7 @@ const Services = () => {
        <div className='bg-gray-50 ring-1 ring-gray-300 hover:ring-gray-400 p-4 w-[85%] md:w-1/3 lg:w-1/5 rounded-md shadow-lg'>
            <img className='w-16 h-16 mb-2' src="/prototype.png" alt="" />
            <h1 className='text-[#203c70] text-2xl font-bold mb-1'>Prototyping</h1>
-           <p className='text-base'>Prototyping services uses latest technologies and methodologies that offer a rapid and efficient way to bring our industrial concepts to life.</p>
+           <p className='text-base'>Prototyping services uses latest technologies and methodologies that offer a rapid and efficient way to bring the industrial concepts to life.</p>
        </div>
     
     

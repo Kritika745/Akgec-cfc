@@ -30,7 +30,7 @@ const CentreOfExcellence = () => {
     } else if (id === 'Material') {
       return {
         bgImage: 'https://ucarecdn.com/d8f92026-8187-41ef-b606-4f115994c675/-/preview/1000x666/',
-        title: 'Material',
+        title: 'Material Testing Lab',
         desc: 'Description for Material',
         desc2: 'Description for Material',
         description:
@@ -40,7 +40,7 @@ const CentreOfExcellence = () => {
     }  else {
       return {
         bgImage: 'https://ucarecdn.com/484a66cb-a86c-4de6-8fe2-59ab540cd97c/-/preview/1000x666/',
-        title: 'Default Title',
+        title: 'iiot',
         desc: 'Default Description',
         desc2: 'Default Description',
         data:iiot
@@ -63,10 +63,6 @@ const CentreOfExcellence = () => {
             <div className='bg-yellow-300 bg-opacity-25 p-4'>
              <div className="flex  flex-col items-center justify-center p-6 border-l-[3px] border-[#FBDD07] ">
                   <h1 className="md:text-4xl text-2xl font-medium m-2">{bgImage.title}</h1>
-                  <div className="flex items-center justify-center gap-1">
-                    <h2 className="text-sm pr-2 border-r-2 border-[#FBDD07] ">{bgImage.desc}</h2>
-                    <h2 className="text-sm">{bgImage.desc2}</h2>
-                  </div>
             </div>
             </div>
           </div>

@@ -100,24 +100,20 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/1c6f2447-7d03-4e5f-bae7-506b017d8722/",
     image:"https://ucarecdn.com/4a1209c2-8082-407d-8c4c-2f9f76725daa/-/preview/666x1000/",
     description1:
-      {"Micro Vickers (HV 0.1,0.2,0.3,0.5,1) ": " Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Vickers method is based on an optical measurement system. it specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value. Case Depth Hardness - Case depth is the thickness of the hardened layer on a specimen. Effective case depth is the depth up to a further point for which a specified level of hardness is maintained. The Vickers method is based on an optical measurement system. It specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value."},
+      {"Micro Vickers ": " the indents use in this method is a diamond pyramid with a square base, whose opposite sides meet at the apex at an angle of 136 It is supplied to The specimen with a test force (10gf-100gf) and held according to holding time. The length of both diagonals of the residual test indentation are optically measured. The vickers hardness is then calculated from the average of the diagonals and The test force applied."},
     description2:
       "The Vickers method is based on an optical measurement system. It specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value.",
     specifications: {
-      "Case Depth Hardness": "Thickness of the hardened layer on a specimen.",
       Model: "MV1-TS",
       Make: "FIE (Fuel Instruments & Engineers Pvt. Ltd.)",
-      Vendor: "CANAN testing services",
-      "Load range": "10, 20, 50, 100, 200, 300, 500 gf",
+      "Load range": "10, 20, 50, 100, 200, 300, 500, 1000 gf",
       "Maximum test height":
         "30mm with clamping vice, 50mm without clamping vice",
       "Sample stage (XY stage) with micrometer heads of 0.01 LC":
         "10mm movement in each axis",
       "Clamping vice capacity": "40mm max.",
-      "Scale least count": "0.0001mm",
       "Machine dimensions (L×W×H)": "450×275×560 mm (approx.)",
       "Weight (approx.)": "50 kg",
-      "Measuring range": "0.01 to 0.2 mm",
     },
   },
   {
@@ -235,7 +231,7 @@ export const materialtesting = [
     image2: "https://ucarecdn.com/f5b7f2e7-a225-4e1a-8d22-21403faad8f4/-/preview/1000x772/",
     image:"https://ucarecdn.com/69f6705f-5323-4865-aed3-f49ae19d92e9/-/preview/476x300/",
     description1:
-      {"The SRI Equipment Salt Spray Corrosion Testing Machine SRI-1000 ":" It offers a capacity of 1000 liters, providing ample space for corrosion testing. Its key parameters include precise temperature and humidity control, ensuring accurate simulation of harsh environmental conditions. Ideal for evaluating the corrosion resistance of materials in automotive, aerospace, and marine industries."},
+      {"The SRI Equipment Salt Spray Corrosion Testing Machine (SST/HMI-1000) ":" It offers a capacity of 1000 liters, providing ample space for corrosion testing. Its key parameters include precise temperature and humidity control, ensuring accurate simulation of harsh environmental conditions. Ideal for evaluating the corrosion resistance of materials in automotive, aerospace, and marine industries."},
     description2: "",
     specifications: {
       Model: "CCT-1",
@@ -275,7 +271,7 @@ export const materialtesting = [
     image2: "",
     image:"https://ucarecdn.com/ec0fd5cb-376f-4b3d-8a32-fe25c104c2a7/-/preview/207x264/",
     description1:
-      {"Thermal Imaging Camera ":" Introducing Metatech's cutting-edge sample preparation equipment for material analysis. The Autopol Dual II Surface Grinding & Polishing machine offers precise grinding and polishing with dual workstations, ideal for achieving mirror-like finishes on a variety of materials. The Automount Hot Mounting Press provides efficient hot mounting of samples for metallographic analysis, ensuring uniform encapsulation without distortion. The Oscicut Sample Cutting machine delivers accurate sectioning of specimens with programmable cutting parameters, catering to diverse sample sizes and shapes. These machines are essential for metallography, material science, and quality control applications, providing reliable and efficient sample preparation solutions for industries including aerospace, automotive, and manufacturing."},
+      {"Thermal Imaging Camera ":" "},
     description2: "",
     specifications: {
       Model: "TiX1000",
@@ -500,9 +496,11 @@ export const rndlab = [
       image3: "https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/",
       image:"https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/",
       description1:
-        "The SLM 280 Single Laser Machine is an advanced selective laser melting (SLM) system perfect for additive manufacturing. With a build envelope of 280 x 280 x 365 mm and a powerful 400W fiber laser, it ensures precise melting of metal powders. Its key process parameters—laser power, scan speed, layer thickness, and hatch spacing—are finely tunable for optimal results. The SLM 280 processes various materials, including aluminum, titanium, stainless steel, and cobalt-chromium alloys. Ideal for aerospace, automotive, medical implants, and tooling applications, it excels in creating complex geometries with high-performance materials.",
-      description2:
-        "The Selective Laser Melting System SLM®280HL provides a 280 x 280 x 365 mm³ build envelope and a patented single-beam technology. The (laser) beam profile has been further improved. The constructive solution of the recoater lip (available in polymer materials, as well as a ceramic blade) allows fine structures and achieves a significantly higher component quality. The field-proven, latest software supports a production-oriented data preparation for specific applications and highly optimized building processes. The whole process is carried out under an inert gas atmosphere. The reliable process gas filtration, and its double valve system, enable the highest degree of security. The efficient inert gas circulation during the safe and efficient operation leads to less gas consumption.The SLM® 280 has a winning patented bi-directional powder coating in permanent production with optimal processing conditions for the highest and most constant construction qualities. The open system provides a lot of opportunities to operate the machine in-house with specific parameters depending on current needs.",
+        {"The SLM 280 Single Laser Machine":" is an advanced selective laser melting (SLM) system perfect for additive manufacturing. With a build envelope of 280 x 280 x 365 mm and a powerful 400W fiber laser, it ensures precise melting of metal powders. Its key process parameters—laser power, scan speed, layer thickness, and hatch spacing—are finely tunable for optimal results. The SLM 280 processes various materials, including aluminum, titanium, stainless steel, and cobalt-chromium alloys. Ideal for aerospace, automotive, medical implants, and tooling applications, it excels in creating complex geometries with high-performance materials.",
+          "The Selective Laser Melting System SLM®280HL":" provides a 280 x 280 x 365 mm³ build envelope and a patented single-beam technology. The (laser) beam profile has been further improved. The constructive solution of the recoater lip (available in polymer materials, as well as a ceramic blade) allows fine structures and achieves a significantly higher component quality. The field-proven, latest software supports a production-oriented data preparation for specific applications and highly optimized building processes. The whole process is carried out under an inert gas atmosphere. The reliable process gas filtration, and its double valve system, enable the highest degree of security. The efficient inert gas circulation during the safe and efficient operation leads to less gas consumption.The SLM® 280 has a winning patented bi-directional powder coating in permanent production with optimal processing conditions for the highest and most constant construction qualities. The open system provides a lot of opportunities to operate the machine in-house with specific parameters depending on current needs."
+       
+        },
+      description2:"",
       specifications: {
         Make: "SLM",
         Model: "SLM 280",
@@ -522,9 +520,12 @@ export const rndlab = [
       image2: "https://ucarecdn.com/c24632c9-fae6-4fe6-9a04-435015008334/",
       image:"https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/",
       description1:
-        "Post-processing methods in additive manufacturing are crucial for enhancing surface roughness and achieving precise finishes on 3D-printed parts. The lab utilizes a Sand Blasting Machine, Hot Air Oven with precise temperature control up to 200°C for drying metal powder, and an Inert Gas Muffle Furnace with a maximum temperature of 1200°C for controlled heating, sintering, and heat treatment of materials.",
+        {"Post-processing":" methods in additive manufacturing are crucial for enhancing surface roughness and achieving precise finishes on 3D-printed parts. The lab utilizes a Sand Blasting Machine, Hot Air Oven with precise temperature control up to 200°C for drying metal powder, and an Inert Gas Muffle Furnace with a maximum temperature of 1200°C for controlled heating, sintering, and heat treatment of materials.",
+          "Sand blasting machine":" post-processing method in additive manufacturing can be used for enhancing surface roughness. Achieve precise finishes on 3D-printed parts, ideal for aerospace, automotive, and medical industries. The hot air oven offers precise temperature control up to 200 degrees Celsius, making it ideal for drying of metal powder. Meanwhile, the Inert Gas Muffle Furnace boasts a maximum temperature of 1200 degrees Celsius, providing an inert atmosphere for controlled heating, sintering, and heat treatment of materials. With robust construction and advanced features, these machines ensure uniform heating, efficient operation, and reliable performance, catering to the diverse needs of research, quality control, and production processes across various sectors."
+
+        },
       description2:
-      "Sand blasting machine, post-processing method in additive manufacturing can be used for enhancing surface roughness. Achieve precise finishes on 3D-printed parts, ideal for aerospace, automotive, and medical industries. The hot air oven offers precise temperature control up to 200 degrees Celsius, making it ideal for drying of metal powder. Meanwhile, the Inert Gas Muffle Furnace boasts a maximum temperature of 1200 degrees Celsius, providing an inert atmosphere for controlled heating, sintering, and heat treatment of materials. With robust construction and advanced features, these machines ensure uniform heating, efficient operation, and reliable performance, catering to the diverse needs of research, quality control, and production processes across various sectors.",
+      "",
       specifications: {
         "Sand Blasting Machine":
           "Enhances surface roughness of 3D-printed parts",

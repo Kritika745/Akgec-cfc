@@ -73,13 +73,13 @@ const rnd = [
 const material = [
   {
     name: "Universal Testing Machine (UTES HGFL TS)",
-    brief: "The FIE UTES HGFL TS Universal Testing Machine offers a robust 1000 kN capacity for precise material testing.",
+    brief: "The FIE UTES HGFL TS Universal Testing Machine offers a robust 1000 kN capacity for material testing.",
     description: "The FIE UTM UTES HGFL TS: a robust 1000 kN Universal Testing Machine with digital extensometers for precise measurements. Ideal for tensile, compression, and flexural testing in construction, manufacturing, and research, delivering reliable results for material characterization.",
     image: "https://ucarecdn.com/648ebbc0-629a-4549-b581-c0a54a9857f0/-/preview/306x400/"
   },
   {
     name: "Fatigue Testing",
-    brief: "Fatigue tests measure reduction in material stiffness and strength under repeated loading.",
+    brief: "Fatigue tests measure fatigue life of material under cyclic loading reduction. ",
     description: "The FIE Pro-200 Fatigue Testing Machine offers a high-performance solution with a maximum load capacity of 200 kN. Its versatility in cyclic testing, including adjustable frequency and amplitude, makes it ideal for evaluating material fatigue in automotive, aerospace, and structural engineering applications.",
     image: "https://ucarecdn.com/38dd0fe0-429e-4186-ba25-6036d9290c72/-/preview/1000x666/"
   },
@@ -91,7 +91,7 @@ const material = [
   },
   {
     name: "Micro-Vickers Hardness",
-    brief: "Provides comprehensive hardness testing machines for accurate and reliable results across industries.",
+    brief: "Standard test method for micro dentation harness (10gf to 1000gf) of all the metals and care depth hardness.",
     description: "Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Vickers method is based on an optical measurement system. It specifies a range of light loads to make an indentation which is measured and converted to a hardness value.",
     image: "https://ucarecdn.com/4a1209c2-8082-407d-8c4c-2f9f76725daa/-/preview/666x1000/"
   },
@@ -110,7 +110,7 @@ const material = [
   {
     name: "Optical Emission Spectrometer (OES)",
     brief: "Precision-engineered OES analyzer delivering rapid, reliable multi-element analysis for quality standards.",
-    description: "The SPECTROMAXxLMX10 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
+    description: "The SPECTROMAXxLMX110 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
     image: "https://ucarecdn.com/c560c519-f264-4de6-93d3-3fec870cf819/-/preview/1000x666/"
   },
   {
@@ -126,21 +126,21 @@ const material = [
     image: "https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/"
   },
   {
-    name: "Salt Spray Testing Chamber (SST/HMI-480)",
-    brief: "Salt Spray Corrosion Testing Machine: 1000-liter capacity for precise corrosion resistance evaluation.",
+    name: "Salt Spray Testing Chamber (SST/HMI-1000)",
+    brief: "Salt Spray Corrosion Testing Machine: 1000-liter capacity for corrosion resistance evaluation.",
     description: "A Salt Spray Testing Chamber is used to evaluate the corrosion resistance of materials and coatings by exposing them to a saline fog environment. It is crucial for assessing the durability and lifespan of materials in automotive, aerospace, and marine industries.",
     image: "https://ucarecdn.com/69f6705f-5323-4865-aed3-f49ae19d92e9/-/preview/476x300/"
   },
   {
     name: "Sample Preparation Machine",
-    brief: "Metatech's sample prep equipment: Autopol Dual II, Automount Hot Mounting Press, and Oscicut Sample Cutting.",
+    brief: "Metatech's sample preparation equipment: Autopol Dual II, Automount Hot Mounting Press, and Oscicut abrasive cutter Sample Cutting.",
     description: "Abrasive Cutting, Hot Mounting, Specimen Grinding & Polishing - These processes are essential for preparing samples for further analysis and testing. Metatech's equipment ensures uniform encapsulation and accurate sectioning for efficient metallography and material analysis in diverse industries.",
     image: "https://ucarecdn.com/5744a99b-bb39-4e0e-89ce-500d8b740f5e/-/preview/1000x666/"
   },
   {
     name: "Thermal Imager (KT -400)",
-    brief: "The Sonel KT400 Thermal Imager offers high-resolution imaging for predictive maintenance and quality control.",
-    description: "The Sonel KT400 Thermal Imager is a versatile tool with a temperature range from -20°C to 400°C, offering high-resolution thermal imaging for predictive maintenance and quality control. It's perfect for detecting anomalies in electrical, mechanical, and building inspections.",
+    brief: "The Sonel KT400 Thermal Imager offers high-resolution imaging for contactless temperature maintenance.",
+    description: "The Sonel KT400 Thermal Imager is a versatile tool with a temperature range from -20°C to 650°C, offering high-resolution thermal imaging for predictive maintenance and quality control. It's perfect for detecting anomalies in electrical, mechanical, and building inspections.",
     image: "https://ucarecdn.com/f810ce0f-d1b9-4234-bb46-9a67d30d7c96/-/preview/1000x666/"
   }
 ];
