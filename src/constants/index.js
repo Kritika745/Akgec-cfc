@@ -79,7 +79,7 @@ const material = [
   },
   {
     name: "Fatigue Testing",
-    brief: "Fatigue tests measure fatigue life of material under cyclic loading reduction. ",
+    brief: "Fatigue tests measure fatigue life of material under cyclic loading. ",
     description: "The FIE Pro-200 Fatigue Testing Machine offers a high-performance solution with a maximum load capacity of 200 kN. Its versatility in cyclic testing, including adjustable frequency and amplitude, makes it ideal for evaluating material fatigue in automotive, aerospace, and structural engineering applications.",
     image: "https://ucarecdn.com/38dd0fe0-429e-4186-ba25-6036d9290c72/-/preview/1000x666/"
   },
@@ -110,7 +110,7 @@ const material = [
   {
     name: "Optical Emission Spectrometer (OES)",
     brief: "Precision-engineered OES analyzer delivering rapid, reliable multi-element analysis for quality standards.",
-    description: "The SPECTROMAXxLMX110 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
+    description: "The SPECTROMAXxLMA110 provides precise elemental analysis for metals like Iron & Steel, Aluminium, Copper, and Nickel alloys. With advanced optics and user-friendly software, it's a top choice for quality control in foundries and metal processing, ensuring reliable results with outstanding repeatability.",
     image: "https://ucarecdn.com/36b464fc-d2a1-4af6-9b62-bf7177d96f9c/-/preview/1000x491/"
   },
   {
@@ -139,7 +139,7 @@ const material = [
   },
   {
     name: "Thermal Imager (KT -400)",
-    brief: "The Sonel KT400 Thermal Imager offers high-resolution imaging for contactless temperature maintenance.",
+    brief: "The Sonel KT400 Thermal Imager offers high-resolution imaging for contactless temperature measurement.",
     description: "The Sonel KT400 Thermal Imager is a versatile tool with a temperature range from -20°C to 650°C, offering high-resolution thermal imaging for predictive maintenance and quality control. It's perfect for detecting anomalies in electrical, mechanical, and building inspections.",
     image: "https://ucarecdn.com/b5940b1e-5f2f-4dd0-8b17-e9e17240be85/-/crop/5184x2369/0,506/-/preview/3000x3000/"
   }
