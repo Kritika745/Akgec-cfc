@@ -40,7 +40,7 @@ const RDlab = () => {
           <div className="px-2 lg:flex lg:flex-row lg:items-center">
             <div className="w-full lg:w-1/2">
               <div className="my-10 lg:my-0 lg:px-10">
-                <h1 className=" text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-5xl underline">
+                <h1 className=" text-3xl font-bold tracking-tight text-black md:text-4xl lg:text-4xl underline">
                   {item["Metal 3D Printer (SLM 280)"].maintitle}
                 </h1>
                 <li className=" text-3xl underline font-semibold tracking-tight text-black/80 mt-4 md:text-4xl lg:text-2xl">
