@@ -2,9 +2,9 @@ export const materialtesting = [
   {
     id: 1,
     title: "Universal Testing Machine",
-    image1: "https://ucarecdn.com/2a0067e8-7116-4def-9981-decc31d34231/60%201.png",
+    image1: "/COMPRESS PHOTOS/Universal Testing machine 1.png",
     image2: "",
-    image: "https://ucarecdn.com/648ebbc0-629a-4549-b581-c0a54a9857f0/-/preview/306x400/",
+    image: "/COMPRESS PHOTOS/universal testing cover.JPG",
     description1: {
       "Ultimate Tensile Strength": "The ultimate tensile strength is a measure of the maximum stress a material can withstand without breaking or falling under load. It is indicated a material’s maximum ability to withstand stress before weakening.",
       "Yield Stress (0.2% & 0.5% PS)": "The yield stress is often used to determine the maximum allowable load in a mechanical component, since it represents the upper limit to forces that can be applied without producing permanent deformation.",
@@ -32,9 +32,9 @@ export const materialtesting = [
   {
     id: 2,
     title: "Fatigue Testing Machine",
-    image1: "https://ucarecdn.com/a8533b49-5603-496a-a396-cc50d6abc865/-/preview/1000x772/",
-    image2: "https://ucarecdn.com/fbba54cc-d649-4b8e-83d9-d912d476da65/-/preview/1000x772/",
-    image:"https://ucarecdn.com/4188117c-6edd-4971-8b43-5135befca028/-/preview/979x1000/",
+    image1: "/COMPRESS PHOTOS/Fatigue Testing Machine 1.png",
+    image2: "",
+    image:"/COMPRESS PHOTOS/fatigue testing cover.JPG",
     description1:{
       "The FIE Pro-200 Fatigue Testing Machine ": "This is a high-performance solution designed fortesting the materials in repeated loading condition making it suitable for evaluating thematerials fatigue life for various structural applications. In this machine test materialspecimen of diameter 8 mm is held at the two ends with the help of collets, then load isapplied at center for uniform bending moment and rotate it with 4200 RPM by motor.During each revolution reverse stresses in all fibers of specimen is produced. Bendingmoment is applied with lever mechanism system so various weight can be easilyreplaced. After completing the test process whatever number of revolutions taken byspecimen up to its break point is displayed on the digital counter."},
     description2: "",
@@ -57,9 +57,9 @@ export const materialtesting = [
   {
     id: 3,
     title: "Impact Testing Machines",
-    image1: "https://ucarecdn.com/d96415fb-ef1c-476c-b2a1-cb02668cd380/-/preview/1000x772/",
-    image2: "https://ucarecdn.com/2f33efc0-383e-491f-8ed0-281671bb6a05/-/preview/1000x772/",
-    image: "https://ucarecdn.com/5a16d0b4-d73c-46f0-ab94-0cb6ae7200b4/-/preview/1000x666/",
+    image1: "/COMPRESS PHOTOS/Impact Testing 1.png",
+    image2: "",
+    image: "/COMPRESS PHOTOS/Impact Testing cover.JPG",
     description1:
       {"The FIE Auto Impact 30 Impact Testing Machine " : "is a robust solution for assessing materialtoughness with a capacity of 300 Joules, making it suitable for testing metals, plastics,and composites in various industries. The impact strength of a metal is determined bymeasuring the energy absorbed in the fracture.."},
     description2:
@@ -77,9 +77,9 @@ export const materialtesting = [
   {
     id: 4,
     title: "Micro-Vickers Hardness",
-    image1: "https://ucarecdn.com/1f63a1ea-4a20-4860-ba7c-f5ae360c9ee1/-/crop/6000x4149/0,486/-/preview/3000x3000/",
-    image2: "https://ucarecdn.com/1c6f2447-7d03-4e5f-bae7-506b017d8722/",
-    image: "https://ucarecdn.com/4a1209c2-8082-407d-8c4c-2f9f76725daa/-/preview/666x1000/",
+    image1: "/COMPRESS PHOTOS/microvickers 1.png",
+    image2: "",
+    image: "",
     description1:
       { "Micro Vickers ": " the indents use in this method is a diamond pyramid with a square base, whose opposite sides meet at the apex at an angle of 136 It is supplied to The specimen with a test force (10gf-100gf) and held according to holding time. The length of both diagonals of the residual test indentation are optically measured. The vickers hardness is then calculated from the average of the diagonals and The test force applied." },
     description2:
@@ -100,9 +100,9 @@ export const materialtesting = [
   {
     id: 5,
     title: "Brinell Hardness",
-    image1: "https://ucarecdn.com/a9d896fe-d760-48d3-8c5b-af54d9a6feed/-/preview/910x1000/",
-    image2: "https://ucarecdn.com/4e79d96d-dbb5-4e90-8a81-9e009a4af756/-/preview/910x1000/",
-    image: "https://ucarecdn.com/05f1c968-ed32-4979-b874-fa571d9fa24d/-/preview/910x1000/",
+    image1: "/COMPRESS PHOTOS/Brinell Hardness cover (1).JPG",
+    image2: "",
+    image: "/COMPRESS PHOTOS/Brinell Hardness cover (1).JPG",
     description1:
       { "Brinell Hardness ": " Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Brinell method applies a predetermined test load to a carbide ball of fixed diameter which is held for a predetermined time period and then removed. The resulting impression is measured with a specially designed Brinell microscope or optical system across at least two diameters. Brinell hardness is measured by 2.5, 5 or 10mm diameter indentor with measuring force ranges from 62.5kg to 3000kg" },
     description2:
@@ -122,9 +122,9 @@ export const materialtesting = [
   {
     id: 6,
     title: "Rockwell Hardness",
-    image1: "https://ucarecdn.com/82ef49a7-592a-4f82-8def-95bf3531d5f0/-/preview/1000x772/",
-    image2: "https://ucarecdn.com/a513cc73-8754-4ca7-b07e-0554a15b74ab/-/preview/753x1000/",
-    image: "https://ucarecdn.com/c0b09aab-7c40-4443-8162-7fa246eff319/-/preview/666x1000/",
+    image1: "/COMPRESS PHOTOS/Rockwell Hardness cover.JPG",
+    image2: "",
+    image: "/COMPRESS PHOTOS/Rockwell Hardness cover.JPG",
     description1: {
       "The Rockwell method ": " It measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter. This preload breaks through the surface to reduce the effects of surface finish. After holding the preliminary test force for a specified dwell time, the baseline depth of indentation is measured."
     },
@@ -144,9 +144,9 @@ export const materialtesting = [
   {
     id: 7,
     title: "Optical Emission Spectrometer (OES)",
-    image1: "https://ucarecdn.com/3d567cdb-b90d-4a72-93fa-2f5b8314a3af/-/preview/1000x772/",
-    image2: "https://ucarecdn.com/7ba8efc1-b8de-4339-92fe-8e18e80f272d/Untitleddesign141.png",
-    image: "https://ucarecdn.com/934c0ff8-33a3-4ca3-8637-4fbad2c5ff1e/-/preview/1000x666/",
+    image1: "/COMPRESS PHOTOS/spectrometer 1.png",
+    image2: "",
+    image: "",
     description1:
       {"SPECTROMAXxLMXA110 ":" It is capable of accurate elemental analysis of metals including Iron & Steel, Aluminium, Copper and Nickel based alloys. Featuring advanced optics, robust construction, wide spectral range, high-resolution detectors, and user-friendly software, it ensures accurate and reliable results. Ideal for quality control in foundries and metal processing, it offers rapid, precise multi-element analysis, making it essential for stringent quality standards. Its outstanding repeatability, reproducibility, and reliability makes it one of the best optical emission spectrometry (OES) analyzer."},
     description2:
@@ -166,9 +166,9 @@ export const materialtesting = [
   {
     id: 8,
     title: "Digital Microscope",
-    image1: "https://ucarecdn.com/b6414ade-eb88-4e24-9ac7-853d75a7ee89/",
-    image2: "https://ucarecdn.com/7e632ec6-d37b-430d-8e5a-a18b00bbe09b/",
-    image: "https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/",
+    image1: "/COMPRESS PHOTOS/Digital Microscope 1.png",
+    image2: "",
+    image: "",
     description1:
       {"ZEISS Smartzoom 5 ": "It is a smart digital microscope - ideal for quality control and quality assurance applications in virtually every field of industry. It is having choices of varying magnification ranging from 34X-335X. It is fully automated and equipped with dedicated quality assurance (QA) and quality control (QC) components ideal for electronics, defence, and automotive industries etc. Smartzoom 5 provides fast, reproducible, high quality and reliable QA/QC measurements for routine as well as failure analyses. It also supports advanced types of microscopic images with extended depth of field (EDF), stitching and 3D imaging."},
     description2: "",
@@ -181,9 +181,9 @@ export const materialtesting = [
   {
     id: 9,
     title: "Metallurgical Microscope",
-    image1: "https://ucarecdn.com/cca8586c-282e-46f5-922e-df046ed844ff/",
-    image2: "https://ucarecdn.com/3455cfeb-02f5-44ea-9813-3b1f5a9faa1f/",
-    image: "https://ucarecdn.com/86f419bf-3dd1-44d9-bf5f-1ee14529e30c/-/preview/1000x666/",
+    image1: "/COMPRESS PHOTOS/Metallurgical Microscopoe 1.png",
+    image2: "",
+    image: "",
     description1:
       { "Axio Observer 7 ": " It combines the proven quality of ZEISS optics with automated components to give reliable and reproducible results. It is a fully motorized inverted microscope for metals and alloys. It is having choice of five different objectives of varying magnifications ranging from 50X-1000X. Extended depth of field (EDF) and Stitching features makes it an advanced microscope.  Dedicated software modules helps in analysing non-metallic inclusions, grain sizes, phases and coating thickness in metallic materials. " },
     description2: "",
@@ -196,9 +196,9 @@ export const materialtesting = [
   {
     id: 10,
     title: "Salt Spray Testing Chamber",
-    image1: "https://ucarecdn.com/32af557b-b014-43cf-a78d-6b46287b1641/-/preview/1000x772/",
-    image2: "https://ucarecdn.com/f5b7f2e7-a225-4e1a-8d22-21403faad8f4/-/preview/1000x772/",
-    image: "https://ucarecdn.com/255c369b-4655-4c98-b03c-39cbe51a39c6/-/preview/1000x666/",
+    image1: "",
+    image2: "",
+    image: "/COMPRESS PHOTOS/Salt spary cover.JPG",
     description1:
       { "The SRI Equipment Salt Spray Corrosion Testing Machine (SST/HMI-1000) ": " It offers a capacity of 1000 liters, providing ample space for corrosion testing. Its key parameters include precise temperature and humidity control, ensuring accurate simulation of harsh environmental conditions. Ideal for evaluating the corrosion resistance of materials in automotive, aerospace, and marine industries." },
     description2: "",
@@ -215,9 +215,9 @@ export const materialtesting = [
   {
     id: 11,
     title: "Sample Preparation",
-    image1: "https://ucarecdn.com/c6b3116a-42df-4ac7-8ce6-e8b1cb5c44db/-/preview/1000x772/",
-    image2: "https://ucarecdn.com/3ba7a5c3-df98-42d4-ba1b-8308b752faf5/-/preview/1000x772/",
-    image: "https://ucarecdn.com/5744a99b-bb39-4e0e-89ce-500d8b740f5e/-/preview/1000x666/",
+    image1: "/COMPRESS PHOTOS/Sample Preparation 1.png",
+    image2: "/COMPRESS PHOTOS/Sample Preparation 2.png",
+    image: "/COMPRESS PHOTOS/sample prepartion cover 3.JPG",
     description1:
       { "Sample Preparation ": " Introducing Metatech's cutting-edge sample preparation equipment for material analysis. The Autopol Dual II Surface Grinding & Polishing machine offers precise grinding and polishing with dual workstations, ideal for achieving mirror-like finishes on a variety of materials. The Automount Hot Mounting Press provides efficient hot mounting of samples for metallographic analysis, ensuring uniform encapsulation without distortion. The Oscicut Sample Cutting machine delivers accurate sectioning of specimens with programmable cutting parameters, catering to diverse sample sizes and shapes. These machines are essential for metallography, material science, and quality control applications, providing reliable and efficient sample preparation solutions for industries including aerospace, automotive, and manufacturing." },
     description2: "",
@@ -235,9 +235,9 @@ export const materialtesting = [
   {
     id: 12,
     title: "Thermal Imaging Camera",
-    image1: "https://ucarecdn.com/7b671003-65f6-449b-b5fe-c9af9b46f098/-/scale_crop/1000x772//",
+    image1: "/COMPRESS PHOTOS/Thermal Imager 1.png",
     image2: "",
-    image: "https://ucarecdn.com/ec0fd5cb-376f-4b3d-8a32-fe25c104c2a7/-/preview/207x264/",
+    image: "/COMPRESS PHOTOS/thermal imager cover.jpg",
     description1:
       {"Thermal Imaging Camera ":" KT-400 thermal imager is equipped with a modern sensor with a resolution of 384x288pixels. A wide temperature measurement range and high-quality lenses guarantee ahigh level of detail in the recorded images. A large display combined with innovativedata processing electronics is placed in a compact housing, thus ensuring a perfectbalance between high performance and small dimensions. Moreover, due to thecentrally located navigation button supported by a menu on the touchscreen, thismodel ensures simple and intuitive operation. Camera is additionally equipped withvisual lenses and related image mixing technologies: PIP, MIF. Support from the built-inLED torch and laser improves operational quality by facilitating photography and thenimage interpretation."},
     description2: "",
