@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 import logo from '/logo.png'
 import logo2 from '/logo2.png'
 import logo3 from '/logo3.png'
+import Dropdown from "./Dropdown"
 
 const Navbar=()=> {
 
@@ -39,7 +40,8 @@ const Navbar=()=> {
           <ul className="flex gap-8">
             <Link to='/'><li className={`hover:text-black md:text-lg font-bold ${currentPathname === '/' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70] '}`}>Home</li></Link>           
             <Link to='/About'><li onClick={handleClick} className={`md:text-lg hover:text-black font-bold ${currentPathname === '/About' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'} `}>About Us</li></Link>
-            <Link to='/Contact'><li className={`md:text-lg hover:text-black font-bold ${currentPathname === '/Contact' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Contact Us</li></Link>   
+            <Link to='/Connect'><li className={`md:text-lg hover:text-black font-bold ${currentPathname === '/Connect' ? '' : 'border-none text-[#203c70]'}`}><Dropdown /> </li></Link>  
+            <Link to='/Contact'><li className={`md:text-lg hover:text-black font-bold ${currentPathname === '/Contact' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Contact Us</li></Link>  
           </ul>
         </div>
         

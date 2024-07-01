@@ -1,26 +1,25 @@
 const About = () => {
   return (
-    <div
-      className="bg-fixed bg-center bg-cover h-[65vh]"
-      style={{ backgroundImage: "url('/bg-1.svg')" }}
-    >
-      <div className="flex items-center justify-center h-full">
-        <div className="bg-black bg-opacity-45 text-white p-10 h-[100%] w-[100%] rounded-lg shadow-md text-center">
-          <h1 className="text-3xl mb-4">More About Us</h1>
-          {/* <p className="text-lg">This is some content about us.</p> */}
-          <div className="w-full flex items-center justify-center ">
-            <hr className="w-[8%]" />
+    <>
+      <div className="h-20"></div>
+      <div className="flex items-start mt-16 justify-center w-full min-h-screen pr-28 pl-28">
+        <div className=" w-[50%]  h-[70vh] flex flex-col items-center justify-center">
+          <div className="flex items-center justify-center gap-3">
+            <img src="/logo.png" className="w-80" alt="" />
+            <h1 className="text-6xl font-semibold">
+              COMMON <br />{" "}
+              <span className="text-[#58BBEB] font-bold">FACILITY</span> <br />
+              <span className="text-[#213C70]">CENTRE</span>
+            </h1>
           </div>
-          <img src="./image-7.svg" alt="" className="m-auto sm:w-[40vw] mt-12" />
-          <div className="flex items-center justify-center m-auto gap-2 sm:gap-24 text-[#CACBCB] ">
-             <h1 className="sm:w-20">Design & Manufacturing</h1>
-             <h1>Skilling</h1>
-             <h1>Testing</h1>
-             <h1>Prototyping</h1>
+          <div className="flex items-center justify-center mt-10 gap-5">
+              <button className="p-3 bg-blue-500 text-lg pr-6 pl-6">akgeccfc@akgec.ac.in</button>
+              <button className="p-3 bg-blue-500 text-lg pr-6 pl-6">akgeccfc@akgec.ac.in</button>
           </div>
         </div>
+        <div className=" w-[50%] bg-red-400 h-[70vh]"></div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -9,6 +9,7 @@ import About from './Components/About';
 import CentreOfExcellence from './Pages/CentreOfExcellence';
 import Machine from './Pages/Machine';
 import ScrollToTop from './ScrollToTop';
+import Connect from './Pages/Connect';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/centre/:id" element={<CentreOfExcellence />} />
         <Route path="/machine/:id/:subId" element={<Machine/>} />
+        <Route path="/Connect" element={<Connect/>} />
       </Routes>
       <Footer />
       <Footer2/>
