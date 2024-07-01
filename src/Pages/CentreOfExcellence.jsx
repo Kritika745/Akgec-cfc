@@ -12,7 +12,7 @@ const CentreOfExcellence = () => {
     if (id === 'AdvToolRoom') {
       return {
         bgImage:
-          "https://ucarecdn.com/ca9da199-d492-4bfb-91b1-9de92213e55e/-/preview/1000x666/",
+          "/adv/CNC HMC cover (2).JPG",
         title: "Model Tool Room",
         desc: "Description for Model Tool Room",
         desc2: "Description for Model Tool Room",
@@ -21,7 +21,7 @@ const CentreOfExcellence = () => {
       };
     } else if (id === 'R&DLab') {
       return {
-        bgImage: 'https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/',
+        bgImage: '/rnd/IMG_1669.JPG',
         title: 'Research & Development',
         desc: 'Description for Research & Development Lab',
         desc2: 'Description for Research & Development Lab',
@@ -29,7 +29,7 @@ const CentreOfExcellence = () => {
       };
     } else if (id === 'Material') {
       return {
-        bgImage: 'https://ucarecdn.com/d8f92026-8187-41ef-b606-4f115994c675/-/preview/1000x666/',
+        bgImage: '/material/IMG_1730.JPG',
         title: 'Material Testing Lab',
         desc: 'Description for Material',
         desc2: 'Description for Material',
@@ -39,7 +39,7 @@ const CentreOfExcellence = () => {
       };
     }  else {
       return {
-        bgImage: 'https://ucarecdn.com/484a66cb-a86c-4de6-8fe2-59ab540cd97c/-/preview/1000x666/',
+        bgImage: '/IMG_1695.JPG',
         title: 'iiot',
         desc: 'Default Description',
         desc2: 'Default Description',

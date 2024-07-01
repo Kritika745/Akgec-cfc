@@ -151,7 +151,7 @@ const iiot= [
     brief:"IIoT in tool rooms enables remote monitoring, boosts productivity, and drives efficient manufacturing.",
     description:
       "IIoT in tool rooms enables remote monitoring and predictive maintenance, optimizing workflows for efficient manufacturing operations. Real-time data collection and connectivity drive reduced downtime and enhanced productivity, facilitating smarter manufacturing processes. ",
-    image:"/public/IMG_1695.JPG"
+    image:"/IMG_1695.JPG"
   },
 ];
 
