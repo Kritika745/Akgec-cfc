@@ -28,8 +28,7 @@ const CFC = () => {
         <div style={{
           backgroundPosition: 'center',
         }}
-        // bg-[url("https://ucarecdn.com/1e2353b3-22af-4e91-9086-a6b5c238bd40/-/preview/1000x797/")]
-        className=' bg-no-repeat bg-contain   md:text-lg text-base leading-relaxed px-8 sm:px-16 md:px-24 text-justify'>
+        className=' bg-[url("/cfc.png")]  bg-no-repeat bg-contain   md:text-lg text-base leading-relaxed px-8 sm:px-16 md:px-24 text-justify'>
           <p className="mb-2   ">
             Common Facility Centre (CFC) is established under “One District One
             Product (ODOP) CFC Scheme” of Government of Uttar Pradesh. One of
@@ -56,7 +55,7 @@ const CFC = () => {
                 District One Product (ODOP) CFC Scheme” of Government of Uttar
                 Pradesh
           </p>
-          <p className="font-semibold mb-2">The major objectives of CFC are:</p>
+          <p className="font-semibold mb-2 mt-4">The major objectives of CFC are:</p>
         <ul className="list-disc pl-5 space-y-1">
           <li>To build up technical competency of cluster units, to make them competitive at global
           market for price and quality.</li>

@@ -23,7 +23,7 @@ const Odop = () => {
       <div className="sm:hidden flex items-center justify-center m-6">
         <img src={odop} alt="ODOP" className=" w-[70%] rounded-md " />
       </div> 
-      <div className=" sm:bg-[url('/logo2.png')] bg-no-repeat bg-center  md:text-lg text-base leading-relaxed px-8 sm:px-16 md:px-24 text-justify">
+      <div className=" sm:bg-[url('/bg.png')] bg-no-repeat bg-center  md:text-lg text-base leading-relaxed px-8 sm:px-16 md:px-24 text-justify">
         <p className="mb-2 ">
           One District One Product (ODOP) scheme is an initiative of Government of Uttar Pradesh to encourage & promote MSMEs related to the indigenous and specialized product
            with distinct identity from a district which have potential of generating more employment and development.
