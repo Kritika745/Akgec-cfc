@@ -302,7 +302,7 @@ export const advancetoolroom = [
   {
     id: 3,
     title: "CNC Turn Mill",
-    image1: "https://ucarecdn.com/5b47eb98-1f2f-4d25-976e-19298ae64b2f/-/preview/1000x825/",
+    image1: "https://ucarecdn.com/d737ed26-5903-46ae-af09-989d345ed63e/-/preview/1000x825/",
     image2: "https://ucarecdn.com/61b11c0c-cd49-40a0-8a2f-7ae69b9c2942/-/preview/1000x825/",
     image: "https://ucarecdn.com/d737ed26-5903-46ae-af09-989d345ed63e/-/preview/1000x825/",
     description1:
