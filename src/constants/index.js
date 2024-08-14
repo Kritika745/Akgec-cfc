@@ -21,13 +21,13 @@ const advtoolroom = [
     name: "EDM Wirecut",
     brief: "Precise cutting of profiles on various metals and alloys with high accuracy.",
     description: "Wire EDM uses a thin, electrically charged wire with dielectric fluid to cut metal parts into various shapes. It produces precise cuts by melting or vaporizing the material. This method is ideal for complex profiles and high-precision applications in manufacturing.",
-    image: "/COMPRESS PHOTOS/"
+    image: "https://ucarecdn.com/484a66cb-a86c-4de6-8fe2-59ab540cd97c/-/preview/1000x666/"
   },
   {
     name: "CNC Laser Cutting",
     brief: "High-accuracy laser cutting, engraving, and inscribing for detailed work.",
     description: "CNC laser cutting machines use a high-power laser beam to cut intricate shapes and minute holes with high accuracy. Ideal for detailed and precise work. This technology ensures minimal material waste, making it suitable for various applications.",
-    image: "/COMPRESS PHOTOS/"
+    image: "https://ucarecdn.com/b8dc0d38-867f-4d05-853e-57aea0e50eab/-/preview/1000x666/"
   },
   {
     name: "CNC Abrasive Water Jet Cutting",
@@ -39,13 +39,13 @@ const advtoolroom = [
     name: "Double Column Band Saw",
     brief: "Cutting solid rods and hollow pipes in various shapes with precision.",
     description: "Specialized for cutting materials like Inconel, Hastelloy, Titanium, Stainless Steel, and mild steel. Ensures precision for materials with high solidity and hardness. It is designed to handle tough and durable materials efficiently, meeting various industry requirements.",
-    image: "/COMPRESS PHOTOS/"
+    image: "https://ucarecdn.com/2f6f908d-89f3-465b-bc8d-35e5d99babf2/-/preview/1000x666/"
   },
   {
     name: "CNC Hydraulic Press Brake",
     brief: "Precision bending for automotive, aerospace, and metal industries applications.",
     description: "It offers precise bending for up to 10 mm thick sheets, ensuring accuracy for automotive, aerospace, and metal fabrication industries. This machine combines strength and precision for high-quality results in various applications.",
-    image: "/COMPRESS PHOTOS/"
+    image: "https://ucarecdn.com/ba2c2ef9-730a-4236-86c9-50e9841124c2/-/preview/1000x666/"
   },
   {
     name: "CNC 5-Axis Machining Center",

@@ -40,9 +40,11 @@ const CentreOfExcellence = () => {
     }  else {
       return {
         bgImage: '/IMG_1695.JPG',
-        title: 'iiot',
+        title: 'IIOT',
         desc: 'Default Description',
         desc2: 'Default Description',
+        description:
+         "IIOT in tool rooms enables remote monitoring and predictive maintenance, optimizing workflows for efficient manufacturing operations. Real-time data collection and connectivity drive reduced downtime and enhanced productivity, facilitating smarter manufacturing processes. ",
         data:iiot
       };
     }
@@ -80,7 +82,9 @@ const CentreOfExcellence = () => {
       {
         id === 'R&DLab' && <RDlab />
       }
+      { id !== 'iiot' &&
       <Infra  data={bgImage.data} id={id}/>
+    }
     </>
   );
 }

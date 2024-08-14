@@ -302,7 +302,7 @@ export const advancetoolroom = [
   {
     id: 3,
     title: "CNC Turn Mill",
-    image1: "https://ucarecdn.com/5b47eb98-1f2f-4d25-976e-19298ae64b2f/-/preview/1000x825/",
+    image1: "https://ucarecdn.com/d737ed26-5903-46ae-af09-989d345ed63e/-/preview/1000x825/",
     image2: "https://ucarecdn.com/61b11c0c-cd49-40a0-8a2f-7ae69b9c2942/-/preview/1000x825/",
     image: "https://ucarecdn.com/d737ed26-5903-46ae-af09-989d345ed63e/-/preview/1000x825/",
     description1:
@@ -493,7 +493,7 @@ export const rndlab = [
     id: 2,
     title: "Post-processing Machines",
     image1: "https://ucarecdn.com/a88ba382-7d52-4b84-9404-bcbc8a35905f/-/preview/1000x772/",
-    image2: "https://ucarecdn.com/c24632c9-fae6-4fe6-9a04-435015008334/",
+    image2: "",
     image: "https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/",
     description1:
     {
