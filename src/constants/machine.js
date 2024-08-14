@@ -465,15 +465,15 @@ export const rndlab = [
   {
 
     id: 1,
-    title: "SLM 280 Single Laser Machine",
+    title: "Laser fused metal additive manufacturing machine (SLM280)",
     image1: "https://ucarecdn.com/6c3febda-6e38-48db-8e69-de68ec0ccdf8/",
     image2: "https://ucarecdn.com/449024d1-e7cd-4742-ab08-b8840a198e89/",
     image3: "https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/",
     image: "https://ucarecdn.com/128b6d98-c469-4dec-b87b-1f86ed0c2e9d/-/preview/1000x666/",
     description1:
     {
-      "The SLM 280 Single Laser Machine": " is an advanced selective laser melting (SLM) system perfect for additive manufacturing. With a build envelope of 280 x 280 x 365 mm and a powerful 400W fiber laser, it ensures precise melting of metal powders. Its key process parameters—laser power, scan speed, layer thickness, and hatch spacing—are finely tunable for optimal results. The SLM 280 processes various materials, including aluminum, titanium, stainless steel, and cobalt-chromium alloys. Ideal for aerospace, automotive, medical implants, and tooling applications, it excels in creating complex geometries with high-performance materials.",
-      "The Selective Laser Melting System SLM®280HL": " provides a 280 x 280 x 365 mm³ build envelope and a patented single-beam technology. The (laser) beam profile has been further improved. The constructive solution of the recoater lip (available in polymer materials, as well as a ceramic blade) allows fine structures and achieves a significantly higher component quality. The field-proven, latest software supports a production-oriented data preparation for specific applications and highly optimized building processes. The whole process is carried out under an inert gas atmosphere. The reliable process gas filtration, and its double valve system, enable the highest degree of security. The efficient inert gas circulation during the safe and efficient operation leads to less gas consumption.The SLM® 280 has a winning patented bi-directional powder coating in permanent production with optimal processing conditions for the highest and most constant construction qualities. The open system provides a lot of opportunities to operate the machine in-house with specific parameters depending on current needs."
+      "SLM 280 Single Laser Machine": " The SLM 280 Laser fused metal additive manufacturing is prominante selective laser melting system used for favouring complex and customized parts with high performance materials. With a build envelope of 280x280x 365 mm3 and a powerful 400w single fiber laser, it ensure precisemelting of metal powders.its key process parameters- laser power, scan speed, layer thickness, and hatch spacing are finely tunable for optimal results. The SLM 280 processes various material including – aluminium, titanium, ferrous alloy and metal and alloys. Ideal for Automotive, Aerospace, mold & tooling and medical applications. Selective laser melting system consists of patented single beam section with improve laser beam profile. The (laser) beam profile has been further improved. The constructive solution of the re-coater lip (available in polymer materials, as well as a ceramic blade) allows fine structures and achieves a significantly higher component quality. The field-proven, latest software supports a production-oriented data preparation for specific applications and highly optimized building processes. The whole process is carried out under an inert gas atmosphere. The reliable process gas filtration, and its double valve system, enable the highest degree of security. The efficient inert gas circulation during the safe and efficient operation leads to less gas consumption. The SLM 280 has a winning patented bi-directional powder coating in permanent production with optimal processing conditions for the highest and most constant construction qualities. The open system provides a lot of opportunities to operate the machine in-house with specific parameters depending on current needs.",
+      // "The Selective Laser Melting System SLM®280HL": " provides a 280 x 280 x 365 mm³ build envelope and a patented single-beam technology. The (laser) beam profile has been further improved. The constructive solution of the recoater lip (available in polymer materials, as well as a ceramic blade) allows fine structures and achieves a significantly higher component quality. The field-proven, latest software supports a production-oriented data preparation for specific applications and highly optimized building processes. The whole process is carried out under an inert gas atmosphere. The reliable process gas filtration, and its double valve system, enable the highest degree of security. The efficient inert gas circulation during the safe and efficient operation leads to less gas consumption.The SLM® 280 has a winning patented bi-directional powder coating in permanent production with optimal processing conditions for the highest and most constant construction qualities. The open system provides a lot of opportunities to operate the machine in-house with specific parameters depending on current needs."
 
     },
     description2: "",
@@ -485,25 +485,25 @@ export const rndlab = [
       Materials:
         "Aluminum, Titanium, Stainless Steel, Cobalt-Chromium Alloys",
       Applications: "Aerospace, Automotive, Medical Implants, Tooling",
-      "Key Features":
-        "Precise melting of metal powders, adjustable process parameters for optimal results",
-    },
+        },
   },
   {
     id: 2,
-    title: "Post-processing Machines",
+    title: "Pre /Post-processing Machines",
     image1: "https://ucarecdn.com/a88ba382-7d52-4b84-9404-bcbc8a35905f/-/preview/1000x772/",
-    image2: "",
-    image: "https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/",
+    image2: "https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/",
+    image: "",
     description1:
     {
-      "Post-processing": " methods in additive manufacturing are crucial for enhancing surface roughness and achieving precise finishes on 3D-printed parts. The lab utilizes a Sand Blasting Machine, Hot Air Oven with precise temperature control up to 200°C for drying metal powder, and an Inert Gas Muffle Furnace with a maximum temperature of 1200°C for controlled heating, sintering, and heat treatment of materials.",
-      "Sand blasting machine": " post-processing method in additive manufacturing can be used for enhancing surface roughness. Achieve precise finishes on 3D-printed parts, ideal for aerospace, automotive, and medical industries. The hot air oven offers precise temperature control up to 200 degrees Celsius, making it ideal for drying of metal powder. Meanwhile, the Inert Gas Muffle Furnace boasts a maximum temperature of 1200 degrees Celsius, providing an inert atmosphere for controlled heating, sintering, and heat treatment of materials. With robust construction and advanced features, these machines ensure uniform heating, efficient operation, and reliable performance, catering to the diverse needs of research, quality control, and production processes across various sectors."
+      "Pre-processing": "Pre processing in additive manufacturing like Powder sieving machine, hot air oven, sand blasting machine and inert gas muffle furnace are crucial for the maximum utilization of powder enhancing, the surface roughness, and material properties to achieve precise finish parts. The lab utilizes a Sand Blasting Machine, Hot Air Oven with precise temperature control up to 200°C for drying metal powder, and an Inert Gas Muffle Furnace with a maximum temperature of 1200°C for controlled heating, sintering, and heat treatment of materials.Powder sieving machine, pre -processing method are vital to ensure the quality and consistency of the powder material used in the additive manufacturing process. The sieving process removes over size particles, contaminates & agglomerates that could affect flowability and packing density of the powder.",
+      "Sand blasting machine": "  post processing method in additive manufacturing cab be used for enhancing surface roughness. Achieve precise finishes on 3D- printed parts ideal for aerospace, automotive, tool and molding and medical industries. additionally the Inert Gas Muffle Furnace boasts a maximum temperature of 1200o C, providing an inert atmosphere for controlled heating, sintering, and heat treatment of materials. With robust construction and advanced features, these machines ensure uniform heating, efficient operation, and reliable performance, catering to the diverse needs of research, quality control, and production processes across various sectors. "
 
     },
     description2:
       "",
     specifications: {
+      "Sieving machine":
+        "The sieving process removes over size particles, contaminates & agglomerates that could affect flowability and packing density of the powder.",
       "Sand Blasting Machine":
         "Enhances surface roughness of 3D-printed parts",
       "Hot Air Oven":
@@ -511,9 +511,7 @@ export const rndlab = [
       "Inert Gas Muffle Furnace":
         "Maximum temperature of 1200°C, provides inert atmosphere for controlled heating, sintering, and heat treatment",
       Applications: "Aerospace, Automotive, Medical Industries",
-      "Key Features":
-        "Robust construction, advanced features for uniform heating and efficient operation",
-    },
+        },
   },
 ];
 

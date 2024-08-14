@@ -16,13 +16,12 @@ const CentreOfExcellence = () => {
         title: "Modern Tool Room",
         desc: "Description for Modern Tool Room",
         desc2: "Description for Modern Tool Room",
-        description:"The Tool Room is equipped with state-of-the-art machinery, offers a comprehensive environment for training, research, and consultancy. CNC 5-Axis Milling Centre, CNC Turn Mill, CNC Horizontal and Vertical Milling Centres are installed to ensure precise and complex machining. CNC Laser Cutting Machine & CNC Abrasive Water Jet Cutting Machines are available to provide advanced solutions for cutting of various materials with high accuracy and Wire-Cut EDM is installed to intricate part production. The facility is geared towards providing expert consultancy services, helping industries to solve complex manufacturing problems and optimize production processes"  ,
-        data: advtoolroom,
+        description:"The Tool Room is equipped with state-of-the-art machinery, providing a comprehensive environment for training, research, and consultancy. The facility includes, CNC 5-Axis Machining Centre, CNC Turn Mill, CNC Horizontal and Vertical Machining CentresThese machines ensure precise and complex machining capabilities. Additionally, the Tool Room features, CNC Laser Cutting Machine, and CNC Abrasive Water Jet Cutting Machines. These advanced machines offer high-accuracy solutions for cutting various materials. For intricate part production, the facility is also equipped with Wire-Cut EDM. The Tool Room is designed to provide expert consultancy services, assisting industries in solving complex manufacturing problems and optimizing production processes."  ,        data: advtoolroom,
       };
     } else if (id === 'R&DLab') {
       return {
         bgImage: '/rnd/IMG_1669.JPG',
-        title: 'Research & Development',
+        title: 'Research & Development Lab',
         desc: 'Description for Research & Development Lab',
         desc2: 'Description for Research & Development Lab',
         data:rnd

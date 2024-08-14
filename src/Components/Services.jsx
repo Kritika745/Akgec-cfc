@@ -28,7 +28,7 @@ const Services = () => {
        <div className='bg-gray-50 ring-1 ring-gray-300 hover:ring-gray-400 p-4 w-[85%] md:w-1/3 lg:w-1/5 rounded-md shadow-lg'>
            <img className='w-16 h-16 mb-2' src="/control.png" alt="" />
            <h1 className='text-[#203c70] text-2xl font-bold mb-1'>Testing</h1>
-           <p className='text-base'>Testing services are designed to ensure the highest standards of quality and reliability for our industrial products and processes.</p>
+           <p className='text-base'>Testing services are designed to ensure the highest standards of quality and reliability for industrial products and processes.</p>
        </div>
 
        <div className='bg-gray-50 ring-1 ring-gray-300 hover:ring-gray-400 p-4 w-[85%] md:w-1/3 lg:w-1/5 rounded-md shadow-lg'>
