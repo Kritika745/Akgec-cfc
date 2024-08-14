@@ -3,7 +3,7 @@ import React from 'react'
 const CFC = () => {
   return (
     
-    <div className='mt-16'>
+    <div className='pt-16' id='about'>
     <div className="">
       <div className="flex gap-2 w-full justify-center mb-2 px-2 flex-wrap ">
         <h1 className="md:text-3xl sm:text-2xl text-xl  text-center font-bold text-[#2F80C2] ">
