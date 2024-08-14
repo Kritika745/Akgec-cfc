@@ -45,13 +45,19 @@ const advtoolroom = [
     name: "CNC Hydraulic Press Brake",
     brief: "Precision bending for automotive, aerospace, and metal industries applications.",
     description: "It offers precise bending for up to 10 mm thick sheets, ensuring accuracy for automotive, aerospace, and metal fabrication industries. This machine combines strength and precision for high-quality results in various applications.",
-    image: "https://ucarecdn.com/ba2c2ef9-730a-4236-86c9-50e9841124c2/-/preview/1000x666/"
+    image: "/COMPRESS PHOTOS/CNC bending cover.JPG"
   },
   {
     name: "CNC 5-Axis Machining Center",
     brief: "Complex manufacturing with advanced CNC controls and precision for diverse industries.",
     description: "It allows processing of parts in multiple directions with X, Y, Z linear axes and A, B rotational axes, enabling complex manufacturing in aerospace, automotive, and medical industries. It provides unmatched versatility and precision for various applications.",
     image: "/COMPRESS PHOTOS/CNC 5aixs cover 1.jpg"
+  },
+  {
+    name: "EDM Wire Drill",
+    // brief: "Complex manufacturing with advanced CNC controls and precision for diverse industries.",
+    // description: "It allows processing of parts in multiple directions with X, Y, Z linear axes and A, B rotational axes, enabling complex manufacturing in aerospace, automotive, and medical industries. It provides unmatched versatility and precision for various applications.",
+    image: "/COMPRESS PHOTOS/Drilling cover.JPG"
   }
 ];
 

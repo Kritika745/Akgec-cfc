@@ -13,9 +13,9 @@ const CentreOfExcellence = () => {
       return {
         bgImage:
           "/adv/CNC HMC cover (2).JPG",
-        title: "Model Tool Room",
-        desc: "Description for Model Tool Room",
-        desc2: "Description for Model Tool Room",
+        title: "Modern Tool Room",
+        desc: "Description for Modern Tool Room",
+        desc2: "Description for Modern Tool Room",
         description:"The Tool Room is equipped with state-of-the-art machinery, offers a comprehensive environment for training, research, and consultancy. CNC 5-Axis Milling Centre, CNC Turn Mill, CNC Horizontal and Vertical Milling Centres are installed to ensure precise and complex machining. CNC Laser Cutting Machine & CNC Abrasive Water Jet Cutting Machines are available to provide advanced solutions for cutting of various materials with high accuracy and Wire-Cut EDM is installed to intricate part production. The facility is geared towards providing expert consultancy services, helping industries to solve complex manufacturing problems and optimize production processes"  ,
         data: advtoolroom,
       };

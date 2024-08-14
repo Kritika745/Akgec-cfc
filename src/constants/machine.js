@@ -302,7 +302,7 @@ export const advancetoolroom = [
   {
     id: 3,
     title: "CNC Turn Mill",
-    image1: "https://ucarecdn.com/d737ed26-5903-46ae-af09-989d345ed63e/-/preview/1000x825/",
+    image1: "/COMPRESS PHOTOS/CNC Turn mill cover.JPG",
     image2: "https://ucarecdn.com/61b11c0c-cd49-40a0-8a2f-7ae69b9c2942/-/preview/1000x825/",
     image: "https://ucarecdn.com/d737ed26-5903-46ae-af09-989d345ed63e/-/preview/1000x825/",
     description1:
@@ -331,7 +331,7 @@ export const advancetoolroom = [
     id: 4,
     title: "CNC EDM Wirecut",
     image1: "https://ucarecdn.com/7aa6b67b-61a8-4d2d-8b39-b382f02b16b3/-/preview/1000x772/",
-    image2: "https://ucarecdn.com/8d8798d6-baae-4a42-a7d8-f9608c4d5c54/-/preview/905x1000/",
+    // image2: "https://ucarecdn.com/8d8798d6-baae-4a42-a7d8-f9608c4d5c54/-/preview/905x1000/",
     image: 'https://ucarecdn.com/484a66cb-a86c-4de6-8fe2-59ab540cd97c/-/preview/1000x666/',
     description1:
     {
@@ -421,9 +421,9 @@ export const advancetoolroom = [
   {
     id: 8,
     title: "CNC Hydraulic Press Brake",
-    image1: "https://ucarecdn.com/e96e748a-250e-4096-9c3d-2c858bf5de3d/-/preview/1000x666/",
+    image1: "/COMPRESS PHOTOS/CNC bending cover.JPG",
     image2: "https://ucarecdn.com/79438549-2259-4378-b3d3-dd65019dd4b4/-/preview/1000x811/",
-    image: "https://ucarecdn.com/ba2c2ef9-730a-4236-86c9-50e9841124c2/-/preview/1000x666/",
+    image: "/COMPRESS PHOTOS/CNC bending cover.JPG",
     description1:
     {
       "The Hindustan Hydraulic CNC Bending Swift 100-31 ": " It is a high-precision bending machine engineered for efficiency and versatility. Key parameters include a bending length of 3200 mm, maximum pressing force of 100 tons, and a bending speed of 10 mm/s. This machine can handle sheet materials up to 10 mm in thickness, offering robust capabilities in precision bending, consistent repeatability, and advanced CNC control for complex bends. Ideal for applications in automotive, aerospace, and metal fabrication industries, the Swift 100 excels in producing accurate, high-quality bends for components, enabling large-scale production and intricate custom work with superior reliability.",
@@ -441,7 +441,7 @@ export const advancetoolroom = [
   {
     id: 9,
     title: "CNC 5-Axis Machining Center",
-    image1: "https://ucarecdn.com/af25162d-7a2b-4d09-927d-00b61b14c030/",
+    image1: "/COMPRESS PHOTOS/CNC 5aixs cover 1.jpg",
     image2: "https://ucarecdn.com/30ef5514-0165-493a-93d5-0c4f01bda275/",
     image: "https://ucarecdn.com/fd9a0a03-1110-412a-b7cc-d52149c9311f/-/preview/432x369/",
     description1:
