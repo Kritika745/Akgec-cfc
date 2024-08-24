@@ -2,8 +2,8 @@ export const materialtesting = [
   {
     id: 1,
     title: "Universal Testing Machine",
-    image1: "/COMPRESS PHOTOS/Universal Testing machine 1.png",
-    image2: "",
+    image1: "/COMPRESS PHOTOS/Universal Testing machine 1.1.png",
+    image2: "", 
     image: "/COMPRESS PHOTOS/universal testing cover.JPG",
     description1: {
       "Ultimate Tensile Strength": "The ultimate tensile strength is a measure of the maximum stress a material can withstand without breaking or falling under load. It is indicated a material’s maximum ability to withstand stress before weakening.",
@@ -32,7 +32,7 @@ export const materialtesting = [
   {
     id: 2,
     title: "Fatigue Testing Machine",
-    image1: "/COMPRESS PHOTOS/Fatigue Testing Machine 1.png",
+    image1: "/COMPRESS PHOTOS/Fatigue Testing Machine 1.1.png",
     image2: "",
     image:"/COMPRESS PHOTOS/fatigue testing cover.JPG",
     description1:{
@@ -57,7 +57,7 @@ export const materialtesting = [
   {
     id: 3,
     title: "Impact Testing Machines",
-    image1: "/COMPRESS PHOTOS/Impact Testing 1.png",
+    image1: "/COMPRESS PHOTOS/Impact Testing 1_11zon.png",
     image2: "",
     image: "/COMPRESS PHOTOS/Impact Testing cover.JPG",
     description1:
@@ -100,7 +100,7 @@ export const materialtesting = [
   {
     id: 5,
     title: "Brinell Hardness",
-    image1: "/COMPRESS PHOTOS/Brinell Hardness cover (1).JPG",
+    image1: "/COMPRESS PHOTOS/Brinell Hardness 1_11zon.png",
     image2: "",
     image: "/COMPRESS PHOTOS/Brinell Hardness cover (1).JPG",
     description1:
@@ -122,7 +122,7 @@ export const materialtesting = [
   {
     id: 6,
     title: "Rockwell Hardness",
-    image1: "/COMPRESS PHOTOS/Rockwell Hardness cover.JPG",
+    image1: "/COMPRESS PHOTOS/Rockwell Hardness 1_11zon.png",
     image2: "",
     image: "/COMPRESS PHOTOS/Rockwell Hardness cover.JPG",
     description1: {
@@ -144,7 +144,7 @@ export const materialtesting = [
   {
     id: 7,
     title: "Optical Emission Spectrometer (OES)",
-    image1: "/COMPRESS PHOTOS/spectrometer 1.png",
+    image1: "/COMPRESS PHOTOS/spectrometer 1_11zon.png",
     image2: "",
     image: "",
     description1:
@@ -181,7 +181,7 @@ export const materialtesting = [
   {
     id: 9,
     title: "Metallurgical Microscope",
-    image1: "/COMPRESS PHOTOS/Metallurgical Microscopoe 1.png",
+    image1: "/COMPRESS PHOTOS/Digital Microscope 1_11zon.png",
     image2: "",
     image: "",
     description1:
@@ -196,9 +196,9 @@ export const materialtesting = [
   {
     id: 10,
     title: "Salt Spray Testing Chamber",
-    image1: "",
+    image1: "/COMPRESS PHOTOS/Salt Spray 1 (1)_11zon.png",
     image2: "",
-    image: "/COMPRESS PHOTOS/Salt spary cover.JPG",
+    image: "/COMPRESS PHOTOS/Salt Spray 1 (1)_11zon.png",
     description1:
       { "The SRI Equipment Salt Spray Corrosion Testing Machine (SST/HMI-1000) ": " It offers a capacity of 1000 liters, providing ample space for corrosion testing. Its key parameters include precise temperature and humidity control, ensuring accurate simulation of harsh environmental conditions. Ideal for evaluating the corrosion resistance of materials in automotive, aerospace, and marine industries." },
     description2: "",
