@@ -69,7 +69,7 @@ const rnd = [
     image: "/COMPRESS PHOTOS/metal 3d printer cover.JPG"
   },
   {
-    name: "Post-Processing",
+    name: "Pre/Post-Processing",
     brief: "Enhancing finishes and controlled heating for diverse industry needs and applications.",
     description: "Sand blasting improves surface roughness, hot air ovens offer precise drying, and inert gas muffle furnaces provide controlled heating for sintering and heat treatment up to 1200°C. These processes ensure high-quality finishes and optimal material properties, catering to various industry requirements.",
     image: "/COMPRESS PHOTOS/sand blasting cover.JPG"

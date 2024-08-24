@@ -1,5 +1,4 @@
-import { ChevronRight } from 'lucide-react'
-import React from 'react'
+import { LucideMail, LucidePhone } from 'lucide-react'
 
 function  Footer()  {
   return (
@@ -27,8 +26,44 @@ function  Footer()  {
             </div>
           </form>
         </div>
-        <div className="mt-8 grid grid-cols-2 sm:gap-6 gap-2 md:mt-0 lg:w-full lg:grid-cols-2">
+        <div className="mt-8 grid grid-cols-2 sm:gap-4 gap-2 md:mt-0 lg:w-full lg:grid-cols-2">
           <div className="mb-8 mt-3 ml-12 sm:ml-16 lg:mb-0">
+            <p className="mb-6 text-lg font-semibold text-gray-700">Contact</p>
+            <ul className="flex flex-col space-y-3 text-[14px] font-medium text-gray-700">
+              <li>27th Km Stone,</li>
+              <li>Delhi-Hapur Bypass Road,</li>
+              <li>P.O. Adhyatmik Nagar,</li>
+              <li>Ghaziabad - 201009</li>
+              <li>
+                <a href="tel:+919910249199" className="flex items-center">
+                  <span className="mr-2">
+                    <LucidePhone className="w-4 h-4" />
+                  </span>
+                  +91 9910249199
+                </a>
+              </li>
+              {/* <li>
+                <a href="tel:180030006484" className="flex items-center">
+                  <span className="mr-2">
+                    <LucidePhone className="w-4 h-4" />
+                  </span>
+                  1800-3000-6484 (Toll Free)
+                </a>
+              </li> */}
+              <li>
+                <a
+                  href="mailto:id--afipd@akgec.ac.in"
+                  className="flex items-center"
+                >
+                  <span className="mr-2">
+                    <LucideMail className="w-4 h-4" />
+                  </span>
+                  id--afipd@akgec.ac.in
+                </a>
+              </li>
+            </ul>
+          </div>
+          {/* <div className="mb-8 mt-3 ml-12 sm:ml-16 lg:mb-0">
             <p className="mb-6 text-lg font-semibold text-gray-700 ">
               Quick Links
             </p>
@@ -64,7 +99,7 @@ function  Footer()  {
                 Download
               </a>
             </ul>
-          </div>
+          </div> */}
           <div className="mb-8 mt-2 mr-4 sm:mr-4 lg:mb-0">
             <p className="mb-6 text-lg font-semibold text-gray-700 ">
               About AFIPD
