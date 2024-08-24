@@ -489,7 +489,7 @@ export const rndlab = [
   },
   {
     id: 2,
-    title: "Pre /Post-processing Machines",
+    title: "Pre/Post-processing Machines",
     image1: "https://ucarecdn.com/a88ba382-7d52-4b84-9404-bcbc8a35905f/-/preview/1000x772/",
     image2: "https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/",
     image: "",

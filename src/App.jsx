@@ -9,6 +9,7 @@ import CentreOfExcellence from './Pages/CentreOfExcellence';
 import Machine from './Pages/Machine';
 import ScrollToTop from './ScrollToTop';
 import Connect from './Pages/Connect';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/centre/:id" element={<CentreOfExcellence />} />
         <Route path="/machine/:id/:subId" element={<Machine/>} />
         <Route path="/Connect" element={<Connect/>} />
+        <Route path="/Privacy-Policy" element={<PrivacyPolicy/>} />
       </Routes>
       <Footer />
       <Footer2/>

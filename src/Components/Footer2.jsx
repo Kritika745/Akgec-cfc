@@ -24,7 +24,7 @@ const Footer2= ()=> {
                 <li className="p-5">
                   <a
                     className="font-medium text-gray-600 hover:text-gray-700"
-                    href="#"
+                    href="/Privacy-Policy"
                   >
                     Privacy Policy
                   </a>
@@ -40,7 +40,7 @@ const Footer2= ()=> {
                 <li className="p-5">
                   <a
                     className="font-medium text-gray-600 hover:text-gray-700"
-                    href="/about"
+                    href="/#about"
                   >
                     About
                   </a>
