@@ -492,7 +492,7 @@ export const rndlab = [
     title: "Pre/Post-processing Machines",
     image1: "https://ucarecdn.com/a88ba382-7d52-4b84-9404-bcbc8a35905f/-/preview/1000x772/",
     image2: "https://ucarecdn.com/8280ed37-3b8b-4a67-b913-516a2eaa4aa8/-/preview/1000x666/",
-    image: "",
+    image: "https://ucarecdn.com/cd83c343-e0db-469f-b77a-1c14751ddf81/-/preview/856x999/",
     description1:
     {
       "Pre-processing": "Pre processing in additive manufacturing like Powder sieving machine, hot air oven, sand blasting machine and inert gas muffle furnace are crucial for the maximum utilization of powder enhancing, the surface roughness, and material properties to achieve precise finish parts. The lab utilizes a Sand Blasting Machine, Hot Air Oven with precise temperature control up to 200°C for drying metal powder, and an Inert Gas Muffle Furnace with a maximum temperature of 1200°C for controlled heating, sintering, and heat treatment of materials.Powder sieving machine, pre -processing method are vital to ensure the quality and consistency of the powder material used in the additive manufacturing process. The sieving process removes over size particles, contaminates & agglomerates that could affect flowability and packing density of the powder.",
