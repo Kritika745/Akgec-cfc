@@ -279,7 +279,7 @@ export const advancetoolroom = [
   },
   {
     id: 2,
-    title: "CNC 2	Vertical Machining centre",
+    title: "CNC Vertical Machining centre",
     image1: "https://ucarecdn.com/00a4447a-8915-4ac4-9a3c-aea55a097341/-/preview/1000x772/",
     image2: "https://ucarecdn.com/df925017-5587-40a8-88d5-cb3ff07a551e/-/preview/1000x772/",
     image: "https://ucarecdn.com/8b6005d3-b9c1-4c5b-876c-a38df9e70be2/-/preview/1000x666/",
