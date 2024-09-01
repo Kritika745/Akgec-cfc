@@ -55,8 +55,8 @@ const advtoolroom = [
   },
   {
     name: "EDM Wire Drill",
-    // brief: "Complex manufacturing with advanced CNC controls and precision for diverse industries.",
-    // description: "It allows processing of parts in multiple directions with X, Y, Z linear axes and A, B rotational axes, enabling complex manufacturing in aerospace, automotive, and medical industries. It provides unmatched versatility and precision for various applications.",
+    brief: "High-precision tool for creating intricate holes in conductive materials using electrical discharge machining.",
+     description: "The EDM wire drill uses a thin wire as an electrode to erode material and create precise holes in hard materials, ensuring minimal thermal damage and high accuracy.",
     image: "/COMPRESS PHOTOS/Drilling cover.JPG"
   }
 ];

@@ -437,6 +437,36 @@ export const advancetoolroom = [
     },
   },
   {
+    id: 10,
+    title: "EDM Wire Drill",
+    image1: "https://ucarecdn.com/84004596-1d24-4434-9c25-ea7be234e631/-/scale_crop/550x700/",
+    image2: "",
+    image: "/COMPRESS PHOTOS/Drilling cover.JPG",
+    description1:
+    {
+      "EDM wire drill " : "  is a specialized tool used in electrical discharge machining to create precise holes in conductive materials. Unlike traditional drilling methods that use a rotating bit, the EDM wire drill operates by using a thin wire as an electrode, generating electrical discharges to erode the material and create holes. This process allows for drilling extremely small, accurate holes in hard materials, such as metals and alloys, without direct contact between the tool and the workpiece. The wire is continuously fed through the drill, and the material is removed in a controlled manner, ensuring high precision and minimal thermal damage to the surrounding material. This makes the EDM wire drill ideal for applications where conventional drilling would struggle, particularly in the manufacturing of components requiring fine and intricate holes.",
+    },
+    description2:
+      "",
+    specifications: {
+      "Machine Tool": "Smartdrill",
+      "Work table": "320 x 430 mm (Granite)",
+      "X & Y axes travel": "300 x 400 mm",
+      "Z axis travel": "280 + 300 mm",
+      "Max. electrode length": "400 mm",
+      "Size of electrode dia.": "⌀ 0.3~3.0mm",
+      "Max. drill depth": "≥ 300 mm",
+      "Max. coolant pressure": "6 MPA",
+      "Max. weight of the workpiece": "350 kg",
+      "Connected load": "3 KVA",
+      "Work tank": "25 L",
+      "Input power supply": "3 phase, AC 415 V*, 50 Hz",
+      "Net weight": "700 kg",
+      "Machine footprint": "1200 x 1500 x 1900 mm",
+      "Ball Screw": "X, Y"
+    },
+  },
+  {
     id: 9,
     title: "CNC 5-Axis Machining Center",
     image1: "/COMPRESS PHOTOS/CNC 5aixs cover 1.jpg",
