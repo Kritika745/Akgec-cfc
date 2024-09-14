@@ -3,7 +3,7 @@ export const materialtesting = [
     id: 1,
     title: "Universal Testing Machine",
     image1: "/COMPRESS PHOTOS/Universal Testing machine 1.1.png",
-    image2: "", 
+    image2: "",
     image: "/COMPRESS PHOTOS/universal testing cover.JPG",
     description1: {
       "Ultimate Tensile Strength": "The ultimate tensile strength is a measure of the maximum stress a material can withstand without breaking or falling under load. It is indicated a material’s maximum ability to withstand stress before weakening.",
@@ -34,9 +34,10 @@ export const materialtesting = [
     title: "Fatigue Testing Machine",
     image1: "/COMPRESS PHOTOS/Fatigue Testing Machine 1.1.png",
     image2: "",
-    image:"/COMPRESS PHOTOS/fatigue testing cover.JPG",
-    description1:{
-      "The FIE Pro-200 Fatigue Testing Machine ": "This is a high-performance solution designed fortesting the materials in repeated loading condition making it suitable for evaluating thematerials fatigue life for various structural applications. In this machine test materialspecimen of diameter 8 mm is held at the two ends with the help of collets, then load isapplied at center for uniform bending moment and rotate it with 4200 RPM by motor.During each revolution reverse stresses in all fibers of specimen is produced. Bendingmoment is applied with lever mechanism system so various weight can be easilyreplaced. After completing the test process whatever number of revolutions taken byspecimen up to its break point is displayed on the digital counter."},
+    image: "/COMPRESS PHOTOS/fatigue testing cover.JPG",
+    description1: {
+      "The FIE Pro-200 Fatigue Testing Machine ": "This is a high-performance solution designed fortesting the materials in repeated loading condition making it suitable for evaluating thematerials fatigue life for various structural applications. In this machine test materialspecimen of diameter 8 mm is held at the two ends with the help of collets, then load isapplied at center for uniform bending moment and rotate it with 4200 RPM by motor.During each revolution reverse stresses in all fibers of specimen is produced. Bendingmoment is applied with lever mechanism system so various weight can be easilyreplaced. After completing the test process whatever number of revolutions taken byspecimen up to its break point is displayed on the digital counter."
+    },
     description2: "",
     specifications: {
       Model: "Fatigue Pro-200",
@@ -61,7 +62,7 @@ export const materialtesting = [
     image2: "",
     image: "/COMPRESS PHOTOS/Impact Testing cover.JPG",
     description1:
-      {"The FIE Auto Impact 30 Impact Testing Machine " : "is a robust solution for assessing materialtoughness with a capacity of 300 Joules, making it suitable for testing metals, plastics,and composites in various industries. The impact strength of a metal is determined bymeasuring the energy absorbed in the fracture.."},
+      { "The FIE Auto Impact 30 Impact Testing Machine ": "is a robust solution for assessing materialtoughness with a capacity of 300 Joules, making it suitable for testing metals, plastics,and composites in various industries. The impact strength of a metal is determined bymeasuring the energy absorbed in the fracture.." },
     description2:
       "",
     specifications: {
@@ -71,8 +72,8 @@ export const materialtesting = [
       "Maximum scale graduation": "0.5J",
       "Overall size (Approx.)": "1.1m×0.45m×1.65m (H)",
       "Net weight (Approx.)": "450 kg",
-      "Test":"Charpy, Izod",
-     },
+      "Test": "Charpy, Izod",
+    },
   },
   {
     id: 4,
@@ -81,9 +82,9 @@ export const materialtesting = [
     image2: "",
     image: "",
     description1:
-      { "Micro Vickers ": " the indents use in this method is a diamond pyramid with a square base, whose opposite sides meet at the apex at an angle of 136 It is supplied to The specimen with a test force (10gf-100gf) and held according to holding time. The length of both diagonals of the residual test indentation are optically measured. The vickers hardness is then calculated from the average of the diagonals and The test force applied." },
-    description2:
-      "The Vickers method is based on an optical measurement system. It specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value.",
+      { "Micro Vickers ": "The indenter used in this method is a diamond pyramid with a square base, whose opposite sides meet at the apex at an angle of 136° It is supplied to the specimen with a test force (10gf-100gf) and held according to holding time. The length of both diagonals of the residual test indentation are optically measured. The vickers hardness is then calculated from the average of the diagonals and the test force applied." },
+    // description2:
+    //   "The Vickers method is based on an optical measurement system. It specifies a range of light loads using a diamond indenter to make an indentation which is measured and converted to a hardness value.",
     specifications: {
       Model: "MV1-TS",
       Make: "FIE (Fuel Instruments & Engineers Pvt. Ltd.)",
@@ -104,11 +105,11 @@ export const materialtesting = [
     image2: "",
     image: "/COMPRESS PHOTOS/Brinell Hardness cover (1).JPG",
     description1:
-      { "Brinell Hardness ": " Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Brinell method applies a predetermined test load to a carbide ball of fixed diameter which is held for a predetermined time period and then removed. The resulting impression is measured with a specially designed Brinell microscope or optical system across at least two diameters. Brinell hardness is measured by 2.5, 5 or 10mm diameter indentor with measuring force ranges from 62.5kg to 3000kg" },
+      { "Brinell Hardness ": "B-3000 TSFA is a fully automatic machine for production testing. It is capable of providing the direct and accurate measurement of Brinell hardness number with high accuracy and repeatability at all loads. It offers wide testing range from the soft metal such as lead to the hard metal like tempered steel." },
     description2:
-      "Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation.",
+      "The Brinell test method applies a predetermined test load to a carbide ball of fixed diameter which is held for a predetermined time period and then removed. The resulting impression is measured with a specially designed Brinell microscope or optical system. Brinell hardness is measured by 2.5, 5 or 10 mm diameter Indentor with measuring force ranges from 250 kg to 3000kg.",
     specifications: {
-      Model: "B 3000-TSFA",
+      Model: "B-3000 TSFA",
       Make: "FIE (Fuel Instruments & Engineers Pvt. Ltd.)",
       "Test Load": "250-3000 kgf",
       Magnification: "4X",
@@ -125,17 +126,17 @@ export const materialtesting = [
     image1: "/COMPRESS PHOTOS/Rockwell Hardness 1_11zon.png",
     image2: "",
     image: "/COMPRESS PHOTOS/Rockwell Hardness cover.JPG",
-    description1: {
-      "The Rockwell method ": " It measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter. This preload breaks through the surface to reduce the effects of surface finish. After holding the preliminary test force for a specified dwell time, the baseline depth of indentation is measured."
-    },
+    description1:
+      { "RASN-TSFA": "It is a fully automatic digital Rockwell hardness tester with inbuilt printer. The tester is equipped with 4.3'' TFT High quality color display with touch screen for easy hardness measurement. The results are displayed in 0.1 Rockwell units for more accurate measurement." },
     description2:
-      "",
+      "Various parameters of test can be set on setting screen on touch screen such as a high/low limits, dwell time, auto/manual start, printer selection, scale selection etc. All data can be verified on pre load screen. Elevating screw lowered automatically to its previous position. The hardness conversions can also be done through smart hardness converter on screen.",
     specifications: {
       Model: "RASN-TSFA",
       Make: "FIE (Fuel Instruments & Engineers Pvt. Ltd.)",
+      "Hardness Scale": "HRA, HRB, HRC",
       "Major load": "588.4, 980.7, 1471 N (60, 100, 150 kgf)",
-      "Minor load": "98.7 kgf",
-      "Max. test height": "230 mm",
+      "Minor load": "98.7 kgf(10 kgf)",
+      "Maximum test height": "215 mm",
       "Depth of throat": "133 mm",
       "Net weight (Approx.)": "75 kg",
       "Machine dimensions (L×W×H)": "450×175×627 mm",
@@ -148,7 +149,7 @@ export const materialtesting = [
     image2: "",
     image: "",
     description1:
-      {"SPECTROMAXxLMXA110 ":" It is capable of accurate elemental analysis of metals including Iron & Steel, Aluminium, Copper and Nickel based alloys. Featuring advanced optics, robust construction, wide spectral range, high-resolution detectors, and user-friendly software, it ensures accurate and reliable results. Ideal for quality control in foundries and metal processing, it offers rapid, precise multi-element analysis, making it essential for stringent quality standards. Its outstanding repeatability, reproducibility, and reliability makes it one of the best optical emission spectrometry (OES) analyzer."},
+      { "SPECTROMAXxLMXA110 ": " It is capable of accurate elemental analysis of metals including Iron & Steel, Aluminium, Copper and Nickel based alloys. Featuring advanced optics, robust construction, wide spectral range, high-resolution detectors, and user-friendly software, it ensures accurate and reliable results. Ideal for quality control in foundries and metal processing, it offers rapid, precise multi-element analysis, making it essential for stringent quality standards. Its outstanding repeatability, reproducibility, and reliability makes it one of the best optical emission spectrometry (OES) analyzer." },
     description2:
       "",
     specifications: {
@@ -170,7 +171,7 @@ export const materialtesting = [
     image2: "",
     image: "",
     description1:
-      {"ZEISS Smartzoom 5 ": "It is a smart digital microscope - ideal for quality control and quality assurance applications in virtually every field of industry. It is having choices of varying magnification ranging from 34X-335X. It is fully automated and equipped with dedicated quality assurance (QA) and quality control (QC) components ideal for electronics, defence, and automotive industries etc. Smartzoom 5 provides fast, reproducible, high quality and reliable QA/QC measurements for routine as well as failure analyses. It also supports advanced types of microscopic images with extended depth of field (EDF), stitching and 3D imaging."},
+      { "ZEISS Smartzoom 5 ": "It is a smart digital microscope - ideal for quality control and quality assurance applications in virtually every field of industry. It is having choices of varying magnification ranging from 34X-335X. It is fully automated and equipped with dedicated quality assurance (QA) and quality control (QC) components ideal for electronics, defence, and automotive industries etc. Smartzoom 5 provides fast, reproducible, high quality and reliable QA/QC measurements for routine as well as failure analyses. It also supports advanced types of microscopic images with extended depth of field (EDF), stitching and 3D imaging." },
     description2: "",
     specifications: {
       Model: "Smartzoom 5",
@@ -186,9 +187,17 @@ export const materialtesting = [
     image: "",
     description1:
       { "Axio Observer 7 ": " It combines the proven quality of ZEISS optics with automated components to give reliable and reproducible results. It is a fully motorized inverted microscope for metals and alloys. It is having choice of five different objectives of varying magnifications ranging from 50X-1000X. Extended depth of field (EDF) and Stitching features makes it an advanced microscope.  Dedicated software modules helps in analysing non-metallic inclusions, grain sizes, phases and coating thickness in metallic materials. " },
-    description2: "",
+    description2: `Typical fields of applications are: \n
+      •  Inspection of materials samples and components, checking for process results, such as determination of component surface parameters, coating thickness. \n
+      •  Identification of microstructure types, study of heat-affected zone (HAZ) around the weld. \n
+      • Assessment of composition and structure of materials, finding the causes of component failures, in-process inspection of cast, worked, and machined components. \n
+      • Various investigations of composite materials and materials compound`,
     specifications: {
-      Model: "Aio Observer 7",
+      Model: "Axio Observer 7",
+      Software: "Zen Core 3.5",
+      "Reflected Light": "Brightfield, darkfield",
+      Dimensions: "295 mm x 805 mm x 707 mm",
+      Weight: "36 Kg",
       Make: "Carl Zeiss",
       Magnification: "50X, 100X, 200X, 500X, 1000X",
     },
@@ -214,12 +223,18 @@ export const materialtesting = [
   },
   {
     id: 11,
-    title: "Sample Preparation",
+    title: "Sample Preparations Machines",
     image1: "/COMPRESS PHOTOS/Sample Preparation 1.png",
     image2: "/COMPRESS PHOTOS/Sample Preparation 2.png",
-    image: "/COMPRESS PHOTOS/sample prepartion cover 3.JPG",
+    image: "/COMPRESS PHOTOS/samplesss.png",
     description1:
-      { "Sample Preparation ": " Introducing Metatech's cutting-edge sample preparation equipment for material analysis. The Autopol Dual II Surface Grinding & Polishing machine offers precise grinding and polishing with dual workstations, ideal for achieving mirror-like finishes on a variety of materials. The Automount Hot Mounting Press provides efficient hot mounting of samples for metallographic analysis, ensuring uniform encapsulation without distortion. The Oscicut Sample Cutting machine delivers accurate sectioning of specimens with programmable cutting parameters, catering to diverse sample sizes and shapes. These machines are essential for metallography, material science, and quality control applications, providing reliable and efficient sample preparation solutions for industries including aerospace, automotive, and manufacturing." },
+    {
+      "Abrasive Cutting Machine (Oscicut)": "The Oscicut Sample Cutting machine delivers accurate sectioning of specimens with programmable cutting parameters, catering to diverse sample sizes and shapes. It uses highly precise and thin abrasive wheel for cutting metallic materials accurately. ",
+      "Mounting Press (Automount)":
+        "The Automount Hot Mounting Press provides efficient hot mounting of samples for metallographic analysis, ensuring uniform encapsulation without distortion. It encapsulates samples in a thermosetting plastic to create a uniform shape for grinding and polishing.",
+      "Automatic Multi-Specimen Polishing/Grinding Machine (Autopol-II)":
+        "Equipped with Auto Dispensing Unit, the Autopol Dual II Surface Grinding & Polishing machine offers precise grinding and polishing with dual workstations, ideal for achieving mirror-like finishes on a variety of materials. It uses progressively finer abrasives bonded papers mounted on carrier plates over magnetic disc to smoothen the sample's surface. Subsequently polishing in final stage of sample preparation with submicron sized slurry of alumina, diamond paste and colloidal silica, produces a smooth and reflective surface."
+    },
     description2: "",
     specifications: {
       "Abrasive Cutting":
@@ -239,7 +254,7 @@ export const materialtesting = [
     image2: "",
     image: "/COMPRESS PHOTOS/thermal imager cover.jpg",
     description1:
-      {"Thermal Imaging Camera ":" KT-400 thermal imager is equipped with a modern sensor with a resolution of 384x288pixels. A wide temperature measurement range and high-quality lenses guarantee ahigh level of detail in the recorded images. A large display combined with innovativedata processing electronics is placed in a compact housing, thus ensuring a perfectbalance between high performance and small dimensions. Moreover, due to thecentrally located navigation button supported by a menu on the touchscreen, thismodel ensures simple and intuitive operation. Camera is additionally equipped withvisual lenses and related image mixing technologies: PIP, MIF. Support from the built-inLED torch and laser improves operational quality by facilitating photography and thenimage interpretation."},
+      { "Thermal Imaging Camera ": " KT-400 thermal imager is equipped with a modern sensor with a resolution of 384x288pixels. A wide temperature measurement range and high-quality lenses guarantee ahigh level of detail in the recorded images. A large display combined with innovativedata processing electronics is placed in a compact housing, thus ensuring a perfectbalance between high performance and small dimensions. Moreover, due to thecentrally located navigation button supported by a menu on the touchscreen, thismodel ensures simple and intuitive operation. Camera is additionally equipped withvisual lenses and related image mixing technologies: PIP, MIF. Support from the built-inLED torch and laser improves operational quality by facilitating photography and thenimage interpretation." },
     description2: "",
     specifications: {
       Model: "KT-400",
@@ -444,7 +459,7 @@ export const advancetoolroom = [
     image: "/COMPRESS PHOTOS/Drilling cover.JPG",
     description1:
     {
-      "EDM wire drill " : "  is a specialized tool used in electrical discharge machining to create precise holes in conductive materials. Unlike traditional drilling methods that use a rotating bit, the EDM wire drill operates by using a thin wire as an electrode, generating electrical discharges to erode the material and create holes. This process allows for drilling extremely small, accurate holes in hard materials, such as metals and alloys, without direct contact between the tool and the workpiece. The wire is continuously fed through the drill, and the material is removed in a controlled manner, ensuring high precision and minimal thermal damage to the surrounding material. This makes the EDM wire drill ideal for applications where conventional drilling would struggle, particularly in the manufacturing of components requiring fine and intricate holes.",
+      "EDM wire drill ": "  is a specialized tool used in electrical discharge machining to create precise holes in conductive materials. Unlike traditional drilling methods that use a rotating bit, the EDM wire drill operates by using a thin wire as an electrode, generating electrical discharges to erode the material and create holes. This process allows for drilling extremely small, accurate holes in hard materials, such as metals and alloys, without direct contact between the tool and the workpiece. The wire is continuously fed through the drill, and the material is removed in a controlled manner, ensuring high precision and minimal thermal damage to the surrounding material. This makes the EDM wire drill ideal for applications where conventional drilling would struggle, particularly in the manufacturing of components requiring fine and intricate holes.",
     },
     description2:
       "",
@@ -474,7 +489,7 @@ export const advancetoolroom = [
     image: "https://ucarecdn.com/fd9a0a03-1110-412a-b7cc-d52149c9311f/-/preview/432x369/",
     description1:
     {
-      "VARAXIS C 600 " : " is a state-of-the-art machining center engineered for intricate and precise manufacturing. With simultaneous five-axis machining, it enables complex part production in a single setup. It include a spindle speed of up to 12,000 RPM, a 600 mm table diameter, and advanced CNC controls for unparalleled precision. The VARAXIS C600 handles a wide range of materials, including metals and composites, making it ideal for aerospace, automotive, and medical industries. Its robust construction, high accuracy, and versatility boost productivity, ensuring exceptional performance for the most detailed and complex machining tasks.",
+      "VARAXIS C 600 ": " is a state-of-the-art machining center engineered for intricate and precise manufacturing. With simultaneous five-axis machining, it enables complex part production in a single setup. It include a spindle speed of up to 12,000 RPM, a 600 mm table diameter, and advanced CNC controls for unparalleled precision. The VARAXIS C600 handles a wide range of materials, including metals and composites, making it ideal for aerospace, automotive, and medical industries. Its robust construction, high accuracy, and versatility boost productivity, ensuring exceptional performance for the most detailed and complex machining tasks.",
       "Service Provided ": "Manufacturing  of machine of complex and intricate parts that require multiple angles to be machined in a single setup. "
     },
     description2:
@@ -512,7 +527,7 @@ export const rndlab = [
       Materials:
         "Aluminum, Titanium, Stainless Steel, Cobalt-Chromium Alloys",
       Applications: "Aerospace, Automotive, Medical Implants, Tooling",
-        },
+    },
   },
   {
     id: 2,
@@ -538,7 +553,7 @@ export const rndlab = [
       "Inert Gas Muffle Furnace":
         "Maximum temperature of 1200°C, provides inert atmosphere for controlled heating, sintering, and heat treatment",
       Applications: "Aerospace, Automotive, Medical Industries",
-        },
+    },
   },
 ];
 

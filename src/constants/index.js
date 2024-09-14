@@ -97,19 +97,19 @@ const material = [
   },
   {
     name: "Micro-Vickers Hardness",
-    brief: "Standard test method for micro dentation harness (10gf to 1000gf) of all the metals and care depth hardness.",
+    brief: "Standard test method for microindentation hardness (10gf to 1000gf) of all the metals and case depth hardness.",
     description: "Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. The Vickers method is based on an optical measurement system. It specifies a range of light loads to make an indentation which is measured and converted to a hardness value.",
     image: "/COMPRESS PHOTOS/microvickers 1 (1)[1].png"
   },
   {
     name: "Brinell Hardness",
-    brief: "Provides comprehensive hardness testing machines for accurate and reliable results across industries.",
+    brief: "Direct and accurate measurement of Brinell hardness number using 'State of the Art' image processing technology.",
     description: "Hardness Test is defined as the resistance to indentation, and it is determined by measuring the permanent depth of the indentation. It applies a predetermined test load to a carbide ball of fixed diameter. It is measured with a 2.5, 5, or 10mm diameter indenter with measuring force ranges from 62.5kg to 3000kg.",
     image: "/COMPRESS PHOTOS/Brinell Hardness cover (1).JPG"
   },
   {
     name: "Rockwell Hardness",
-    brief: "Hardness Test is defined as the resistance to indentation, determined by measuring the permanent depth.",
+    brief: "Fully automatic touch screen Rockwell Hardness testing machine with high quality colour display.",
     description: "The Rockwell method measures the permanent depth of indentation produced by a force/load on an indenter. First, a preload or minor test force is applied to a sample using a diamond or ball indenter. Then the baseline depth of indentation is measured The Rockwell hardness value is then determined.",
     image: "/COMPRESS PHOTOS/Rockwell Hardness cover.JPG"
   },
@@ -127,7 +127,7 @@ const material = [
   },
   {
     name: "Metallurgical Microscope (Stand Axio Observer 7)",
-    brief: "It is for precise metal analysis and material characterization.",
+    brief: "Used for microscopic image acquisition and characterization of metals.",
     description: "The Axio Observer 7 by ZEISS is a fully motorized inverted microscope for metals, offering reliable results with five objective options (50X-1000X), advanced features like Extended Depth of Field (EDF), and dedicated software modules for precise analysis of metallic materials. It is ideal for detailed and accurate metal analysis and characterization.",
     image: "/COMPRESS PHOTOS/digital and metallugical cover_11zon.jpg"
   },
@@ -138,9 +138,9 @@ const material = [
     image: "/COMPRESS PHOTOS/Salt spary cover.JPG"
   },
   {
-    name: "Sample Preparation Machine",
-    brief: "Metatech's sample preparation equipment: Autopol Dual II, Automount Hot Mounting Press, and Oscicut abrasive cutter Sample Cutting.",
-    description: "Abrasive Cutting, Hot Mounting, Specimen Grinding & Polishing - These processes are essential for preparing samples for further analysis and testing. Metatech's equipment ensures uniform encapsulation and accurate sectioning for efficient metallography and material analysis in diverse industries.",
+    name: "Sample Preparations Machine",
+    brief: "Abrasive Cutting Machine, Mounting Press, Automatic Multi-Specimen Grinding and Polishing Machine",
+    description: "These machines are essential for metallography, material science, and quality control applications, providing reliable and efficient sample preparation solutions for industries including aerospace, automotive, and manufacturing.",
     image: "/COMPRESS PHOTOS/sample preparation cover 1.JPG"
   },
   {
