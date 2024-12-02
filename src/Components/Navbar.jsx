@@ -34,6 +34,30 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
 
+  const handleServicesClick = () => {
+    if (currentPathname === '/') {
+      const servicesSection = document.getElementById('services');
+      if (servicesSection) {
+        servicesSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      navigate('/Services');
+    }
+    setIsMenuOpen(false);
+  };
+
+  const handleFacilitiesClick = () => {
+    if (currentPathname === '/') {
+      const facilitiesSection = document.getElementById('facilities');
+      if (facilitiesSection) {
+        facilitiesSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      navigate('/COE');
+    }
+    setIsMenuOpen(false); 
+  };
+
   return (
     <div className="bg-white z-30 w-full border-b-2 border-gray-300 md:h-20 h-22 z-99 flex fixed">
       <div className="md:h-20 h-22 flex w-full items-center px-4 py-2 sm:px-6 lg:px-8 justify-between">
@@ -46,8 +70,10 @@ const Navbar = () => {
           <div className="hidden md:block pr-16">
             <ul className="flex gap-8">
               <Link to='/'><li className={`hover:text-black md:text-lg font-bold ${currentPathname === '/' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Home</li></Link>   
-              <Link to='/#about'><li onClick={handleAboutClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/#about' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>About Us</li></Link>           
-                      <Link to='/Contact'><li className={`md:text-lg hover:text-black font-bold ${currentPathname === '/Contact' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Contact Us</li></Link>  
+              <Link to='/#about'><li onClick={handleAboutClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/#about' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>About Us</li></Link> 
+              <Link><li onClick={handleServicesClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/Services' || currentPathname === '/#services' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Services</li></Link>
+              <Link><li onClick={handleFacilitiesClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/COE' || currentPathname === '/#facilities' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Facilities</li></Link>
+              <Link to='/Contact'><li className={`md:text-lg hover:text-black font-bold ${currentPathname === '/Contact' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Contact Us</li></Link>  
             </ul>
           </div>
 
@@ -76,7 +102,9 @@ const Navbar = () => {
                 <div className="mt-6">
                   <nav className="grid gap-2">
                     <Link to='/'><li onClick={() => setIsMenuOpen(false)} className={`text-lg hover:text-black font-bold ${currentPathname === '/' ? 'text-[#FBDD07]' : 'text-[#203c70]'}`}>Home</li></Link>
-                    <Link to='/#about'><li onClick={handleAboutClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/#about' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>About Us</li></Link>           
+                    <Link to='/#about'><li onClick={handleAboutClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/#about' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>About Us</li></Link> 
+                    <Link><li onClick={() => { setIsMenuOpen(false); handleServicesClick(); }} className={`text-lg hover:text-black font-bold ${currentPathname === '/Services' || currentPathname === '/#services' ? 'text-[#FBDD07]' : 'text-[#203c70]'}`}>Services</li></Link>
+                    <Link><li onClick={() => { setIsMenuOpen(false); handleFacilitiesClick(); }} className={`text-lg hover:text-black font-bold ${currentPathname === '/COE' || currentPathname === '/#facilities' ? 'text-[#FBDD07]' : 'text-[#203c70]'}`}>Facilities</li></Link>
                     <Link to='/ContactUs'><li onClick={() => setIsMenuOpen(false)} className={`text-lg hover:text-black font-bold ${currentPathname === '/Contact' ? 'text-[#FBDD07]' : 'text-[#203c70]'}`}>Contact Us</li></Link>
                   </nav>
                 </div>

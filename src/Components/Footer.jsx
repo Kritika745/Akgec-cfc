@@ -100,7 +100,7 @@ function  Footer()  {
               </a>
             </ul>
           </div> */}
-          <div className="mb-8 mt-2 mr-4 sm:mr-4 lg:mb-0">
+          {/* <div className="mb-8 mt-2 mr-4 sm:mr-4 lg:mb-0">
             <p className="mb-6 text-lg font-semibold text-gray-700 ">
               About AFIPD
             </p>
@@ -114,7 +114,7 @@ function  Footer()  {
                 Pradesh
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

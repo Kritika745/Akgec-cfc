@@ -5,7 +5,7 @@ import { ChevronRight } from 'lucide-react';
 const COE = () => {
   return (
     <>
-    <div className='w-full items-center justify-center flex flex-col pt-16'>
+    <div className='w-full items-center justify-center flex flex-col pt-16' id='facilities'>
     <div className=' w-full items-center justify-center flex mb-2'>
         <h1 className=' md:text-3xl text-2xl font-bold text-[#203c70]'>FACILITIES</h1>
         
