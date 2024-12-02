@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-   <div className='w-full pt-16 lg:px-16'>
+   <div className='w-full pt-16 lg:px-16' id='services'>
     <div className='w-full flex justify-center items-center flex-col'>
          <div className=' w-full items-center justify-center flex mb-2'>
         <h1 className=' md:text-3xl text-2xl font-bold text-[#203c70]'>SERVICES</h1>

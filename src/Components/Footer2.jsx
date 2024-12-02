@@ -32,7 +32,7 @@ const Footer2= ()=> {
                 <li className="p-5">
                   <a
                     className="font-medium text-gray-600 hover:text-gray-700"
-                    href="#"
+              href="#"
                   >
                     Terms of Service
                   </a>
