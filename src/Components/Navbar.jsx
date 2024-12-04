@@ -72,7 +72,7 @@ const Navbar = () => {
               <Link to='/'><li className={`hover:text-black md:text-lg font-bold ${currentPathname === '/' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Home</li></Link>   
               <Link to='/#about'><li onClick={handleAboutClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/#about' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>About Us</li></Link> 
               <Link><li onClick={handleServicesClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/Services' || currentPathname === '/#services' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Services</li></Link>
-              <Link><li onClick={handleFacilitiesClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/COE' || currentPathname === '/#facilities' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Facilities</li></Link>
+              <Link><li onClick={handleFacilitiesClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/COE' || currentPathname === '/#facilities' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Infrastructure</li></Link>
               <Link to='/Contact'><li className={`md:text-lg hover:text-black font-bold ${currentPathname === '/Contact' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>Contact Us</li></Link>  
             </ul>
           </div>
@@ -104,7 +104,7 @@ const Navbar = () => {
                     <Link to='/'><li onClick={() => setIsMenuOpen(false)} className={`text-lg hover:text-black font-bold ${currentPathname === '/' ? 'text-[#FBDD07]' : 'text-[#203c70]'}`}>Home</li></Link>
                     <Link to='/#about'><li onClick={handleAboutClick} className={`hover:text-black md:text-lg font-bold ${currentPathname === '/#about' ? 'border-b-[3px] border-[#FBDD07] text-[#203c70]' : 'border-none text-[#203c70]'}`}>About Us</li></Link> 
                     <Link><li onClick={() => { setIsMenuOpen(false); handleServicesClick(); }} className={`text-lg hover:text-black font-bold ${currentPathname === '/Services' || currentPathname === '/#services' ? 'text-[#FBDD07]' : 'text-[#203c70]'}`}>Services</li></Link>
-                    <Link><li onClick={() => { setIsMenuOpen(false); handleFacilitiesClick(); }} className={`text-lg hover:text-black font-bold ${currentPathname === '/COE' || currentPathname === '/#facilities' ? 'text-[#FBDD07]' : 'text-[#203c70]'}`}>Facilities</li></Link>
+                    <Link><li onClick={() => { setIsMenuOpen(false); handleFacilitiesClick(); }} className={`text-lg hover:text-black font-bold ${currentPathname === '/COE' || currentPathname === '/#facilities' ? 'text-[#FBDD07]' : 'text-[#203c70]'}`}>Infrastructure</li></Link>
                     <Link to='/ContactUs'><li onClick={() => setIsMenuOpen(false)} className={`text-lg hover:text-black font-bold ${currentPathname === '/Contact' ? 'text-[#FBDD07]' : 'text-[#203c70]'}`}>Contact Us</li></Link>
                   </nav>
                 </div>

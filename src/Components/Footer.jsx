@@ -30,10 +30,10 @@ function  Footer()  {
           <div className="mb-8 mt-3 ml-12 sm:ml-16 lg:mb-0">
             <p className="mb-6 text-lg font-semibold text-gray-700">Contact</p>
             <ul className="flex flex-col space-y-3 text-[14px] font-medium text-gray-700">
-              <li>27th Km Stone,</li>
-              <li>Delhi-Hapur Bypass Road,</li>
-              <li>P.O. Adhyatmik Nagar,</li>
-              <li>Ghaziabad - 201009</li>
+              <li>27th Km Milestone,</li>
+              <li>Delhi-Meerut Expressway,</li>
+              <li>P.O.- Adhyatmik Nagar</li>
+              <li>Ghaziabad - 201015</li>
               <li>
                 <a href="tel:+919910249199" className="flex items-center">
                   <span className="mr-2">
