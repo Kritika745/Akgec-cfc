@@ -41,7 +41,7 @@ const Infra = ({ data , id}) => {
   return (
     <div className='w-full bg-gray-900 mt-12 flex overflow-x-hidden'>
       <div className='w-[20%] flex items-center justify-center '>
-        <h1 className='text-3xl text-white font-semibold border-l-[3px] border-yellow-400 p-2'>Infrastructure</h1>
+        <h1 className='text-3xl text-white font-semibold border-l-[3px] border-yellow-400 p-2'>{id}</h1>
       </div>
 
    <div className='w-[78%] mx-9 py-3 flex flex-row '>
