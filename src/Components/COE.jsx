@@ -9,7 +9,7 @@ const COE = () => {
     <>
     <div className='w-full items-center justify-center flex flex-col pt-16'>
     <div className=' w-full items-center justify-center flex mb-2'>
-        <h1 className=' md:text-3xl text-2xl font-bold text-[#203c70]'>FACILITIES</h1>
+        <h1 className=' md:text-3xl text-2xl font-bold text-[#203c70]'>INFRASTRUCTURE</h1>
         
      </div>
      <hr className='border-t-[3px] border-[#FBDD07] sm:w-[10%] w-[15%] mb-16' />
