@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import logo from '/logos/logo.png';
+import logo from '/logos/cfc logo.jpeg';
 import logo2 from '/logos/logo2.png';
 import logo3 from '/logos/logo3.png';
 
@@ -62,8 +62,12 @@ const Navbar = () => {
     <div className="bg-white z-30 w-full border-b-2 border-gray-300 md:h-20 h-22 z-99 flex fixed">
       <div className="md:h-20 h-22 flex w-full items-center px-4 py-2 sm:px-6 lg:px-8 justify-between">
         
-        <div>
+        {/* <div>
           <img className='w-16 sm:w-20' src={logo} alt="" />
+        </div> */}
+
+        <div>
+          <img className='w-24 sm:w-40' src={logo} alt="CFC Logo" />
         </div>
         
         <div className='flex items-center'>
