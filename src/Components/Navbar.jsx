@@ -67,7 +67,7 @@ const Navbar = () => {
         </div> */}
 
         <div>
-          <img className='w-24 sm:w-40' src={logo} alt="CFC Logo" />
+          <img className='w-40 sm:w-80' src={logo} alt="CFC Logo" />
         </div>
         
         <div className='flex items-center'>
